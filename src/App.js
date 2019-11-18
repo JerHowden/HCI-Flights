@@ -24,6 +24,9 @@ function App() {
 					<Route exact path='/'>
 						<Main/>
 					</Route>
+					<Route path='/map/:query'>
+						{/* <Map/> */}
+					</Route>
 				</Switch>
 			</Router>
 		</div>
