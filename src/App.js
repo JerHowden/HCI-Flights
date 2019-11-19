@@ -8,6 +8,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 import { far } from '@fortawesome/free-regular-svg-icons'
 
 import Main from './components/Main'
+import Map from './components/Map'
 import Navigation from './components/Navigation'
 import './App.css';
 
@@ -25,7 +26,7 @@ function App() {
 						<Main/>
 					</Route>
 					<Route path='/map/:query'>
-						{/* <Map/> */}
+						<Map/>
 					</Route>
 				</Switch>
 			</Router>
