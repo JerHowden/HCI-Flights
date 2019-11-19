@@ -78,8 +78,7 @@
 		"tags": [
 			"landscape",
             "wildlife",
-            "classes",
-            "staff"
+            "classes"
         ],
         "image": "http://www.ttu.edu/map/images/paviln.jpg",
 		"links": [
@@ -92,6 +91,297 @@
         "description": "The building is home to offices, labs and classrooms for the Departments of Landscape Architecture and Range & Wildlife Management."
     },
 	"Agricultural_Sciences": {
+        "label": "Agricultural Sciences",
+		"code": "AGRI",
+		"tags": [
+			"classes",
+			"naturalresources"
+        ],
+        "image": "http://www.ttu.edu/map/images/agri.jpg",
+		"links": [
+			{
+				"icon": "home",
+				"label": "Agricultural Sciences Homepage",
+				"link": "http://www.depts.ttu.edu/agriculturalsciences/"
+            }
+		],
+        "description": "The building is home to offices and classrooms for the College of Agricultural Sciences and Natural Resources."
+    },
+	"Animal_&_Food_Sciences": {
+        "label": "Animal & Food Sciences",
+		"code": "AFS",
+		"tags": [
+			"classes",
+            "cowamongus",
+            "staff",
+            "research",
+            "labs"
+        ],
+        "image": "http://www.ttu.edu/map/images/afs.jpg",
+		"links": [
+			{
+				"icon": "home",
+				"label": "Animal & Food Sciences Homepage",
+				"link": "https://www.depts.ttu.edu/afs/"
+            }
+		],
+        "description": "The building is home to Department of Animal and Food Sciences classrooms, research labs and administrative offices as well as COWamongus, a food service and retail store."
+    },
+	"Architecture": {
+        "label": "Architecture",
+		"code": "ARCH",
+		"tags": [
+			"classes",
+            "staff",
+            "library",
+            "study"
+        ],
+        "image": "http://www.ttu.edu/map/images/arch.jpg",
+		"links": [
+			{
+				"icon": "home",
+				"label": "Architecture Homepage",
+				"link": "http://www.depts.ttu.edu/architecture/"
+            },
+            {
+                "icon": "book",
+                "label": "Architecture Library",
+                "link": "https://www.depts.ttu.edu/library/arch/"
+            }
+		],
+        "description": "The College of Architecture building opened in 1971. Architecture has been offered at Texas Tech since 1927. It became a full college in 1986."
+    },
+	"Art": {
+        "label": "Art",
+		"code": "ART",
+		"tags": [
+			"classes",
+            "staff",
+            "study",
+            "labs",
+            "gallery"
+        ],
+        "image": "http://www.ttu.edu/map/images/art.jpg",
+		"links": [
+			{
+				"icon": "home",
+				"label": "Art Homepage",
+				"link": "http://www.depts.ttu.edu/art/"
+            },
+            {
+                "icon": "palette",
+                "label": "Exhibits Schedule",
+                "link": "http://www.depts.ttu.edu/art/landmark-arts/exhibition-schedule.php"
+            }
+		],
+        "description": "The building is home to the School of Art classrooms, studios labs and administrative offices and the Landmark Arts Gallery."
+    },
+	"Art_3D": {
+        "label": "Art 3D",
+		"code": "ART3D",
+		"tags": [
+			"classes",
+			"studio"
+        ],
+        "image": "http://www.ttu.edu/map/images/art3d.jpg",
+		"links": [
+			{
+				"icon": "home",
+				"label": "Art Homepage",
+				"link": "http://www.depts.ttu.edu/art/"
+            }
+		],
+        "description": "The Art 3-D annex is home to sculpture, jewelry design and metalsmithing classes in the School of Art."
+    },
+	"Bayer_Plant_Science": {
+        "label": "Bayer Plant Science",
+		"code": "",
+		"tags": [
+			"classes",
+			"staff"
+        ],
+        "image": "https://today.ttu.edu/posts/2015/10/Images/BayerPlantSoil_RC_39-med.jpg",
+		"links": [
+			{
+				"icon": "home",
+				"label": "Department of Plant & Soil Sciences Homepage",
+				"link": "http://www.depts.ttu.edu/pss/index.php"
+            },
+            {
+                "icon": "building",
+                "label": "Bayer Plant Science Building Gallery",
+                "link": "https://www.depts.ttu.edu/agriculturalsciences/About/facilities/pssBuilding.php"
+            }
+		],
+        "description": "The Texas Tech University System Board of Regents in December 2013 approved a $13.6 million project to design and construct a new Plant & Soil Science Building and renovate the existing Plant Sciences Building. Eric Hequet, chairman of Tech's Department of Plant and Soil Science, said the new Bayer Plant Science Building project adds 21,122 square feet of new construction, and includes 2,440 square feet of renovation and exterior upgrades to the existing home of the university's Department of Plant and Soil Science. The building project is funded by donations to Texas Tech, including lead contributions from Bayer CropScience. The Department of Plant & Soil Science was formerly housed in the existing PSS, Food Technology and Agricultural Sciences buildings. Teaching and research labs, along with faculty and graduate students, that were located in other buildings have been relocated to the new wing. Additionally, departmental administration offices have been relocated to the new wing."
+    },
+	"Biology": {
+        "label": "Biology",
+		"code": "BIOL",
+		"tags": [
+			"classes",
+            "staff",
+            "labs"
+        ],
+        "image": "http://www.ttu.edu/map/images/biol.jpg",
+		"links": [
+			{
+				"icon": "home",
+				"label": "Biology Homepage",
+				"link": "http://www.depts.ttu.edu/biology/"
+            },
+            {
+                "icon": "ring",
+                "label": "Biology Auditorium",
+                "link": "/map/Biology_Auditorium"
+            },
+            {
+                "icon": "seedling",
+                "label": "Biology Greenhouse",
+                "link": "/map/Biology_Greenhouse"
+            }
+		],
+        "description": "The building is home to the Department of Biological Sciences classrooms, research labs, administrative offices and the Biology Auditorium."
+    },
+	"Biology_Auditorium": {
+        "label": "Biology Auditorium",
+		"code": "BIOL",
+		"tags": [
+			"classes"
+        ],
+        "image": "http://www.ttu.edu/map/images/biolaud.jpg",
+		"links": [
+			{
+				"icon": "home",
+				"label": "Biology Homepage",
+				"link": "http://www.depts.ttu.edu/biology/"
+            },
+            {
+                "icon": "building",
+                "label": "Main Biology Building",
+                "link": "/map/Biology"
+            }
+		],
+        "description": "Classroom space for the Department of Biological Sciences. Other campus lectures are held here."
+    },
+	"Biology_Greenhouse": {
+        "label": "Biology Greenhouse",
+		"code": "",
+		"tags": [
+			"labs",
+            "research",
+            "classes"
+        ],
+        "image": "http://www.ttu.edu/map/images/biolgrnhse.jpg",
+		"links": [
+			{
+				"icon": "home",
+				"label": "Greenhouse Homepage",
+				"link": "https://www.depts.ttu.edu/biology/facility/greenhouse/index.php"
+            },
+            {
+                "icon": "building",
+                "label": "Main Biology Building",
+                "link": "/map/Biology"
+            }
+		],
+        "description": "The facility houses research projects as well as teaching materials for various Department of Biological Sciences classes."
+    },
+	"Bledsoe_Residence_Hall": {
+        "label": "Bledsoe Residence Hall",
+		"code": "",
+		"tags": [
+			"mens",
+            "residence",
+            "food",
+            "engineering"
+        ],
+        "image": "http://www.ttu.edu/map/images/bledsoe.jpg",
+		"links": [
+			{
+				"icon": "home",
+				"label": "Bledsoe Homepage",
+				"link": "https://www.depts.ttu.edu/housing/halls/bledsoe.php"
+            },
+            {
+                "icon": "utensils",
+                "label": "The Fresh Plate @ Bledsoe | Gordon",
+                "link": "https://www.depts.ttu.edu/hospitality/freshplate.php"
+            },
+            {
+                "icon": "cube",
+                "label": "Floor Plan",
+                "link": "https://www.depts.ttu.edu/housing/documents/halls/bledsoeFloorPlan.pdf"
+            }
+		],
+        "description": "Bledsoe Hall is a residence hall for men. It is home to the Engineering Success Learning Community."
+    },
+	"Burkhart_Center_for_Autism_Education_and_Research": {
+        "label": "Burkhart Center for Autism Education and Research",
+		"code": "",
+		"tags": [
+			"research"
+        ],
+        "image": "https://www.depts.ttu.edu/burkhartcenter/images/main/burkhart-center-exterior.jpg",
+		"links": [
+			{
+				"icon": "home",
+				"label": "Burkhart Center Homepage",
+				"link": "https://www.depts.ttu.edu/burkhartcenter/"
+            }
+		],
+        "description": "The Burkhart Center for Autism Education and Research, named for Jim and Jere Lynn Burkhart who have made significant contributions to the establishment and mission of the Center, officially opened in October of 2005."
+    },
+	"CASNR_Annex": {
+        "label": "CASNR Annex",
+		"code": "CASNR",
+		"tags": [
+			"staff",
+            "classes",
+            "labs",
+            "landscape",
+            "wildlife"
+        ],
+        "image": "http://www.ttu.edu/map/images/lrcrwf.jpg",
+		"links": [
+            {
+                "icon": "home",
+                "label": "CASNR Homepage",
+                "link": "https://www.depts.ttu.edu/agriculturalsciences/"
+            },
+            {
+				"icon": "building",
+				"label": "CASNR Annex Building",
+				"link": "https://www.depts.ttu.edu/agriculturalsciences/About/facilities/factsheet/annex.php"
+            }
+		],
+        "description": "The building is home to offices, labs and classrooms for the Departments of Landscape Architecture and Range & Wildlife Management."
+    },
+	"Carpenter/Wells_Complex": {
+        "label": "Carpenter/Wells Complex",
+		"code": "",
+		"tags": [
+			"coed",
+            "suite",
+            "residence",
+            "leadership"
+        ],
+        "image": "http://www.depts.ttu.edu/housing/images/exteriorHalls/CarpenterWellsLarge.JPG",
+		"links": [
+			{
+				"icon": "home",
+				"label": "Carpenter/Wells Homepage",
+				"link": "http://www.depts.ttu.edu/housing/halls/carpenterwells.php"
+            },
+            {
+                "icon": "cube",
+                "label": "Floor Plan",
+                "link": "http://www.depts.ttu.edu/housing/documents/halls/carpenterwellsFloorPlan.pdf"
+            }
+		],
+        "description": "The Carpenter/Wells Complex is a coed, suite-style residence hall, offering three-bedroom townhouses and four-bedroom flats along with a limited number of two-bedroom units available to men and women of sophomore or higher classification. The Leadership Development Center (LDC) serves as a commons building, featuring a computer lab and several study lounges. Other amenities include meeting rooms and limitless laundry rooms for all residents. Students share a suite with other students of the same gender.\nEach suite includes a living room, kitchenette (refrigerator, microwave oven and two-burner cook-top), private bedrooms and two bathrooms. All suites have outside entrances.\nSuite furnishings include a sofa, table and chair (living room); dining table and chairs; and each bedroom is furnished with a twin bed, dresser, study desk and chair. The bedrooms have vinyl wood-plank flooring. The kitchen and bathrooms have vinyl floors."
+    },
+	"Charles_E._Maedgen_Jr._Theatre": {
         "label": "",
 		"code": "",
 		"tags": [
@@ -113,117 +403,2162 @@
 		],
         "description": ""
     },
-	"Animal_&_Food_Sciences": {},
-	"Architecture": {},
-	"Art": {},
-	"Art_3D": {},
-	"Bayer_Plant_Science": {},
-	"Biology": {},
-	"Biology_Auditorium": {},
-	"Biology_Greenhouse": {},
-	"Bledsoe_Residence_Hall": {},
-	"Burkhart_Center_for_Autism_Education_and_Research": {},
-	"CASNR_Annex": {},
-	"Carpenter/Wells_Complex": {},
-	"Charles_E._Maedgen_Jr._Theatre": {},
-	"Chemical_Engineering": {},
-	"Chemistry": {},
-	"Child_Development_Research_Center": {},
-	"Chitwood_Residence_Hall": {},
-	"Civil_Engineering": {},
-	"Classical_&_Modern_Languages_and_Literatures": {},
-	"Clement_Residence_Hall": {},
-	"Coleman_Residence_Hall": {},
-	"Computer_Center": {},
-	"Creative_Movement_Studio": {},
-	"Dan_Law_Field_(Baseball)_at_Rip_Griffin_Park": {},
-	"Development": {},
-	"Doak_Conference_Center": {},
-	"Doak_Hall": {},
-	"Don_&_Ethel_McLeod_Tennis_Center": {},
-	"Drane_Hall": {},
-	"Education": {},
-	"Electrical_&_Computer_Engineering": {},
-	"Engineering_&_Technology_Lab": {},
-	"Engineering_Center": {},
-	"English_&_Philosophy": {},
-	"Experimental_Sciences": {},
-	"Experimental_Sciences_II": {},
-	"Fisheries_&_Wildlife_Research": {},
-	"Food_Technology": {},
-	"Football_Training_Complex": {},
-	"Frazier_Alumni_Pavilion": {},
-	"Garrison_Geriatric_Education_&_Care_Center": {},
-	"Gates_Residence_Hall": {},
-	"Goddard_Range_&_Wildlife_Management": {},
-	"Gordon_Residence_Hall": {},
-	"Greenhouse_&_Horticultural_Gardens": {},
-	"Holden_Hall": {},
-	"Honors_Residence_Hall": {},
-	"Horn_Residence_Hall": {},
-	"Housing_Services": {},
-	"Hulen_Residence_Hall": {},
-	"Human_Sciences": {},
-	"Industrial,_Manufacturing,_and_Systems_Engineering": {},
-	"Innovation_Hub_at_Research Park": {},
-	"International_Cultural_Center": {},
-	"J.T._&_Margaret_Talkington_Residence_Hall": {},
-	"John_B._Walker_Soccer_Complex": {},
-	"Jones_AT&T_Stadium_(Football)": {},
-	"Kent_R._Hance_Chapel": {},
-	"Kinesiology_&_Sport_Management": {},
-	"Knapp_Residence_Hall": {},
-	"Lanier_Professional_Development_Center": {},
-	"Lubbock_City_Bank_Auditorium": {},
-	"Lubbock_City_Bank_Coliseum": {},
-	"Maddox_Engineering_Research_Center": {},
-	"Marsha_Sharp_Center_for_Student_Athletics": {},
-	"Mathematics_&_Statistics": {},
-	"McClellan_Hall": {},
-	"McKenzie-Merket_Alumni_Center": {},
-	"Meat_Lab_&_Livestock_Arena": {},
-	"Mechanical_Engineering_North": {},
-	"Mechanical_Engineering_South": {},
-	"Media_&_Communication": {},
-	"Medical_Office_Plaza": {},
-	"Murdough_Residence_Hall": {},
-	"Murray_Residence_Hall": {},
-	"Music": {},
-	"National_Ranching_Heritage_Center": {},
-	"National_Ranching_Heritage_Center_-_Devitt_&_Mallet_Ranch_Building": {},
-	"National_Wind_Institute": {},
-	"PBS_Station_KTTZ-TV": {},
-	"Parking_Garage": {},
-	"Physical_Plant": {},
-	"Plant_Sciences": {},
-	"Preston_Smith_Library": {},
-	"Psychology": {},
-	"Rawls_College_of_Business": {},
-	"Rawls_Golf_Course": {},
-	"Rec_Sports_Softball_Fields": {},
-	"Robert_H._Ewalt_Student_Rec_Center": {},
-	"Rocky_Johnson_Field_(Softball)": {},
-	"Ronald_McDonald_House": {},
-	"School_of_Law": {},
-	"Science_-_Physics_&_Geosciences": {},
-	"Sneed_Residence_Hall": {},
-	"Southwest_Cancer_Center": {},
-	"Southwest_Collection/Special_Collections_Library": {},
-	"Sports_Performance_Center": {},
-	"Stangel_Residence_Hall": {},
-	"Student_Union_Building": {},
-	"Student_Wellness_Center": {},
-	"TTU_Health_Sciences_Center": {},
-	"Terry_&_Linda_Fuller_Track": {},
-	"Terry_Fuller_Petroleum_Engineering_Research_Building": {},
-	"Texas_Tech_Federal_Credit_Union": {},
-	"Texas_Tech_Museum": {},
-	"Texas_Tech_Physicians_Medical_Plaza": {},
-	"Texas_Tech_Plaza": {},
-	"Texas_Tech_Police_Department": {},
-	"Texas_Tech_University_System_Building": {},
-	"USDA_Agricultural_Research_Service": {},
-	"United_Supermarkets_Arena": {},
+	"Chemical_Engineering": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Chemistry": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Child_Development_Research_Center": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Chitwood_Residence_Hall": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Civil_Engineering": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Classical_&_Modern_Languages_and_Literatures": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Clement_Residence_Hall": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Coleman_Residence_Hall": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Computer_Center": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Creative_Movement_Studio": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Dan_Law_Field_(Baseball)_at_Rip_Griffin_Park": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Development": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Doak_Conference_Center": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Doak_Hall": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Don_&_Ethel_McLeod_Tennis_Center": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Drane_Hall": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Education": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Electrical_&_Computer_Engineering": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Engineering_&_Technology_Lab": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Engineering_Center": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"English_&_Philosophy": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Experimental_Sciences": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Experimental_Sciences_II": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Fisheries_&_Wildlife_Research": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Food_Technology": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Football_Training_Complex": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Frazier_Alumni_Pavilion": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Garrison_Geriatric_Education_&_Care_Center": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Gates_Residence_Hall": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Goddard_Range_&_Wildlife_Management": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Gordon_Residence_Hall": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Greenhouse_&_Horticultural_Gardens": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Holden_Hall": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Honors_Residence_Hall": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Horn_Residence_Hall": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Housing_Services": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Hulen_Residence_Hall": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Human_Sciences": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Industrial,_Manufacturing,_and_Systems_Engineering": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Innovation_Hub_at_Research Park": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"International_Cultural_Center": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"J.T._&_Margaret_Talkington_Residence_Hall": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"John_B._Walker_Soccer_Complex": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Jones_AT&T_Stadium_(Football)": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Kent_R._Hance_Chapel": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Kinesiology_&_Sport_Management": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Knapp_Residence_Hall": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Lanier_Professional_Development_Center": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Lubbock_City_Bank_Auditorium": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Lubbock_City_Bank_Coliseum": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Maddox_Engineering_Research_Center": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Marsha_Sharp_Center_for_Student_Athletics": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Mathematics_&_Statistics": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"McClellan_Hall": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"McKenzie-Merket_Alumni_Center": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Meat_Lab_&_Livestock_Arena": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Mechanical_Engineering_North": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Mechanical_Engineering_South": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Media_&_Communication": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Medical_Office_Plaza": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Murdough_Residence_Hall": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Murray_Residence_Hall": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Music": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"National_Ranching_Heritage_Center": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"National_Ranching_Heritage_Center_-_Devitt_&_Mallet_Ranch_Building": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"National_Wind_Institute": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"PBS_Station_KTTZ-TV": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Parking_Garage": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Physical_Plant": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Plant_Sciences": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Preston_Smith_Library": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Psychology": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Rawls_College_of_Business": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Rawls_Golf_Course": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Rec_Sports_Softball_Fields": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Robert_H._Ewalt_Student_Rec_Center": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Rocky_Johnson_Field_(Softball)": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Ronald_McDonald_House": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"School_of_Law": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Science_-_Physics_&_Geosciences": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Sneed_Residence_Hall": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Southwest_Cancer_Center": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Southwest_Collection_&_Special_Collections_Library": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Sports_Performance_Center": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Stangel_Residence_Hall": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Student_Union_Building": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Student_Wellness_Center": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"TTU_Health_Sciences_Center": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Terry_&_Linda_Fuller_Track": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Terry_Fuller_Petroleum_Engineering_Research_Building": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Texas_Tech_Federal_Credit_Union": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Texas_Tech_Museum": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Texas_Tech_Physicians_Medical_Plaza": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Texas_Tech_Plaza": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Texas_Tech_Police_Department": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Texas_Tech_University_System_Building": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"USDA_Agricultural_Research_Service": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"United_Supermarkets_Arena": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
 	"University_Library": {
 		"label": "University Library",
 		"code": "LIBR",
@@ -260,15 +2595,204 @@
 		],
 		"description": "The University Library is the state's third largest library with nearly two million books and a myriad of electronic publications and databases."
 	},
-    "University_Medical_Center": {},
-    "Urbanovsky_Park": {},
-	"Wall_Residence_Hall": {},
-	"Weeks_Hall": {},
-	"West_Hall": {},
-	"West_Village_A_Residence_Hall": {},
-	"West_Village_B_Residence_Hall": {},
-	"Weymouth_Residence_Hall": {},
-    "Wiggins_Complex": {},
+    "University_Medical_Center": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+    "Urbanovsky_Park": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Wall_Residence_Hall": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Weeks_Hall": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"West_Hall": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"West_Village_A_Residence_Hall": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"West_Village_B_Residence_Hall": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+	"Weymouth_Residence_Hall": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
+    "Wiggins_Complex": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
     "template": {
         "label": "",
 		"code": "",
