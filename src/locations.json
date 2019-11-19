@@ -1,9 +1,118 @@
 {
-	"Administration": {},
-	"Administrative_Support_Center": {},
-	"Agricultural_Education": {},
-	"Agricultural_Pavilion": {},
-	"Agricultural_Sciences": {},
+	"Administration": {
+        "label": "Administration",
+		"code": "ADMIN",
+		"tags": [
+            "staff",
+            "boardofregents",
+            "president",
+            "chancellor",
+            "provost"
+        ],
+        "image": "http://www.ttu.edu/map/images/admin.jpg",
+		"links": [
+			{
+				"icon": "home",
+				"label": "Administration Homepage",
+				"link": "https://www.ttu.edu/administration/"
+            },
+            {
+                "icon": "user-tie",
+                "label": "TTU President",
+                "link": "https://www.ttu.edu/administration/president/"
+            }
+		],
+        "description": "The Administration Building, with its distinctive bell towers, was the first structure built on the campus. The facility houses administrative offices for the university and for the Texas Tech University System."
+    },
+	"Administrative_Support_Center": {
+        "label": "Administrative Support Center",
+		"code": "ADMSPT",
+		"tags": [
+			"staff",
+            "transportation",
+            "parking",
+            "ithelp",
+            "mailtech",
+            "help/assistance"
+        ],
+        "image": "http://www.ttu.edu/map/images/asc.jpg",
+		"links": [
+			{
+				"icon": "parking",
+				"label": "Transportation & Parking Services",
+				"link": "http://www.depts.ttu.edu/parking/"
+            },
+            {
+                "icon": "laptop",
+                "label": "IT Help Central",
+                "link": "https://www.depts.ttu.edu/ithelpcentral/"
+            },
+            {
+                "icon": "mail-bulk",
+                "label": "MailTech",
+                "link": "https://www.depts.ttu.edu/BusinessServices/MailTech/"
+            }
+		],
+        "description": "This facility houses Transportation & Parking Services, IT Help Central, and the MailTech postal operation."
+    },
+	"Agricultural_Education": {
+        "label": "Agricultural Education",
+		"code": "AGED",
+		"tags": [
+			"classes",
+			"plants"
+        ],
+        "image": "http://www.ttu.edu/map/images/aged.jpg",
+		"links": [
+			{
+				"icon": "home",
+				"label": "Agriculture Homepage",
+				"link": "https://www.depts.ttu.edu/aged/"
+            }
+		],
+        "description": "The building houses the Department of Agricultural Education and Communications which offers undergraduate and graduate degrees."
+    },
+	"Agricultural_Pavilion": {
+        "label": "Agricultural Pavilion",
+		"code": "PAVILN",
+		"tags": [
+			"landscape",
+            "wildlife",
+            "classes",
+            "staff"
+        ],
+        "image": "http://www.ttu.edu/map/images/paviln.jpg",
+		"links": [
+			{
+				"icon": "home",
+				"label": "Agricultural Pavilion Homepage",
+				"link": "https://www.depts.ttu.edu/agriculturalsciences/About/facilities/factsheet/agPavilion.php"
+            }
+		],
+        "description": "The building is home to offices, labs and classrooms for the Departments of Landscape Architecture and Range & Wildlife Management."
+    },
+	"Agricultural_Sciences": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    },
 	"Animal_&_Food_Sciences": {},
 	"Architecture": {},
 	"Art": {},
@@ -121,23 +230,65 @@
 		"tags": [
 			"library",
 			"textbooks",
-			"3dprinting"
-		],
+            "3dprinting",
+            "university",
+            "study",
+            "leisure"
+        ],
+        "image": "http://www.ttu.edu/map/images/libr.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "Website",
-				"link": "https://ttu.edu/library"
-			}
+				"icon": "home",
+				"label": "Library Homepage",
+				"link": "https://www.depts.ttu.edu/library/"
+            },
+            {
+                "icon": "laptop-code",
+                "label": "Available Software",
+                "link": "http://apps.lib.ttu.edu/services/technology/softOU.php"
+            },
+            {
+                "icon": "desktop",
+                "label": "Computer Availability",
+                "link": "http://apps.lib.ttu.edu/computeravailability/availabilityOU.php"
+            },
+            {
+                "icon": "chalkboard-teacher",
+                "label": "Reserve a Study Space",
+                "link": "https://cal.library.ttu.edu/spaces"
+            }
 		],
-		"description": ""
+		"description": "The University Library is the state's third largest library with nearly two million books and a myriad of electronic publications and databases."
 	},
-	"University_Medical_Center": {},
+    "University_Medical_Center": {},
+    "Urbanovsky_Park": {},
 	"Wall_Residence_Hall": {},
 	"Weeks_Hall": {},
 	"West_Hall": {},
 	"West_Village_A_Residence_Hall": {},
 	"West_Village_B_Residence_Hall": {},
 	"Weymouth_Residence_Hall": {},
-	"Wiggins_Complex": {}
+    "Wiggins_Complex": {},
+    "template": {
+        "label": "",
+		"code": "",
+		"tags": [
+			"",
+			""
+        ],
+        "image": "",
+		"links": [
+			{
+				"icon": "",
+				"label": "",
+				"link": ""
+            },
+            {
+                "icon": "",
+                "label": "",
+                "link": ""
+            }
+		],
+        "description": ""
+    }
 }
