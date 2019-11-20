@@ -382,334 +382,394 @@
         "description": "The Carpenter/Wells Complex is a coed, suite-style residence hall, offering three-bedroom townhouses and four-bedroom flats along with a limited number of two-bedroom units available to men and women of sophomore or higher classification. The Leadership Development Center (LDC) serves as a commons building, featuring a computer lab and several study lounges. Other amenities include meeting rooms and limitless laundry rooms for all residents. Students share a suite with other students of the same gender.\nEach suite includes a living room, kitchenette (refrigerator, microwave oven and two-burner cook-top), private bedrooms and two bathrooms. All suites have outside entrances.\nSuite furnishings include a sofa, table and chair (living room); dining table and chairs; and each bedroom is furnished with a twin bed, dresser, study desk and chair. The bedrooms have vinyl wood-plank flooring. The kitchen and bathrooms have vinyl floors."
     },
 	"Charles_E._Maedgen_Jr._Theatre": {
-        "label": "",
-		"code": "",
+        "label": "Charles E. Maedgen Jr. Theatre",
+		"code": "THEATR",
 		"tags": [
-			"",
-			""
+			"theater",
+            "dances",
+            "performances",
+            "leisure",
+            "classes"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/theatr.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "School & Dance Homepage",
+				"link": "https://www.depts.ttu.edu/theatreanddance/"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "building",
+                "label": "Theatre Building",
+                "link": "https://www.depts.ttu.edu/theatreanddance/facilities/maedgen.php"
+            },
+            {
+				"icon": "theater-masks",
+				"label": "Productions",
+				"link": "https://www.depts.ttu.edu/theatreanddance/SoTD_News/season/current.php"
+            },
+            {
+                "icon": "ticket-alt",
+                "label": "Buy Tickets",
+                "link": "https://ttutheatreanddance.tix.com/schedule.aspx?orgnum=5557&framed=true"
             }
 		],
-        "description": ""
+        "description": "The Charles E. Maedgen Jr. Theatre is home to the Department of Theatre and Dance. The main stage and adjoining lab theatre offer a variety of performances that are open to the public."
     },
 	"Chemical_Engineering": {
-        "label": "",
-		"code": "",
+        "label": "Chemical Engineering",
+		"code": "CHEME",
 		"tags": [
-			"",
-			""
+			"wcoe",
+            "whitacre",
+            "classes",
+            "research",
+            "labs",
+            "staff",
+            "academic-help",
+            "tutoring"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/cheme.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "Chemical Engineering Homepage",
+				"link": "https://www.depts.ttu.edu/che/"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "user-tie",
+                "label": "Chemical Engineering Advising",
+                "link": "https://www.depts.ttu.edu/che/undergrad/advising.php"
+            },
+            {
+                "icon": "user-friends",
+                "label": "Chemical Engineering Mentor Program",
+                "link": "http://www.depts.ttu.edu/che/alumni/mentor.php"
             }
 		],
-        "description": ""
+        "description": "The building houses the Department Chemical Engineering classrooms, research labs and administrative offices."
     },
 	"Chemistry": {
-        "label": "",
-		"code": "",
+        "label": "Chemistry",
+		"code": "CHEM",
 		"tags": [
-			"",
-			""
+			"classes",
+            "research",
+            "labs",
+            "staff",
+            "biochemistry",
+            "academic-help",
+            "tutoring"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/chem.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "Chemistry Homepage",
+				"link": "http://www.depts.ttu.edu/chemistry/"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "user-tie",
+                "label": "Chemistry Advising",
+                "link": "http://www.depts.ttu.edu/chemistry/Undergraduate/advisor.php"
+            },
+            {
+                "icon": "user-friends",
+                "label": "Chemistry Tutoring",
+                "link": "http://www.depts.ttu.edu/chemistry/Departmental/tutors.php"
             }
 		],
-        "description": ""
+        "description": "The building is home to the Department of Chemistry and Biochemistry classrooms, research labs and administrative offices."
     },
 	"Child_Development_Research_Center": {
-        "label": "",
-		"code": "",
+        "label": "Child Development Research Center",
+		"code": "CDRCAR",
 		"tags": [
-			"",
-			""
+			"human",
+            "family",
+            "devitt",
+            "classes",
+            "labs",
+            "research",
+            "help/assistance",
+            "academic-help",
+            "mother-friendly"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/cdrcar.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "Child Development Research Center Homepage",
+				"link": "https://www.depts.ttu.edu/hs/cdrc/"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "baby",
+                "label": "Mother Friendly Locations",
+                "link": "https://today.ttu.edu/images/2011/12/TTU_MotherFriendlyLocations.pdf"
             }
 		],
-        "description": ""
+        "description": "A part of the College of Human Sciences, the facility houses programs and offices for the Early Childhood specialization in the Department of Human Development and Family Studies."
     },
 	"Chitwood_Residence_Hall": {
-        "label": "",
+        "label": "Chitwood Residence Hall",
 		"code": "",
 		"tags": [
-			"",
-			""
+			"residence",
+            "coed",
+            "firstyearsuccess",
+            "built-in",
+            "law",
+            "architecture"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/chitwood.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "Chitwood Hall Homepage",
+				"link": "https://www.depts.ttu.edu/housing/halls/chitwood.php"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "cube",
+                "label": "Floor Plan",
+                "link": "https://www.depts.ttu.edu/housing/documents/halls/chitwoodFloorPlan.pdf"
             }
 		],
-        "description": ""
+        "description": "Chitwood Hall is a co-ed, built-in furniture residence hall. The First Year Success (FYS) Learning Community is located on the southwest side of campus near the College of Architecture and the Law School, and is only available to incoming freshman. Features of the hall include a TV lounge, and access to the new Chitwood/Weymouth Learning Center. Limitless laundry lounges are available for all residents."
     },
 	"Civil_Engineering": {
-        "label": "",
-		"code": "",
+        "label": "Civil Engineering",
+		"code": "CIVILE",
 		"tags": [
-			"",
-			""
+			"classes",
+            "wcoe",
+            "research",
+            "labs",
+            "staff"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/civile.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "Civil, Environmental, & Construction Engineering Homepage",
+				"link": "https://www.depts.ttu.edu/ceweb/"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "users",
+                "label": "College of Engineering Organizations",
+                "link": "http://www.depts.ttu.edu/coe/undergraduate/organizations/index.php"
             }
 		],
-        "description": ""
+        "description": "The building houses the Department of Civil Engineering classrooms, research labs and administrative offices."
     },
 	"Classical_&_Modern_Languages_and_Literatures": {
-        "label": "",
-		"code": "",
+        "label": "Classical & Modern Languages and Literatures",
+		"code": "CMLL",
 		"tags": [
-			"",
-			""
+			"classes",
+            "labs",
+            "staff",
+            ""
         ],
-        "image": "",
+        "image": "https://www.depts.ttu.edu/classic_modern/graphics/imageslider/6.JPG",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "CMLL Homepage",
+				"link": "https://www.depts.ttu.edu/classic_modern/"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "user-tie",
+                "label": "CMLL Advising",
+                "link": "https://www.depts.ttu.edu/classic_modern/advising/advisors.php"
             }
 		],
-        "description": ""
+        "description": "The building is home to the Department of Classical & Modern Languages & Literatures classrooms, labs and offices."
     },
 	"Clement_Residence_Hall": {
-        "label": "",
+        "label": "Clement Residence Hall",
 		"code": "",
 		"tags": [
-			"",
-			""
+			"coed",
+            "built-in",
+            "archtiectureanddesign"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/hulenclem.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "Clement Hall Homepage",
+				"link": "https://www.depts.ttu.edu/housing/halls/clement.php"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "cube",
+                "label": "Floor Plan",
+                "link": "https://www.depts.ttu.edu/housing/documents/halls/clementFloorPlan.pdf"
             }
 		],
-        "description": ""
+        "description": "Clement Hall is a coed, built-in furniture residence hall. The Architecture and Design Learning Community is located in Clement Hall, near the College of Architecture, English, Philosophy, and Education buildings. Men and women live on alternating floors. This residence hall offers lounges and study rooms for the convenience of residents. Special studio lounges are available to students in the Architecture and Design Learning Community. Limitless laundry lounges are available for all residents."
     },
 	"Coleman_Residence_Hall": {
-        "label": "",
+        "label": "Coleman Residence Hall",
 		"code": "",
 		"tags": [
-			"",
-			""
+			"coed",
+            "built-in",
+            "transferstudents",
+            "techsans"
         ],
-        "image": "",
+        "image": "https://www.depts.ttu.edu/housing/images/exteriorHalls/ColemanLarge.JPG",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "Coleman Hall Homepage",
+				"link": "https://www.depts.ttu.edu/housing/halls/coleman.php"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "cube",
+                "label": "Floor Plan",
+                "link": "https://www.depts.ttu.edu/housing/documents/halls/chitwoodFloorPlan.pdf"
             }
 		],
-        "description": ""
+        "description": "Coleman Hall is a coed, built-in furniture residence hall. The Global TECHsans Learning Community is located in Coleman Hall on the southwest side of campus near the College of Architecture and the Law School. Men and women live on alternating floors. Features of the hall include a TV lounge, a computer lab, and several floor lounges. Limitless laundry lounges are available for all residents."
     },
 	"Computer_Center": {
-        "label": "",
+        "label": "Computer Center",
 		"code": "",
 		"tags": [
-			"",
-			""
+			"staff",
+			"computing"
         ],
-        "image": "",
-		"links": [
-			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
-            }
-		],
-        "description": ""
+        "image": "http://www.ttu.edu/map/images/compctr.jpg",
+		"links": [],
+        "description": "The Computer Center houses computing facilities for the university."
     },
 	"Creative_Movement_Studio": {
-        "label": "",
-		"code": "",
+        "label": "Creative Movement Studio",
+		"code": "CRMVST",
 		"tags": [
-			"",
-			""
+			"classes",
+            "dance",
+            "theater",
+            "theatre",
+            "studio",
+            "cheer"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/esc.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "Theatre & Dance Homepage",
+				"link": "https://www.depts.ttu.edu/theatreanddance/"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "building",
+                "label": "Creative Movement Studio Building",
+                "link": "https://www.depts.ttu.edu/theatreanddance/facilities/dancestudio.php"
             }
 		],
-        "description": ""
+        "description": "The Creative Movement Studio is a multi-purpose studio that houses the Dance & Theatre programs, including studio spaces for rehearsals, and the university's cheer and pom squads."
     },
 	"Dan_Law_Field_(Baseball)_at_Rip_Griffin_Park": {
-        "label": "",
+        "label": "Dan Law Field (Baseball) at Rip Griffin Park",
 		"code": "",
 		"tags": [
-			"",
-			""
+			"baseball",
+            "sports",
+            "lesiure"
         ],
-        "image": "",
+        "image": "https://stadiumjourney.com/wp-content/uploads/2017/11/Rip-Griffin-Park-Fans-Looking-on-1080x810.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "Athletics Homepage",
+				"link": "https://texastech.com/"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "building",
+                "label": "Dan Law Field at Rip Griffin Park",
+                "link": "https://texastech.com/facilities/dan-law-field-at-rip-griffin-park/5"
             }
 		],
-        "description": ""
+        "description": "'The Law' is home to the Texas Tech Red Raider baseball team and has a seating capacity over 4,000."
     },
 	"Development": {
-        "label": "",
+        "label": "Development",
 		"code": "",
 		"tags": [
-			"",
-			""
+			"staff",
+            "alumni",
+            "fundraising"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/dev.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "Development Homepage",
+				"link": "http://www.give2tech.com/"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "building",
+                "label": "Development Office",
+                "link": "http://www.depts.ttu.edu/coe/dean/development/"
             }
 		],
-        "description": ""
+        "description": "The building is home to the Office of Institutional Advancement which oversees fundraising for the Texas Tech University System."
     },
 	"Doak_Conference_Center": {
-        "label": "",
-		"code": "",
+        "label": "Doak Conference Center",
+		"code": "DOAK",
 		"tags": [
-			"",
-			""
+			"staff",
+            "humanresources",
+            "hr"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/doakcc.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "Doak Hall Homepage",
+				"link": "https://www.depts.ttu.edu/wstudies/ws_doak.php"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "address-book",
+                "label": "HR at Doak Conference Center",
+                "link": "https://www.depts.ttu.edu/hr/AboutHR/"
             }
 		],
-        "description": ""
+        "description": "The building houses various business offices of Texas Tech University."
     },
 	"Doak_Hall": {
-        "label": "",
+        "label": "Doak Hall",
 		"code": "",
 		"tags": [
-			"",
-			""
+			"womens",
+            "genders",
+            "studies",
+            "staff",
+            "payroll",
+            "tutoring",
+            "academic-help",
+            "diversity"
         ],
-        "image": "",
+        "image": "https://www.depts.ttu.edu/diversity/ideal/images/ideal_location.jpg",
 		"links": [
-			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "home",
+                "label": "Women's and Gender Studies Homepage",
+                "link": "https://www.depts.ttu.edu/wstudies/"
+            },
+			{
+				"icon": "building",
+				"label": "Doak Hall",
+				"link": "https://www.depts.ttu.edu/wstudies/ws_doak.php"
+            },
+			{
+				"icon": "hands-helping",
+				"label": "MentorTech",
+				"link": "depts.ttu.edu/mentortech/"
             }
 		],
-        "description": ""
+        "description": "Currently Doak hall is home to individual programs under the Division of Institutional Diversity, Equity & Community Engagement"
     },
 	"Don_&_Ethel_McLeod_Tennis_Center": {
         "label": "",
