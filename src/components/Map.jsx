@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import MapGL from 'react-map-gl'
-import WebMercatorViewport from 'viewport-mercator-project';
+// import WebMercatorViewport from 'viewport-mercator-project';
 import 'mapbox-gl/dist/mapbox-gl.css';
+
+import Panel from './Panel'
 
 
 export default class Map extends Component {
@@ -51,6 +53,7 @@ export default class Map extends Component {
                     // If we do then we need to implement it with certain boundaries so that you can only drag the viewport so far in relation to lat and lng
                     // onViewportChange={(viewport) => this.setState({ viewport })}
                 />
+                <Panel/>
             </div >
         )
     }
