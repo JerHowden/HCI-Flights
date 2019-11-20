@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
 import Sidebar from "react-sidebar";
 import './Panel.css'
 
@@ -18,14 +18,26 @@ export default class Panel extends Component{
     render() {
         return (
             <Sidebar
-                sidebar={<b>Sidebar content</b>}
+                sidebar={
+                    <Fragment>
+                        <b>Title here</b>
+                        <h1>Main Content Here</h1>
+                        <h3> Other stuff here</h3>
+                        <ul>
+                            <li>A</li>
+                            <li>B</li>
+                            <li>C</li>
+                            <li>D</li>
+                        </ul>
+                    </ Fragment>
+                }
                 open={this.state.sidebarOpen}
                 onSetOpen={this.onSetSidebarOpen}
-                styles={{ sidebar: { background: "white" } }}
+                styles={{ sidebar: { background: "white", width: window.innerWidth*.2} }}
             >
                 <button onClick={() => this.onSetSidebarOpen(true)}>
                     Open sidebar
-        </button>
+                </button>
             </Sidebar>
         );
     }

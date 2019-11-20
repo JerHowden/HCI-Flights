@@ -13,8 +13,8 @@ export default class Map extends Component {
         this.state = {
 
             viewport: {
-                width: 800, // figure out how to full screen the map
-                height: 800,
+                width: window.innerWidth, 
+                height: window.innerHeight,
                 latitude: 33.594,
                 longitude: -101.891,
                 zoom: 13.5
