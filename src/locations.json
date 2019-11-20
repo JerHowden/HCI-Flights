@@ -682,12 +682,17 @@
 			{
 				"icon": "home",
 				"label": "Athletics Homepage",
-				"link": "https://texastech.com/"
+				"link": "https://texastech.com/sports"
             },
             {
-                "icon": "building",
+                "icon": "ring",
                 "label": "Dan Law Field at Rip Griffin Park",
                 "link": "https://texastech.com/facilities/dan-law-field-at-rip-griffin-park/5"
+            },
+            {
+                "icon": "calendar-alt",
+                "label": "Baseball Schedule",
+                "link": "https://texastech.com/sports/baseball/schedule"
             }
 		],
         "description": "'The Law' is home to the Texas Tech Red Raider baseball team and has a seating capacity over 4,000."
@@ -772,48 +777,58 @@
         "description": "Currently Doak hall is home to individual programs under the Division of Institutional Diversity, Equity & Community Engagement"
     },
 	"Don_&_Ethel_McLeod_Tennis_Center": {
-        "label": "",
+        "label": "Don & Ethel McLeod Tennis Center",
 		"code": "",
 		"tags": [
-			"",
-			""
+			"sports",
+            "leisure",
+            "tennis"
         ],
-        "image": "",
+        "image": "https://texastech.com/images/2017/6/7/TTU_Tennis_Facility_170223_2.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "Tennis Homepage",
+				"link": "https://texastech.com/sports/2016/6/8/facilities-fac-tennis-html.aspx"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "calendar-alt",
+                "label": "Men's Tennis Schedule",
+                "link": "https://texastech.com/sports/mens-tennis/schedule"
+            },
+            {
+                "icon": "calendar-alt",
+                "label": "Womens's Tennis Schedule",
+                "link": "https://texastech.com/sports/womens-tennis/schedule"
             }
 		],
-        "description": ""
+        "description": "The Don and Ethel McLeod Tennis Center features 12 courts with spectator capabilities and, in fact, the facility has hosted several prestigious tennis events since its opening in time for the 2000 spring season."
     },
 	"Drane_Hall": {
-        "label": "",
+        "label": "Drane Hall",
 		"code": "",
 		"tags": [
-			"",
-			""
+			"staff",
+            "visual",
+            "performances",
+            "help/assistance",
+            "intervention",
+            "safety"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/drane.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "user-shield",
+				"label": "RISE",
+				"link": "https://www.depts.ttu.edu/rise/contact.php"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "shield-alt",
+                "label": "Military & Veteran Programs",
+                "link": "https://www.depts.ttu.edu/diversity/mvp/contact_us.php"
             }
 		],
-        "description": ""
+        "description": "Drane Hall houses various business offices of Texas Tech University as well as administrative offices of the College of Visual and Performing Arts."
     },
 	"Education": {
         "label": "",
