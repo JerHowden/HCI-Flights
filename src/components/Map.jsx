@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
-import ReactMapGL, { NavigationControl} from 'react-map-gl'
+import MapGL from 'react-map-gl'
+// import WebMercatorViewport from 'viewport-mercator-project';
+import 'mapbox-gl/dist/mapbox-gl.css';
 
-const navStyle = {
-    position: 'absolute',
-    top: 0,
-    left: 0,
-    padding: '10px'
-};
+import Panel from './Panel'
+
 
 export default class Map extends Component {
     constructor(props) {
@@ -15,36 +13,48 @@ export default class Map extends Component {
         this.state = {
 
             viewport: {
-                latitude: 37.785164,
-                longitude: -100,
-                zoom: 2.8,
-                bearing: 0,
-                pitch: 0,
-                width: 500,
-                height: 500,
+                width: window.innerWidth, 
+                height: window.innerHeight,
+                latitude: 33.594,
+                longitude: -101.891,
+                zoom: 13.5
             },
 
             apiKey: 'pk.eyJ1IjoiZWxpYXNjbTE3IiwiYSI6ImNrMzR4NmJvdzFhOW8zbXBweXUwcHIwdDYifQ.T_3ZZklfpxf5b8wibfI0ew'
+
         }
     }
 
+    // add color to the buildings on component will mount lifecycle??
+    // change lat, long, and zoom on click or search
+    // change the color of TTU related buildings on hover
+    // display left justified panel on click or search
+        //pull data from json file as a profile for each building
 
 
     render() {
-
-        const {viewport} = this.state.viewport
-
         return (
-            <div id="Map">
-                <ReactMapGL
-                {...viewport}
-                mapStyle="mapbox://styles/mapbox/dark-v9"
-                mapboxApiAccessToken={this.state.apiKey}>
-                <div className="nav" style={navStyle}>
-                    <NavigationControl/>
-                </div>    
-                </ReactMapGL>
-            </div>
+            <div class='map'>
+                <input 
+                    id='pac-input'
+                    className='controls'
+                    type='text'
+                    placeholder='Search TTU'
+                     // Need to figure out how to create an autocomplete feature for the local json data
+                />
+                <MapGL 
+                    width='100%'
+                    height='100%'
+                    {...this.state.viewport}
+                    style={{ width: '100%', height: '100%'}}
+                    mapStyle="mapbox://styles/mapbox/dark-v9"
+                    mapboxApiAccessToken={this.state.apiKey}
+                    // this allows for the movement of the map. Idk if we are gonna implement this just yet
+                    // If we do then we need to implement it with certain boundaries so that you can only drag the viewport so far in relation to lat and lng
+                    // onViewportChange={(viewport) => this.setState({ viewport })}
+                />
+                <Panel/>
+            </div >
         )
     }
 }
