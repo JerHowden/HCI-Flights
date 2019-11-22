@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 
+import { AppBar, Toolbar, Button, Typography } from '@material-ui/core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+
+import './Navigation.css'
 
 export default class Navigation extends Component {
     constructor(props) {
@@ -15,11 +17,25 @@ export default class Navigation extends Component {
     render() {
         return(
             <div id="Navigation">
-                <ul>
-                    <li>
-                        <FontAwesomeIcon icon="coffee" />
-                    </li>
-                </ul>
+                <AppBar position="static">
+                    <Toolbar>
+                        <Button>
+                            <img width={32} height={37} src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Texas_Tech_Athletics_logo.svg" alt="Logo" />
+                            <Typography>
+                                Resource Guide
+                            </Typography>
+                        </Button>
+                        <Button>
+                            Map
+                        </Button>
+                        <Button>
+                            Calendar
+                        </Button>
+                        <Button>
+                            Resources
+                        </Button>
+                    </Toolbar>
+                </AppBar>
             </div>
         )
     }

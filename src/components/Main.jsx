@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 
-import { Container } from '@material-ui/core'
+import { Fade } from '@material-ui/core'
+
+import './Main.css'
 
 export default class Main extends Component {
     constructor(props) {
@@ -13,11 +15,12 @@ export default class Main extends Component {
 
     render() {
         return(
-            <div>
-                <Container>
-                    
-                </Container>
-            </div> 
+            <Fade in={true} timeout={3000} id="MainTitle">
+                <div>
+                    <div>TEXAS TECH</div>
+                    <div>RESOURCE GUIDE</div>
+                </div>
+            </Fade>
         )
     }
 }
