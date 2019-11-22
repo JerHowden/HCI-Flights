@@ -31,7 +31,7 @@ export default class Panel extends Component{
                         </ul>
                     </ Fragment>
                 }
-                open={this.state.sidebarOpen}
+                // open={this.state.sidebarOpen}
                 onSetOpen={this.onSetSidebarOpen}
                 styles={{ sidebar: { background: "white", width: window.innerWidth*.2} }}
             >

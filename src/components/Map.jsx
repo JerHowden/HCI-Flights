@@ -19,14 +19,6 @@ export default class Map extends Component {
                 zoom: 14
             },
 
-            parkLayer: {
-                id: 'landuse_park',
-                type: 'fill',
-                source: 'mapbox',
-                'source-layer': 'landuse',
-                filter: ['==', 'class', 'park']
-            },
-
             apiKey: 'pk.eyJ1IjoiZWxpYXNjbTE3IiwiYSI6ImNrMzR4NmJvdzFhOW8zbXBweXUwcHIwdDYifQ.T_3ZZklfpxf5b8wibfI0ew'
 
         }
@@ -73,22 +65,21 @@ export default class Map extends Component {
                     {...this.state.viewport}
                     onViewportChange={(viewport) => this.setState({ viewport })}
                 >
-                    <Source id='building' type='vector' url='mapbox://mapbox.mapbox-streets-v8'/>
+                <Source id='buildings' type='vector' url='mapbox://mapbox.mapbox-streets-v8'/>
                 <Layer
-                    id='building'
-                    source='mapbox-streets'
-                    source-layer='building'
+                    id='buildings'
                     type='fill'
+                    source='buildings'
+                    source-layer='building'
                     paint= {{
-                        "fill-color": "#f52424",
+                        "fill-color": "#cccccc",
                         "fill-outline-color": "#f52424"
                     }} 
                     // onHover={onHover}
                     // onLeave={onLeave}
                 />  
-                
                 </MapGL>
-                <Panel/>
+                {/* <Panel/> */}
             </div >
         )
     }
