@@ -18,16 +18,12 @@ function App() {
 
 	return (
 		<div className="App">
-			<CssBaseline/>
+			{/* <CssBaseline/> */}
 			<Navigation/>
 			<Router>
 				<Switch>
-					<Route exact path='/'>
-						<Main/>
-					</Route>
-					<Route path='/map/:query'>
-						<Map/>
-					</Route>
+					<Route exact path='/' component={props => <Main {...props}/>} />
+					<Route path='/map/:query' component={props => <Map {...props}/>} />
 				</Switch>
 			</Router>
 		</div>

@@ -5,10 +5,12 @@ import './Panel.css'
 export default class Panel extends Component{
     constructor(props) {
         super(props);
+
+        this.onSetSidebarOpen = this.onSetSidebarOpen.bind(this);
+
         this.state = {
             sidebarOpen: true
         };
-        this.onSetSidebarOpen = this.onSetSidebarOpen.bind(this);
     }
 
     onSetSidebarOpen(open) {
@@ -29,7 +31,7 @@ export default class Panel extends Component{
                             <li>C</li>
                             <li>D</li>
                         </ul>
-                    </ Fragment>
+                    </Fragment>
                 }
                 // open={this.state.sidebarOpen}
                 onSetOpen={this.onSetSidebarOpen}

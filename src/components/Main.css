@@ -1,0 +1,21 @@
+#MainTitle {
+    position: absolute;
+    z-index: 1000;
+    right: 50px;
+    top: 45%;
+    color: #232323;
+    text-shadow: 0 3px 6px rgba(0,0,0,.333333);
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+#MainTitle > div:nth-child(1) {
+    font-size: 24px;
+    font-weight: 200;
+}
+
+#MainTitle > div:nth-child(2) {
+    margin-top: -14px;
+    font-size: 48px;
+    font-weight: bold;
+}
