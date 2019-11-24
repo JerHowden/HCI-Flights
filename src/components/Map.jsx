@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import MapGL from 'react-map-gl'
+import MapGL, {Source, Layer} from 'react-map-gl'
 // import WebMercatorViewport from 'viewport-mercator-project';
 import 'mapbox-gl/dist/mapbox-gl.css';
 
 import Panel from './Panel'
-
 
 export default class Map extends Component {
     constructor(props) {
@@ -17,7 +16,7 @@ export default class Map extends Component {
                 height: window.innerHeight,
                 latitude: 33.594,
                 longitude: -101.891,
-                zoom: 13.5
+                zoom: 14
             },
 
             apiKey: 'pk.eyJ1IjoiZWxpYXNjbTE3IiwiYSI6ImNrMzR4NmJvdzFhOW8zbXBweXUwcHIwdDYifQ.T_3ZZklfpxf5b8wibfI0ew'
@@ -33,8 +32,25 @@ export default class Map extends Component {
 
 
     render() {
+
+        // const onHover = event => {
+        //     if (event.features.length > 0) {
+        //         const hoveredStateId = event.features[0].id;
+        //         if (hoveredStateId !== state.hoveredStateId) {
+        //             setState({ hoveredStateId });
+        //         }
+        //     }
+        // };
+
+        // const onLeave = () => {
+        //     if (state.hoveredStateId) {
+        //         setState({ hoveredStateId: null });
+        //     }
+        // };
+
         return (
             <div class='map'>
+            
                 <input 
                     id='pac-input'
                     className='controls'
@@ -43,17 +59,27 @@ export default class Map extends Component {
                      // Need to figure out how to create an autocomplete feature for the local json data
                 />
                 <MapGL 
-                    width='100%'
-                    height='100%'
-                    {...this.state.viewport}
                     style={{ width: '100%', height: '100%'}}
                     mapStyle="mapbox://styles/mapbox/dark-v9"
                     mapboxApiAccessToken={this.state.apiKey}
-                    // this allows for the movement of the map. Idk if we are gonna implement this just yet
-                    // If we do then we need to implement it with certain boundaries so that you can only drag the viewport so far in relation to lat and lng
-                    // onViewportChange={(viewport) => this.setState({ viewport })}
-                />
-                <Panel/>
+                    {...this.state.viewport}
+                    onViewportChange={(viewport) => this.setState({ viewport })}
+                >
+                <Source id='buildings' type='vector' url='mapbox://mapbox.mapbox-streets-v8'/>
+                <Layer
+                    id='buildings'
+                    type='fill'
+                    source='buildings'
+                    source-layer='building'
+                    paint= {{
+                        "fill-color": "#cccccc",
+                        "fill-outline-color": "#f52424"
+                    }} 
+                    // onHover={onHover}
+                    // onLeave={onLeave}
+                />  
+                </MapGL>
+                {/* <Panel/> */}
             </div >
         )
     }
