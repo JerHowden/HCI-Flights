@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import MapGL, {Source, Marker, Layer} from 'react-map-gl'
+import ReactMapGL, {Source, Marker, Layer} from 'react-map-gl'
 // import WebMercatorViewport from 'viewport-mercator-project';
 import 'mapbox-gl/dist/mapbox-gl.css';
-import * as buildings from "./Buildings.geojson"
+import buildings from "./Buildings.geojson"
 
 import Panel from './Panel'
 
@@ -31,48 +31,93 @@ export default class Map extends Component {
     // display left justified panel on click or search
         //pull data from json file as a profile for each building
 
-    componentWillMount(){
+
+componentDidMount(){
+
         const map = this.reactMap.getMap();
+        console.log('map', map);
+        //load geojson
+        const TTU = buildings
         
         map.on('load', () => {
             //do shit here with source and layer lmao
-            map.addSource("Buildings", {
+            map.addSource("Building Data", {
                 "type": "geojson",
-                "data": buildings
+                "data": TTU
             })
-        })
 
-        map.addLayer({
-            "id": "building-fills",
-            "type": "fill",
-            "source": "building",
-            "layout": {},
-            "paint": {
-                "fill-color": "#627BC1",
-                "fill-opacity": ["case",
-                    ["boolean", ["feature-state", "hover"], false],
-                    1,
-                    0.5
-                ]
+            //fills for the building polygons
+            map.addLayer({
+                "id": "buildings-fills",
+                "type": "fill",
+                "source": "Building Data",
+                "layout": {
+                    // "text-field": "title",
+                    // "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"]
+                },
+                "paint": {
+                    "fill-color": "#c6eb34",
+                    "fill-opacity": 0.8
+                    //["cfase",
+                    //     ["boolean", ["feature-state", "hover"], false],
+                    //     1,
+                    //     0.5
+                    //]
+                }
+            });
+            
+            //borders for the building polygons
+            map.addLayer({
+                "id": "building-borders",
+                "type": "line",
+                "source": "Building Data",
+                "layout": {},
+                "paint": {
+                    "line-color": "#627BC1",
+                    "line-width": 2
+                }
+            });
+
+        });
+
+    
+
+        var hoveredStateId = null;
+
+        //on hover fill in the polygon
+        map.on("mousemove", "building-fills", function (e) {
+            if (e.features.length > 0) {
+                if (hoveredStateId) {
+                    map.setFeatureState({ source: 'buildings', id: hoveredStateId }, { hover: false });
+                }
+                hoveredStateId = e.features[0];
+                map.setFeatureState({ source: 'buildings', id: hoveredStateId }, { hover: true });
             }
         });
 
-        map.addLayer({
-            "id": "state-borders",
-            "type": "line",
-            "source": "states",
-            "layout": {},
-            "paint": {
-                "line-color": "#627BC1",
-                "line-width": 2
+        // //on mouse leave, put the polygon back to its original state
+        map.on("mouseleave", "building-fills", function () {
+            if (hoveredStateId) {
+                map.setFeatureState({ source: 'buildings', id: hoveredStateId }, { hover: false });
             }
+            hoveredStateId = null;
         });
+        
+        // let viewport = {
+        //     width: window.innerWidth,
+        //     height: window.innerHeight,
+        //     latitude: 33.594,
+        //     longitude: -101.891,
+        //     zoom: 14
+        // }
+        // this.setState({ viewport }, () => console.log("Viewport", viewport, this.state))
+
     }
 
 
     render() {
         return (
-            <div class='map'>
+            <div>
                 <input 
                     id='pac-input'
                     className='controls'
@@ -80,26 +125,15 @@ export default class Map extends Component {
                     placeholder='Search TTU'
                      // Need to figure out how to create an autocomplete feature for the local json data
                 />
-                <MapGL 
+                <ReactMapGL 
                     ref={(reactMap) => this.reactMap = reactMap}
                     style={{ width: '100%', height: '100%'}}
-                    mapStyle="mapbox://styles/eliascm17/ck3drcdxm13li1cmm1gpbomrv"
+                    mapStyle="mapbox://styles/mapbox/dark-v10"
                     mapboxApiAccessToken={this.state.apiKey}
                     {...this.state.viewport}
                     onViewportChange={(viewport) => this.setState({ viewport })}
                 >
-                <Source id='buildings' type='vector' url='mapbox://mapbox.mapbox-streets-v8'/>
-                <Layer
-                    id='buildings'
-                    type='fill'
-                    source='buildings'
-                    source-layer='building'
-                    paint= {{
-                        "fill-color": "#cccccc",
-                        "fill-outline-color": "#f52424"
-                    }} 
-                />  
-                </MapGL>
+                </ReactMapGL>
                 {/* <Panel/> */}
             </div >
         )
