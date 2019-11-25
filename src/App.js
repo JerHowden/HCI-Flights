@@ -8,6 +8,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 import { far } from '@fortawesome/free-regular-svg-icons'
 
 import Main from './components/Main'
+import Schedule from './components/Schedule'
 import Map from './components/Map'
 import Navigation from './components/Navigation'
 import './App.css';
@@ -23,6 +24,7 @@ function App() {
 			<Router>
 				<Switch>
 					<Route exact path='/' component={props => <Main {...props}/>} />
+					<Route exact path='/calendar' component={props => <Schedule {...props}/>} />
 					<Route path='/map/:query' component={props => <Map {...props}/>} />
 				</Switch>
 			</Router>

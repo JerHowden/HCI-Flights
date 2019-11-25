@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import MapGL, {Source, Layer} from 'react-map-gl'
+import MapGL, {Source, Marker, Layer} from 'react-map-gl'
 // import WebMercatorViewport from 'viewport-mercator-project';
 import 'mapbox-gl/dist/mapbox-gl.css';
+import * as buildings from "./Buildings.geojson"
 
 import Panel from './Panel'
 
@@ -30,27 +31,48 @@ export default class Map extends Component {
     // display left justified panel on click or search
         //pull data from json file as a profile for each building
 
+    componentWillMount(){
+        const map = this.reactMap.getMap();
+        
+        map.on('load', () => {
+            //do shit here with source and layer lmao
+            map.addSource("Buildings", {
+                "type": "geojson",
+                "data": buildings
+            })
+        })
+
+        map.addLayer({
+            "id": "building-fills",
+            "type": "fill",
+            "source": "building",
+            "layout": {},
+            "paint": {
+                "fill-color": "#627BC1",
+                "fill-opacity": ["case",
+                    ["boolean", ["feature-state", "hover"], false],
+                    1,
+                    0.5
+                ]
+            }
+        });
+
+        map.addLayer({
+            "id": "state-borders",
+            "type": "line",
+            "source": "states",
+            "layout": {},
+            "paint": {
+                "line-color": "#627BC1",
+                "line-width": 2
+            }
+        });
+    }
+
 
     render() {
-
-        // const onHover = event => {
-        //     if (event.features.length > 0) {
-        //         const hoveredStateId = event.features[0].id;
-        //         if (hoveredStateId !== state.hoveredStateId) {
-        //             setState({ hoveredStateId });
-        //         }
-        //     }
-        // };
-
-        // const onLeave = () => {
-        //     if (state.hoveredStateId) {
-        //         setState({ hoveredStateId: null });
-        //     }
-        // };
-
         return (
             <div class='map'>
-            
                 <input 
                     id='pac-input'
                     className='controls'
@@ -59,8 +81,9 @@ export default class Map extends Component {
                      // Need to figure out how to create an autocomplete feature for the local json data
                 />
                 <MapGL 
+                    ref={(reactMap) => this.reactMap = reactMap}
                     style={{ width: '100%', height: '100%'}}
-                    mapStyle="mapbox://styles/mapbox/dark-v9"
+                    mapStyle="mapbox://styles/eliascm17/ck3drcdxm13li1cmm1gpbomrv"
                     mapboxApiAccessToken={this.state.apiKey}
                     {...this.state.viewport}
                     onViewportChange={(viewport) => this.setState({ viewport })}
@@ -75,8 +98,6 @@ export default class Map extends Component {
                         "fill-color": "#cccccc",
                         "fill-outline-color": "#f52424"
                     }} 
-                    // onHover={onHover}
-                    // onLeave={onLeave}
                 />  
                 </MapGL>
                 {/* <Panel/> */}
