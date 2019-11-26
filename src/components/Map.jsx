@@ -4,6 +4,35 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 import jsonData from '../data/Buildings.geojson'
 import Panel from './Panel'
 
+const notHighlighted = {
+    "id": "building-fills",
+    "type": "fill",
+    "source": "Building Data",
+    "layout": {
+        // "text-field": "title",
+        // "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"]
+    },
+    "paint": {
+        "fill-color": "#627BC1",
+        "fill-opacity": .3,
+        // "fill-outline-color": "#627BC1",
+    }
+}
+
+const highlighted = {
+    "id": "building-fills",
+    "type": "fill",
+    "source": "Building Data",
+    "layout": {
+        // "text-field": "title",
+        // "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"]
+    },
+    "paint": {
+        "fill-color": "#fcba03",
+        "fill-opacity": 1,
+        // "fill-outline-color": "#fcba03",
+    }
+}
 export default class Map extends Component {
     constructor(props) {
         super(props)
@@ -18,147 +47,45 @@ export default class Map extends Component {
                 zoom: 14,
             },
 
+            filter: ['in', 'BUILDING', ''],
             data: jsonData,
             hoveredFeature: null,
             clickedFeature: null,
             hoverInfo: null,
             apiKey: 'pk.eyJ1IjoiZWxpYXNjbTE3IiwiYSI6ImNrMzR4NmJvdzFhOW8zbXBweXUwcHIwdDYifQ.T_3ZZklfpxf5b8wibfI0ew',
-
-            styleFill: {
-                "id": "building-fills",
-                "type": "fill",
-                "source": "Building Data",
-                "layout": {
-                    // "text-field": "title",
-                    // "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"]
-                },
-                "paint": {
-                    "fill-color": "#627BC1",
-                    "fill-opacity": ["case",
-                        ["boolean", ["feature-state", "hover"], false],
-                        1,
-                        0.3
-                    ]
-                }
-            },
-
-            styleOutline: {
-                "id": "building-borders",
-                "type": "line",
-                "source": "Building Data",
-                "layout": {},
-                "paint": {
-                    "line-color": "#627BC1",
-                    "line-width": 2
-                }
-            }
+            styleFill: notHighlighted,
+            highlightedFill: highlighted
 
         }
     }
 
-    // change lat, long, and zoom on click or search
-    // change the color of TTU related buildings on hover
-    // display left justified panel on click or search
-        //pull data from json file as a profile for each building
-
-
-componentDidMount(){
-
-        //create map object
-        // const map = this.reactMap.getMap();
-        // console.log('map', map);
-
-        // var hoveredStateId = null;
-
-        // map.on('load', () => {
-
-            // map.on('click', (e) => {
-            //     console.log(e.lngLat)
-            // });
-
-            // map.addSource("Building Data", {
-            //     "type": "geojson",
-            //     "data": this.state.data
-            // })
-
-            //fills for the building polygons
-            // map.addLayer({
-            //     "id": "building-fills",
-            //     "type": "fill",
-            //     "source": "Building Data",
-            //     "layout": {
-            //         // "text-field": "title",
-            //         // "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"]
-            //     },
-            //     "paint": {
-            //         "fill-color": "#627BC1",
-            //         "fill-opacity": ["case",
-            //             ["boolean", ["feature-state", "hover"], false],
-            //             1,
-            //             0.2
-            //         ]
-            //     }
-            // });
-            
-            // borders for the building polygons
-            // map.addLayer({
-            //     "id": "building-borders",
-            //     "type": "line",
-            //     "source": "Building Data",
-            //     "layout": {},
-            //     "paint": {
-            //         "line-color": "#627BC1",
-            //         "line-width": 2
-            //     }
-            // });
-
-            // map.on('click', (e) => {
-            //     console.log(e.lngLat)
-            // });
-        
-            //  map.on("mousemove", "building-fills", function (e) {
-            //     console.log(e)
-            //     if (e.features.length > 0) {
-            //         if (hoveredStateId) {
-            //             map.setFeatureState({ source: 'Building Data', id: hoveredStateId }, { hover: false });
-            //         }
-            //         hoveredStateId = e.features[0].id;
-            //         map.setFeatureState({ source: 'Building Data', id: hoveredStateId }, { hover: true });
-            //     }
-            // });
-
-
-            // map.on("mouseleave", "building-fills", function () {
-            //     if (hoveredStateId) {
-            //         map.setFeatureState({ source: 'Building Data', id: hoveredStateId }, { hover: false });
-            //     }
-            //     hoveredStateId = null;
-            // });
-
-        // });
-        
-    }
-
-    _onHover = event => {
+ _onHover = event => {
 
         let hoverInfo = null;
-
+        let buildingName = '';
         const {
             features,
             srcEvent: { offsetX, offsetY },
         } = event;
 
         const hoveredFeature = features && features.find(f => f.layer.id === 'building-fills');
-        this.setState({ hoveredFeature });
 
+        this.setState({ hoveredFeature });
+        
+        // const building = event.features[0]
         if(hoveredFeature){
             // console.log(hoveredFeature);
+            console.log(event)
+            buildingName = event.features[0].properties.title;
             hoverInfo = event.lngLat;
-            this.setState({ hoverInfo });
+            this.setState({ 
+                hoverInfo,
+                filter: ['in', 'title', buildingName]
+            });
         }
 
     };
-    _renderPopup() {
+_renderPopup() {
         const { hoverInfo, hoveredFeature } = this.state;
         if (hoverInfo && hoveredFeature) {
             return (
@@ -172,7 +99,7 @@ componentDidMount(){
     }
 
 
-    _onClick = event =>{
+_onClick = event =>{
 
         const {
             features,
@@ -184,7 +111,7 @@ componentDidMount(){
 
     }
 
-    _renderSidebar() {
+_renderSidebar() {
         const { clickedFeature } = this.state
 
         if(clickedFeature){
@@ -210,6 +137,7 @@ componentDidMount(){
                     style={{ width: '100%', height: '100%'}}
                     mapStyle="mapbox://styles/mapbox/dark-v10"
                     mapboxApiAccessToken={this.state.apiKey}
+                    interactiveLayerIds={['building-fills']}
                     {...this.state.viewport}
                     onViewportChange={(viewport) => this.setState({ viewport })}
                     onHover={this._onHover}
@@ -217,7 +145,7 @@ componentDidMount(){
                 >
                 <Source type="geojson" data={this.state.data}>
                     <Layer {...this.state.styleFill}/>
-                    <Layer {...this.state.styleOutline}/>
+                    <Layer {...this.state.highlightedFill} filter={this.state.filter}/>
                 </Source>
                 {this._renderPopup()}
                 {this._renderSidebar()}
