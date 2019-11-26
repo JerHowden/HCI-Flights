@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
-import ReactMapGL from 'react-map-gl'
+import React, { Component, Fragment } from 'react';
+import ReactMapGL, { Source, Layer, Marker } from 'react-map-gl'
 import 'mapbox-gl/dist/mapbox-gl.css';
-import buildingsData from "./Buildings.geojson"
+import jsonData from '../data/Buildings.geojson'
 import Panel from './Panel'
-
 
 export default class Map extends Component {
     constructor(props) {
@@ -19,7 +18,38 @@ export default class Map extends Component {
                 zoom: 14,
             },
 
-            apiKey: 'pk.eyJ1IjoiZWxpYXNjbTE3IiwiYSI6ImNrMzR4NmJvdzFhOW8zbXBweXUwcHIwdDYifQ.T_3ZZklfpxf5b8wibfI0ew'
+            data: jsonData,
+            hoveredFeature: null,
+            apiKey: 'pk.eyJ1IjoiZWxpYXNjbTE3IiwiYSI6ImNrMzR4NmJvdzFhOW8zbXBweXUwcHIwdDYifQ.T_3ZZklfpxf5b8wibfI0ew',
+
+            styleFill: {
+                "id": "building-fills",
+                "type": "fill",
+                "source": "Building Data",
+                "layout": {
+                    // "text-field": "title",
+                    // "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"]
+                },
+                "paint": {
+                    "fill-color": "#627BC1",
+                    "fill-opacity": ["case",
+                        ["boolean", ["feature-state", "hover"], false],
+                        1,
+                        0.3
+                    ]
+                }
+            },
+
+            styleOutline: {
+                "id": "building-borders",
+                "type": "line",
+                "source": "Building Data",
+                "layout": {},
+                "paint": {
+                    "line-color": "#627BC1",
+                    "line-width": 2
+                }
+            }
 
         }
     }
@@ -33,82 +63,95 @@ export default class Map extends Component {
 componentDidMount(){
 
         //create map object
-        const map = this.reactMap.getMap();
+        // const map = this.reactMap.getMap();
         // console.log('map', map);
 
-        //load geojson data
-        const TTU = buildingsData;
-        var hoveredStateId = null;
+        // var hoveredStateId = null;
 
-        map.on('load', () => {
+        // map.on('load', () => {
 
-            map.addSource("Building Data", {
-                "type": "geojson",
-                "data": TTU
-            })
+            // map.on('click', (e) => {
+            //     console.log(e.lngLat)
+            // });
+
+            // map.addSource("Building Data", {
+            //     "type": "geojson",
+            //     "data": this.state.data
+            // })
 
             //fills for the building polygons
-            map.addLayer({
-                "id": "building-fills",
-                "type": "fill",
-                "source": "Building Data",
-                "layout": {
-                    // "text-field": "title",
-                    // "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"]
-                },
-                "paint": {
-                    "fill-color": "#627BC1",
-                    "fill-opacity": ["case",
-                        ["boolean", ["feature-state", "hover"], false],
-                        1,
-                        0.2
-                    ]
-                }
-            });
+            // map.addLayer({
+            //     "id": "building-fills",
+            //     "type": "fill",
+            //     "source": "Building Data",
+            //     "layout": {
+            //         // "text-field": "title",
+            //         // "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"]
+            //     },
+            //     "paint": {
+            //         "fill-color": "#627BC1",
+            //         "fill-opacity": ["case",
+            //             ["boolean", ["feature-state", "hover"], false],
+            //             1,
+            //             0.2
+            //         ]
+            //     }
+            // });
             
             // borders for the building polygons
-            map.addLayer({
-                "id": "building-borders",
-                "type": "line",
-                "source": "Building Data",
-                "layout": {},
-                "paint": {
-                    "line-color": "#627BC1",
-                    "line-width": 2
-                }
-            });
+            // map.addLayer({
+            //     "id": "building-borders",
+            //     "type": "line",
+            //     "source": "Building Data",
+            //     "layout": {},
+            //     "paint": {
+            //         "line-color": "#627BC1",
+            //         "line-width": 2
+            //     }
+            // });
 
-            map.on('mousemove', (e) => {
-                console.log(e.lngLat)
-            });
+            // map.on('click', (e) => {
+            //     console.log(e.lngLat)
+            // });
         
-             map.on("mousemove", "building-fills", function (e) {
-                console.log(e)
-                if (e.features.length > 0) {
-                    if (hoveredStateId) {
-                        map.setFeatureState({ source: 'Building Data', id: hoveredStateId }, { hover: false });
-                    }
-                    hoveredStateId = e.features[0].id;
-                    map.setFeatureState({ source: 'Building Data', id: hoveredStateId }, { hover: true });
-                }
-            });
+            //  map.on("mousemove", "building-fills", function (e) {
+            //     console.log(e)
+            //     if (e.features.length > 0) {
+            //         if (hoveredStateId) {
+            //             map.setFeatureState({ source: 'Building Data', id: hoveredStateId }, { hover: false });
+            //         }
+            //         hoveredStateId = e.features[0].id;
+            //         map.setFeatureState({ source: 'Building Data', id: hoveredStateId }, { hover: true });
+            //     }
+            // });
 
 
-            map.on("mouseleave", "building-fills", function () {
-                if (hoveredStateId) {
-                    map.setFeatureState({ source: 'Building Data', id: hoveredStateId }, { hover: false });
-                }
-                hoveredStateId = null;
-            });
+            // map.on("mouseleave", "building-fills", function () {
+            //     if (hoveredStateId) {
+            //         map.setFeatureState({ source: 'Building Data', id: hoveredStateId }, { hover: false });
+            //     }
+            //     hoveredStateId = null;
+            // });
 
-        });
+        // });
         
     }
 
+    _onHover = event => {
+        const {
+            features,
+            srcEvent: { offsetX, offsetY }
+        } = event;
+        const hoveredFeature = features && features.find(f => f.layer.id === 'building-fills');
+        this.setState({ hoveredFeature });
+        console.log(hoveredFeature)
+    };
+
+    
 
     render() {
         return (
-            <div>
+            <Fragment>
                 {/* <input 
                     id='pac-input'
                     className='controls'
@@ -123,10 +166,37 @@ componentDidMount(){
                     mapboxApiAccessToken={this.state.apiKey}
                     {...this.state.viewport}
                     onViewportChange={(viewport) => this.setState({ viewport })}
+                    onHover={this._onHover}
                 >
+                <Source type="geojson" data={this.state.data}>
+                    <Layer {...this.state.styleFill}/>
+                    <Layer {...this.state.styleOutline}/>
+                </Source>
+
+                {/* {this.state.data.map((building, index) => {
+                    return  <Marker 
+                                key={building.features[index].id} 
+                                latitude={building.features[index].geometry.coordinates[0][0][1]} 
+                                longitude={building.features[index].geometry.coordinates[0][0][0]}
+                                >
+                                <div>HERE</div>
+                            </Marker>
+                })} */}
+                {/* {this.state.data.features.map(building => {
+                    
+                       return   <Marker 
+                                    key={building.id} 
+                                    latitude={building.geometry.coordinates[0][0][1]} 
+                                    longitude={building.geometry.coordinates[0][0][0]}
+                                    >
+                                    <div>HERE</div>
+                                </Marker>
+                        
+                })} */}
+
                 </ReactMapGL>
                 {/* <Panel/> */}
-            </div >
+            </Fragment>
         )
     }
 }
