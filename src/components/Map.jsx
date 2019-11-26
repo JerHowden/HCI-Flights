@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import ReactMapGL, { Source, Layer, Marker } from 'react-map-gl'
+import ReactMapGL, { Popup, Source, Layer, Marker } from 'react-map-gl'
 import 'mapbox-gl/dist/mapbox-gl.css';
 import jsonData from '../data/Buildings.geojson'
 import Panel from './Panel'
@@ -20,6 +20,7 @@ export default class Map extends Component {
 
             data: jsonData,
             hoveredFeature: null,
+            hoverInfo: null,
             apiKey: 'pk.eyJ1IjoiZWxpYXNjbTE3IiwiYSI6ImNrMzR4NmJvdzFhOW8zbXBweXUwcHIwdDYifQ.T_3ZZklfpxf5b8wibfI0ew',
 
             styleFill: {
@@ -138,14 +139,37 @@ componentDidMount(){
     }
 
     _onHover = event => {
+
+        let hoverInfo = null;
+
         const {
             features,
-            srcEvent: { offsetX, offsetY }
+            srcEvent: { offsetX, offsetY },
         } = event;
+
         const hoveredFeature = features && features.find(f => f.layer.id === 'building-fills');
         this.setState({ hoveredFeature });
-        console.log(hoveredFeature)
+
+        if(hoveredFeature){
+            console.log(hoveredFeature);
+            hoverInfo = event.lngLat;
+            this.setState({ hoverInfo });
+        }
+
     };
+
+    _renderPopup() {
+        const { hoverInfo , hoveredFeature} = this.state;
+        if (hoverInfo && hoveredFeature) {
+            return (
+                <Popup longitude={Object.values(hoverInfo)[0]} latitude={Object.values(hoverInfo)[1]} closeButton={false}>
+                    <div className="building info-window">{hoveredFeature.properties.title}</div>
+                    <p>ADD DESCRIPTION OF BUILDINGS HERE</p>                    
+                </Popup>
+            );
+        }
+        return null;
+    }
 
     
 
@@ -172,28 +196,7 @@ componentDidMount(){
                     <Layer {...this.state.styleFill}/>
                     <Layer {...this.state.styleOutline}/>
                 </Source>
-
-                {/* {this.state.data.map((building, index) => {
-                    return  <Marker 
-                                key={building.features[index].id} 
-                                latitude={building.features[index].geometry.coordinates[0][0][1]} 
-                                longitude={building.features[index].geometry.coordinates[0][0][0]}
-                                >
-                                <div>HERE</div>
-                            </Marker>
-                })} */}
-                {/* {this.state.data.features.map(building => {
-                    
-                       return   <Marker 
-                                    key={building.id} 
-                                    latitude={building.geometry.coordinates[0][0][1]} 
-                                    longitude={building.geometry.coordinates[0][0][0]}
-                                    >
-                                    <div>HERE</div>
-                                </Marker>
-                        
-                })} */}
-
+                {this._renderPopup()}
                 </ReactMapGL>
                 {/* <Panel/> */}
             </Fragment>
