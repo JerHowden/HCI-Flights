@@ -20,6 +20,7 @@ export default class Map extends Component {
 
             data: jsonData,
             hoveredFeature: null,
+            clickedFeature: null,
             hoverInfo: null,
             apiKey: 'pk.eyJ1IjoiZWxpYXNjbTE3IiwiYSI6ImNrMzR4NmJvdzFhOW8zbXBweXUwcHIwdDYifQ.T_3ZZklfpxf5b8wibfI0ew',
 
@@ -151,26 +152,47 @@ componentDidMount(){
         this.setState({ hoveredFeature });
 
         if(hoveredFeature){
-            console.log(hoveredFeature);
+            // console.log(hoveredFeature);
             hoverInfo = event.lngLat;
             this.setState({ hoverInfo });
         }
 
     };
-
     _renderPopup() {
-        const { hoverInfo , hoveredFeature} = this.state;
+        const { hoverInfo, hoveredFeature } = this.state;
         if (hoverInfo && hoveredFeature) {
             return (
                 <Popup longitude={Object.values(hoverInfo)[0]} latitude={Object.values(hoverInfo)[1]} closeButton={false}>
                     <div className="building info-window">{hoveredFeature.properties.title}</div>
-                    <p>ADD DESCRIPTION OF BUILDINGS HERE</p>                    
+                    <p>ADD DESCRIPTION OF BUILDINGS HERE</p>
                 </Popup>
             );
         }
         return null;
     }
 
+
+    _onClick = event =>{
+
+        const {
+            features,
+            srcEvent: { offsetX, offsetY },
+        } = event;
+
+        const clickedFeature = features && features.find(f => f.layer.id === 'building-fills');
+        this.setState({ clickedFeature });
+
+    }
+
+    _renderSidebar() {
+        const { clickedFeature } = this.state
+
+        if(clickedFeature){
+            return (
+                <Panel title={clickedFeature.properties.title}/>
+            );
+        }
+    }
     
 
     render() {
@@ -191,14 +213,15 @@ componentDidMount(){
                     {...this.state.viewport}
                     onViewportChange={(viewport) => this.setState({ viewport })}
                     onHover={this._onHover}
+                    onClick={this._onClick}
                 >
                 <Source type="geojson" data={this.state.data}>
                     <Layer {...this.state.styleFill}/>
                     <Layer {...this.state.styleOutline}/>
                 </Source>
                 {this._renderPopup()}
+                {this._renderSidebar()}
                 </ReactMapGL>
-                {/* <Panel/> */}
             </Fragment>
         )
     }

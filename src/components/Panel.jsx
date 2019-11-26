@@ -15,6 +15,7 @@ export default class Panel extends Component{
 
     onSetSidebarOpen(open) {
         this.setState({ sidebarOpen: open });
+        console.log(this.state.title)
     }
 
     render() {
@@ -22,24 +23,13 @@ export default class Panel extends Component{
             <Sidebar
                 sidebar={
                     <Fragment>
-                        <b>Title here</b>
-                        <h1>Main Content Here</h1>
-                        <h3> Other stuff here</h3>
-                        <ul>
-                            <li>A</li>
-                            <li>B</li>
-                            <li>C</li>
-                            <li>D</li>
-                        </ul>
+                        <h1>{this.props.title}</h1>
                     </Fragment>
                 }
-                // open={this.state.sidebarOpen}
+                open={this.state.sidebarOpen}
                 onSetOpen={this.onSetSidebarOpen}
                 styles={{ sidebar: { background: "white", width: window.innerWidth*.2} }}
             >
-                <button onClick={() => this.onSetSidebarOpen(true)}>
-                    Open sidebar
-                </button>
             </Sidebar>
         );
     }
