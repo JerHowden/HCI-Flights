@@ -20,12 +20,12 @@ function App() {
 	return (
 		<div className="App">
 			{/* <CssBaseline/> */}
-			<Navigation/>
 			<Router>
+				<Navigation/>
 				<Switch>
-					<Route exact path='/' component={props => <Main {...props}/>} />
-					<Route exact path='/calendar' component={props => <Schedule {...props}/>} />
-					<Route path='/map/:query' component={props => <Map {...props}/>} />
+					<Route exact path='/' render={props => <Main {...props}/>} />
+					<Route path='/calendar' render={props => <Schedule {...props}/>} />
+					<Route path='/map' render={props => <Map {...props}/>} />
 				</Switch>
 			</Router>
 		</div>

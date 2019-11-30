@@ -1,7 +1,33 @@
 #Navigation {
-    background-color: transparent;
+	background-color: transparent;
 }
 
 #Navigation > header {
-    background-color: transparent;
+	background-color: transparent;
+}
+
+#Navigation div {
+	height: 64px;
+}
+
+.navButton {
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-size: 18px;
+	border-radius: 0px !important;
+}
+
+#Navigation a.selected {
+	/* border-bottom: solid white 2px; */
+	/* padding-bottom: 3px; */
+	color: #F00 !important;
+}
+
+.navButton > span {
+	line-height: 0px;
+}
+
+.navButton img {
+	padding-right: 10px;
 }

@@ -11,3 +11,7 @@ html {
 .App, #root {
     background-color: transparent;
 }
+
+a {
+    text-decoration: none !important;
+}

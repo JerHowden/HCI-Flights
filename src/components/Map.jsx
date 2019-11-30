@@ -41,9 +41,9 @@ export default class Map extends Component {
 
             viewport: {
                 width: window.innerWidth, 
-                height: window.innerHeight,
-                latitude: 33.594,
-                longitude: -101.891,
+                height: window.innerHeight - 64,
+                latitude: 33.585509,
+                longitude: -101.882083,
                 zoom: 14,
             },
 
