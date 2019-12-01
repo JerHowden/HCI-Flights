@@ -21,6 +21,8 @@ export default class Panel extends Component{
     render() {
         return (
             <Sidebar
+                rootId="MapSidebarRoot"
+                sidebarId="MapSidebar"
                 sidebar={
                     <Fragment>
                         <h1>{this.props.title}</h1>
@@ -28,8 +30,17 @@ export default class Panel extends Component{
                 }
                 open={this.state.sidebarOpen}
                 onSetOpen={this.onSetSidebarOpen}
-                styles={{ sidebar: { background: "white", width: window.innerWidth*.2} }}
+                styles={{ 
+                    sidebar: { 
+                        backgroundColor: "#353535", 
+                        color: "#FFF", 
+                        width: window.innerWidth*.5 - 32,
+                        zIndex: 20
+                    } 
+                }}
+                pullRight
             >
+                children
             </Sidebar>
         );
     }
