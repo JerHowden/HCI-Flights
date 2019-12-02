@@ -63,7 +63,6 @@ class Map extends Component {
 			styleFill: notHighlighted,
             highlightedFill: highlighted,
             clickedFeature: null,
-            clickedInfo: null,
 
 			selectOption: {},
 			locations: [],
@@ -147,9 +146,7 @@ class Map extends Component {
 		console.log(this.props)
 		if(clickedFeature) {
             let buildingData = this.state.locations.find(loc => loc.label === clickedFeature.properties.title) || "";
-            let clickedInfo = event.lngLat;
-            this.setState({clickedInfo: clickedInfo})
-            console.log(this.state.clickedInfo)
+            
             this.props.history.push('/map/' + buildingData.value)
             console.log('event ', event)
 
