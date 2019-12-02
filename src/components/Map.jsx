@@ -47,6 +47,7 @@ class Map extends Component {
 		super(props)
 
 		this.flyToFeature = this.flyToFeature.bind(this)
+		this.flyToDefault = this.flyToDefault.bind(this)
 
 		this.state = {
 
@@ -55,7 +56,7 @@ class Map extends Component {
 				height: window.innerHeight - 64,
 				latitude: 33.585509,
 				longitude: -101.882083,
-				zoom: 15,
+				zoom: 14.5,
 			},
 
 			apiKey: 'pk.eyJ1IjoiZWxpYXNjbTE3IiwiYSI6ImNrMzR4NmJvdzFhOW8zbXBweXUwcHIwdDYifQ.T_3ZZklfpxf5b8wibfI0ew',
@@ -75,7 +76,8 @@ class Map extends Component {
 	componentDidMount() {
 
 		console.log("Building in url:", !!locations[this.props.match.params.location])
-		this.flyToFeature()
+		if(!!locations[this.props.match.params.location])
+			this.flyToFeature()
 
 		// Load Locations json into state
 		let locs = [];
@@ -91,9 +93,9 @@ class Map extends Component {
 		// console.log("CWRP:", nextProps, this.props)
 		if(nextProps.match.params.location !== this.props.match.params.location) {
 			if(nextProps.match.params.location && locations[nextProps.match.params.location])
-				this.setState({ activeFeature: locations[nextProps.match.params.location], sidebarOpen: true})
+				this.setState({ activeFeature: locations[nextProps.match.params.location], sidebarOpen: true}, () => this.flyToFeature())
 			else
-				this.setState({ activeFeature: null, sidebarOpen: false })
+				this.setState({ activeFeature: null, sidebarOpen: false }, () => this.flyToDefault())
 		}
 	}
 
@@ -156,18 +158,6 @@ class Map extends Component {
             let buildingData = this.state.locations.find(loc => loc.label === clickedFeature.properties.title) || "";
             this.props.history.push('/map/' + buildingData.value)
 
-			// Fly to clicked building
-            var newViewport = {
-                width: window.innerWidth,
-                height: window.innerHeight - 64,
-                latitude: event.lngLat[1],
-                longitude: event.lngLat[0],
-                zoom: 17,
-                transitionDuration: 2000,
-                transitionInterpolator: new FlyToInterpolator(),
-            }
-            this.setState({ viewport: newViewport });
-
 		} else {
 			this.props.history.push('/map')
         }
@@ -176,16 +166,42 @@ class Map extends Component {
         
 	}
 	
-	async flyToFeature() {
+	flyToFeature() {
 
 		if(this.state.activeFeature) {
 
-			console.log("\n\nSTUFF\n", buildings.features.find(f => f.properties.title === this.state.activeFeature.label))
 			// Get Centerpoint
 			let centerpoint = polylabel(buildings.features.find(f => f.properties.title === this.state.activeFeature.label).geometry.coordinates, 1.0)
-
-			console.log("Centerpoint", centerpoint)
+			
+			// Fly to Centerpoint
+            var newViewport = {
+                width: window.innerWidth,
+                height: window.innerHeight - 64,
+                latitude: centerpoint[1],
+                longitude: centerpoint[0],
+                zoom: 17,
+                transitionDuration: 2000,
+                transitionInterpolator: new FlyToInterpolator(),
+            }
+			this.setState({ viewport: newViewport });
+			
 		}
+
+	}
+
+	flyToDefault() {
+
+		// Fly to default
+		var newViewport = {
+			width: window.innerWidth, 
+			height: window.innerHeight - 64,
+			latitude: 33.585509,
+			longitude: -101.882083,
+			zoom: 14.5,
+			transitionDuration: 2000,
+			transitionInterpolator: new FlyToInterpolator(),
+		}
+		this.setState({ viewport: newViewport });
 
 	}
 
