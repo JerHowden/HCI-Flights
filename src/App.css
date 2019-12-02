@@ -1,7 +1,12 @@
 html { 
     /* background: url(http://www.depts.ttu.edu/transtech/images/TTU.jpg) no-repeat center center fixed; */
     /* background: url(https://i.pinimg.com/originals/0d/bc/2b/0dbc2bf05bc4ca775041239ba86eccfd.jpg) no-repeat center center fixed; */
-    background: url(/admin-tower-high.JPG) no-repeat center center fixed;
+    
+    /* Dev */
+    /* background: url(/admin-tower-high.JPG) no-repeat center center fixed; */
+    /* Prod */
+    background: url(/TexasTechFreshmanGuide/admin-tower-high.JPG) no-repeat center center fixed;
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
