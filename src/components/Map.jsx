@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react'
 
 import { Link, Redirect, withRouter } from 'react-router-dom'
-import ReactMapGL, { Popup, Source, Layer, Marker } from 'react-map-gl'
+import ReactMapGL, { Popup, Source, Layer, Marker, FlyToInterpolator } from 'react-map-gl'
 import Select from 'react-select'
 import { Chip } from '@material-ui/core'
 
@@ -51,7 +51,7 @@ class Map extends Component {
 				height: window.innerHeight - 64,
 				latitude: 33.585509,
 				longitude: -101.882083,
-				zoom: 14,
+				zoom: 15,
 			},
 
 			filter: ['in', 'BUILDING', ''],
@@ -61,7 +61,9 @@ class Map extends Component {
 			hoverInfo: null,
 			apiKey: 'pk.eyJ1IjoiZWxpYXNjbTE3IiwiYSI6ImNrMzR4NmJvdzFhOW8zbXBweXUwcHIwdDYifQ.T_3ZZklfpxf5b8wibfI0ew',
 			styleFill: notHighlighted,
-			highlightedFill: highlighted,
+            highlightedFill: highlighted,
+            clickedFeature: null,
+            clickedInfo: null,
 
 			selectOption: {},
 			locations: [],
@@ -110,13 +112,10 @@ class Map extends Component {
 		// const building = event.features[0]
 		if(hoveredFeature){
 			// console.log(hoveredFeature);
-			console.log(event)
+			// console.log(event)
 			buildingName = event.features[0].properties.title;
 			hoverInfo = event.lngLat;
-			this.setState({ 
-				hoverInfo,
-				filter: ['in', 'title', buildingName]
-			});
+			this.setState({ hoverInfo });
 		}
 
 	};
@@ -136,23 +135,43 @@ class Map extends Component {
 
 	_onClick = event => {
 
+        // const { hoverInfo } = this.state;
 		const {
 			features,
 			srcEvent: { offsetX, offsetY },
 		} = event;
 
-		const clickedFeature = features && features.find(f => f.layer.id === 'building-fills');
+        const clickedFeature = features && features.find(f => f.layer.id === 'building-fills');
+        this.setState({clickedFeature})
+        
 		console.log(this.props)
 		if(clickedFeature) {
-			let buildingData = this.state.locations.find(loc => loc.label === clickedFeature.properties.title) || "";
-			this.props.history.push('/map/' + buildingData.value)
+            let buildingData = this.state.locations.find(loc => loc.label === clickedFeature.properties.title) || "";
+            let clickedInfo = event.lngLat;
+            this.setState({clickedInfo: clickedInfo})
+            console.log(this.state.clickedInfo)
+            this.props.history.push('/map/' + buildingData.value)
+            console.log('event ', event)
+
+            var newViewport = {
+                width: window.innerWidth,
+                height: window.innerHeight - 64,
+                latitude: event.lngLat[1],
+                longitude: event.lngLat[0],
+                zoom: 17,
+                transitionDuration: 2000,
+                transitionInterpolator: new FlyToInterpolator(),
+            }
+
+            this.setState({ viewport: newViewport });
+
 		} else {
 			this.props.history.push('/map')
-		}
+        }
 		
-		console.log(this.props)
-
-	}
+        console.log(this.props)
+        
+    }
 
 	_renderSidebar() {
 

@@ -32,7 +32,8 @@ export default class Panel extends Component{
                     sidebar: { 
                         backgroundColor: "#353535", 
                         color: "#FFF", 
-                        width: window.innerWidth*.5 - 32,
+                        // width: window.innerWidth*.5 - 32,
+                        width: window.innerWidth*.3-32,
                         zIndex: 20,
                         overflowX: "hidden"
                     } 
