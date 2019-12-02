@@ -54,18 +54,16 @@ class Map extends Component {
 				zoom: 15,
 			},
 
+			apiKey: 'pk.eyJ1IjoiZWxpYXNjbTE3IiwiYSI6ImNrMzR4NmJvdzFhOW8zbXBweXUwcHIwdDYifQ.T_3ZZklfpxf5b8wibfI0ew',
+			styleFill: notHighlighted,
+			highlightedFill: highlighted,
 			filter: ['in', 'BUILDING', ''],
 			data: jsonData,
 			hoveredFeature: null,
-			activeFeature: locations[this.props.match.params.location],
 			hoverInfo: null,
-			apiKey: 'pk.eyJ1IjoiZWxpYXNjbTE3IiwiYSI6ImNrMzR4NmJvdzFhOW8zbXBweXUwcHIwdDYifQ.T_3ZZklfpxf5b8wibfI0ew',
-			styleFill: notHighlighted,
-            highlightedFill: highlighted,
-            clickedFeature: null,
-            clickedInfo: null,
+			activeFeature: locations[this.props.match.params.location],
+			sidebarOpen: !!locations[this.props.match.params.location],
 
-			selectOption: {},
 			locations: [],
 
 		}
@@ -73,14 +71,16 @@ class Map extends Component {
 
 	componentDidMount() {
 
+		console.log("Building in url:", !!locations[this.props.match.params.location])
+
 		// Load Locations json into state
 		let locs = [];
 		for(let i in locations) {
 			locations[i].value = i
 			locs.push(locations[i])
 		}
-		console.log(locations, locs, this.props, jsonData)
-		this.setState({ locations: locs }, () => console.log("Locations:", this.state.locations))
+		// console.log(locations, locs, this.props, jsonData)
+		this.setState({ locations: locs })
 
 		// Check if location parameter matches a building
 		// if(this.props.match.params.location && locations[this.props.match.params.location]) {
@@ -91,8 +91,12 @@ class Map extends Component {
 	}
 
 	componentWillReceiveProps(nextProps) {
+		// console.log("CWRP:", nextProps, this.props)
 		if(nextProps.match.params.location !== this.props.match.params.location) {
-			this.setState({ activeFeature: locations[nextProps.match.params.location] || null })
+			if(nextProps.match.params.location && locations[nextProps.match.params.location])
+				this.setState({ activeFeature: locations[nextProps.match.params.location], sidebarOpen: true})
+			else
+				this.setState({ activeFeature: null, sidebarOpen: false })
 		}
 	}
 
@@ -124,8 +128,7 @@ class Map extends Component {
 		if (hoverInfo && hoveredFeature) {
 			return (
 				<Popup longitude={Object.values(hoverInfo)[0]} latitude={Object.values(hoverInfo)[1]} closeButton={false}>
-					<div className="building info-window">{hoveredFeature.properties.title}</div>
-					<p>ADD DESCRIPTION OF BUILDINGS HERE</p>
+					<h3 className="building info-window">{hoveredFeature.properties.title}</h3>
 				</Popup>
 			);
 		}
@@ -141,18 +144,15 @@ class Map extends Component {
 			srcEvent: { offsetX, offsetY },
 		} = event;
 
+		// Find clicked building
         const clickedFeature = features && features.find(f => f.layer.id === 'building-fills');
-        this.setState({clickedFeature})
         
-		console.log(this.props)
 		if(clickedFeature) {
+			// If clicked on building, link to that building
             let buildingData = this.state.locations.find(loc => loc.label === clickedFeature.properties.title) || "";
-            let clickedInfo = event.lngLat;
-            this.setState({clickedInfo: clickedInfo})
-            console.log(this.state.clickedInfo)
             this.props.history.push('/map/' + buildingData.value)
-            console.log('event ', event)
 
+			// Fly to clicked building
             var newViewport = {
                 width: window.innerWidth,
                 height: window.innerHeight - 64,
@@ -162,7 +162,6 @@ class Map extends Component {
                 transitionDuration: 2000,
                 transitionInterpolator: new FlyToInterpolator(),
             }
-
             this.setState({ viewport: newViewport });
 
 		} else {
@@ -194,10 +193,12 @@ class Map extends Component {
 					defaultValue={this.props.match.params.location ? 
 						locations[Object.keys(locations).find(key => key.toLowerCase() === this.props.match.params.location.toLowerCase())] || null
 					: null}
+					value={this.state.activeFeature}
 					filterOption={(option, searchText) => {
 						console.log(option)
 						if( option.label.toLowerCase().includes(searchText.toLowerCase()) ||
 							option.value.toLowerCase().includes(searchText.toLowerCase()) ||
+							option.data.code.includes(searchText) ||
 							option.data.tags.some(tag => tag.includes(searchText.toLowerCase())) ) 
 							return true 
 						else 
@@ -236,7 +237,10 @@ class Map extends Component {
 					<Layer {...this.state.highlightedFill} filter={this.state.filter}/>
 				</Source>
 				{this._renderPopup()}
-				{this._renderSidebar()}
+				<Panel
+					data={this.state.activeFeature}
+					open={this.state.sidebarOpen}
+				/>
 				</ReactMapGL>
 			</Fragment>
 		)
