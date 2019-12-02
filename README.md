@@ -2,10 +2,10 @@
 
 <dl>
     <dt>Group 18</dt>
-    <dd>[Jeremiah Howden](https://github.com/JerHowden)</dd>
-    <dd>[Elias Moreno](https://github.com/Eliascm17)</dd>
+    <dd>Jeremiah Howden</dd>
+    <dd>Elias Moreno</dd>
     <dt>Links</dt>
-    <dd>[Demo](https://jerhowden.github.io/TexasTechResourceGuide)</dd>
+    <dd>https://jerhowden.github.io/TexasTechResourceGuide</dd>
 </dl>
 
 ## User Feedback
@@ -24,25 +24,25 @@
         <th>Person</th><th>Time</th><th>Building</th>
     </tr>
     <tr>
-        <td>______<td><td>__ : __</td><td>______</td>
+        <td>______</td><td>__ : __</td><td>______</td>
     </tr>
     <tr>
-        <td>______<td><td>__ : __</td><td>______</td>
+        <td>______</td><td>__ : __</td><td>______</td>
     </tr>
     <tr>
-        <td>______<td><td>__ : __</td><td>______</td>
+        <td>______</td><td>__ : __</td><td>______</td>
     </tr>
     <tr>
-        <td>______<td><td>__ : __</td><td>______</td>
+        <td>______</td><td>__ : __</td><td>______</td>
     </tr>
     <tr>
-        <td>______<td><td>__ : __</td><td>______</td>
+        <td>______</td><td>__ : __</td><td>______</td>
     </tr>
     <tr>
-        <td>______<td><td>__ : __</td><td>______</td>
+        <td>______</td><td>__ : __</td><td>______</td>
     </tr>
     <tr>
-        <td>______<td><td>__ : __</td><td>______</td>
+        <td>______</td><td>__ : __</td><td>______</td>
     </tr>
 </table>
 
