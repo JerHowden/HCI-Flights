@@ -4,9 +4,10 @@ import { Link, Redirect, withRouter } from 'react-router-dom'
 import ReactMapGL, { Popup, Source, Layer, Marker, FlyToInterpolator } from 'react-map-gl'
 import Select from 'react-select'
 import { Chip } from '@material-ui/core'
+import polylabel from '@mapbox/polylabel'
 
 import 'mapbox-gl/dist/mapbox-gl.css'
-import jsonData from '../data/Buildings.geojson'
+import buildings from '../data/Buildings.json'
 import locations from '../data/locations.json'
 import Panel from './Panel'
 import './Map.css'
@@ -40,6 +41,7 @@ const highlighted = {
 		// "fill-outline-color": "#fcba03",
 	}
 }
+
 class Map extends Component {
 	constructor(props) {
 		super(props)
@@ -59,8 +61,7 @@ class Map extends Component {
 			apiKey: 'pk.eyJ1IjoiZWxpYXNjbTE3IiwiYSI6ImNrMzR4NmJvdzFhOW8zbXBweXUwcHIwdDYifQ.T_3ZZklfpxf5b8wibfI0ew',
 			styleFill: notHighlighted,
 			highlightedFill: highlighted,
-			filter: ['in', 'BUILDING', ''],
-			data: jsonData,
+
 			hoveredFeature: null,
 			hoverInfo: null,
 			activeFeature: locations[this.props.match.params.location],
@@ -74,6 +75,7 @@ class Map extends Component {
 	componentDidMount() {
 
 		console.log("Building in url:", !!locations[this.props.match.params.location])
+		this.flyToFeature()
 
 		// Load Locations json into state
 		let locs = [];
@@ -81,14 +83,7 @@ class Map extends Component {
 			locations[i].value = i
 			locs.push(locations[i])
 		}
-		// console.log(locations, locs, this.props, jsonData)
 		this.setState({ locations: locs })
-
-		// Check if location parameter matches a building
-		// if(this.props.match.params.location && locations[this.props.match.params.location]) {
-		// 	let activeFeature = jsonData.features.find(f => f.properties.title === locations[this.props.match.params.location].label)
-		// 	this.setState({ activeFeature })
-		// }
 
 	}
 
@@ -181,7 +176,16 @@ class Map extends Component {
         
 	}
 	
-	flyToFeature() {
+	async flyToFeature() {
+
+		if(this.state.activeFeature) {
+
+			console.log("\n\nSTUFF\n", buildings.features.find(f => f.properties.title === this.state.activeFeature.label))
+			// Get Centerpoint
+			let centerpoint = polylabel(buildings.features.find(f => f.properties.title === this.state.activeFeature.label).geometry.coordinates, 1.0)
+
+			console.log("Centerpoint", centerpoint)
+		}
 
 	}
 
@@ -232,9 +236,8 @@ class Map extends Component {
 					onViewportChange={(viewport) => this.setState({ viewport })}
 					onHover={this._onHover}
 					onClick={this._onClick}
-					// style={{pointerEvents: }}
 				>
-				<Source type="geojson" data={this.state.data}>
+				<Source type="geojson" data={buildings}>
 					<Layer {...this.state.styleFill}/>
 					<Layer {...this.state.highlightedFill} filter={this.state.filter}/>
 				</Source>
