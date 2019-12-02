@@ -20,7 +20,7 @@ function App() {
 	return (
 		<div className="App">
 			{/* <CssBaseline/> */}
-			<Router>
+			<Router basename="/TexasTechFreshmanGuide">
 				<Navigation/>
 				<Switch>
 					<Route exact path='/' render={props => <Main {...props}/>} />
