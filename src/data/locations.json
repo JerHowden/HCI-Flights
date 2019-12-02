@@ -287,11 +287,13 @@
 		],
         "description": "The facility houses research projects as well as teaching materials for various Department of Biological Sciences classes."
     },
-	"Bledsoe_Residence_Hall": {
-        "label": "Bledsoe Residence Hall",
+	"Gordon_Bledsoe_Residence_Hall": {
+        "label": "Gordon/Bledsoe Residence Hall",
 		"code": "",
 		"tags": [
-			"mens",
+            "coed",
+            "suite",
+            "mens",
             "residence",
             "food",
             "engineering"
@@ -299,6 +301,11 @@
         "image": "http://www.ttu.edu/map/images/bledsoe.jpg",
 		"links": [
 			{
+				"icon": "home",
+				"label": "Gordon Homepage",
+				"link": "https://www.depts.ttu.edu/housing/halls/gordon.php"
+            },
+            {
 				"icon": "home",
 				"label": "Bledsoe Homepage",
 				"link": "https://www.depts.ttu.edu/housing/halls/bledsoe.php"
@@ -310,14 +317,19 @@
             },
             {
                 "icon": "cube",
-                "label": "Floor Plan",
+                "label": "Gordon Floor Plan",
+                "link": "https://www.depts.ttu.edu/housing/documents/halls/gordonFloorPlan.pdf"
+            },
+            {
+                "icon": "cube",
+                "label": "Bledsoe Floor Plan",
                 "link": "https://www.depts.ttu.edu/housing/documents/halls/bledsoeFloorPlan.pdf"
             }
 		],
-        "description": "Bledsoe Hall is a residence hall for men. It is home to the Engineering Success Learning Community."
+        "description": "Gordon Hall is a coed, suite-style residence hall located on the northeast side of campus. Students in the hall share a suite with students of the same gender only. A furnished living room sits between two bedroom units. Each fully furnished bedroom unit accommodates one to two students and includes a vanity area and private bathroom.\nBledsoe Hall is a residence hall for men. It is home to the Engineering Success Learning Community."
     },
 	"Burkhart_Center_for_Autism_Education_and_Research": {
-        "label": "Burkhart Center for Autism Education and Research",
+        "label": "Burkhart Center for Autism Education & Research",
 		"code": "",
 		"tags": [
 			"research"
@@ -331,31 +343,6 @@
             }
 		],
         "description": "The Burkhart Center for Autism Education and Research, named for Jim and Jere Lynn Burkhart who have made significant contributions to the establishment and mission of the Center, officially opened in October of 2005."
-    },
-	"CASNR_Annex": {
-        "label": "CASNR Annex",
-		"code": "CASNR",
-		"tags": [
-			"staff",
-            "classes",
-            "labs",
-            "landscape",
-            "wildlife"
-        ],
-        "image": "http://www.ttu.edu/map/images/lrcrwf.jpg",
-		"links": [
-            {
-                "icon": "home",
-                "label": "CASNR Homepage",
-                "link": "https://www.depts.ttu.edu/agriculturalsciences/"
-            },
-            {
-				"icon": "building",
-				"label": "CASNR Annex Building",
-				"link": "https://www.depts.ttu.edu/agriculturalsciences/About/facilities/factsheet/annex.php"
-            }
-		],
-        "description": "The building is home to offices, labs and classrooms for the Departments of Landscape Architecture and Range & Wildlife Management."
     },
 	"Carpenter/Wells_Complex": {
         "label": "Carpenter/Wells Complex",
@@ -510,8 +497,8 @@
 		],
         "description": "A part of the College of Human Sciences, the facility houses programs and offices for the Early Childhood specialization in the Department of Human Development and Family Studies."
     },
-	"Chitwood_Residence_Hall": {
-        "label": "Chitwood Residence Hall",
+	"Chitwood_Weymouth_Residence_Hall": {
+        "label": "Chitwood/Weymouth Residence Hall",
 		"code": "",
 		"tags": [
 			"residence",
@@ -529,12 +516,22 @@
 				"link": "https://www.depts.ttu.edu/housing/halls/chitwood.php"
             },
             {
+				"icon": "home",
+				"label": "Weymouth Hall Homepage",
+				"link": "https://www.depts.ttu.edu/housing/halls/weymouth.php"
+            },
+            {
                 "icon": "cube",
-                "label": "Floor Plan",
+                "label": "Chitwood Floor Plan",
                 "link": "https://www.depts.ttu.edu/housing/documents/halls/chitwoodFloorPlan.pdf"
+            },
+            {
+                "icon": "cube",
+                "label": "Weymouth Floor Plan",
+                "link": "https://www.depts.ttu.edu/housing/documents/halls/weymouthFloorPlan.pdf"
             }
 		],
-        "description": "Chitwood Hall is a co-ed, built-in furniture residence hall. The First Year Success (FYS) Learning Community is located on the southwest side of campus near the College of Architecture and the Law School, and is only available to incoming freshman. Features of the hall include a TV lounge, and access to the new Chitwood/Weymouth Learning Center. Limitless laundry lounges are available for all residents."
+        "description": "Chitwood/Weymouth Hall is a co-ed, built-in furniture residence hall. The First Year Success (FYS) Learning Community is located on the southwest side of campus near the College of Architecture and the Law School, and is only available to incoming freshman. Features of the hall include a TV lounge, and access to the new Chitwood/Weymouth Learning Center. Limitless laundry lounges are available for all residents."
     },
 	"Civil_Engineering": {
         "label": "Civil Engineering",
@@ -585,8 +582,8 @@
 		],
         "description": "The building is home to the Department of Classical & Modern Languages & Literatures classrooms, labs and offices."
     },
-	"Clement_Residence_Hall": {
-        "label": "Clement Residence Hall",
+	"Hulen_Clement_Residence_Hall": {
+        "label": "Hulen/Clement Residence Hall",
 		"code": "",
 		"tags": [
 			"coed",
@@ -595,6 +592,11 @@
         ],
         "image": "http://www.ttu.edu/map/images/hulenclem.jpg",
 		"links": [
+            {
+				"icon": "home",
+				"label": "Hulen Hall Homepage",
+				"link": "https://www.depts.ttu.edu/housing/halls/hulen.php"
+            },
 			{
 				"icon": "home",
 				"label": "Clement Hall Homepage",
@@ -602,11 +604,16 @@
             },
             {
                 "icon": "cube",
-                "label": "Floor Plan",
+                "label": "Hulen Floor Plan",
+                "link": "https://www.depts.ttu.edu/housing/documents/halls/hulenFloorPlan.pdf"
+            },
+            {
+                "icon": "cube",
+                "label": "Clement Floor Plan",
                 "link": "https://www.depts.ttu.edu/housing/documents/halls/clementFloorPlan.pdf"
             }
 		],
-        "description": "Clement Hall is a coed, built-in furniture residence hall. The Architecture and Design Learning Community is located in Clement Hall, near the College of Architecture, English, Philosophy, and Education buildings. Men and women live on alternating floors. This residence hall offers lounges and study rooms for the convenience of residents. Special studio lounges are available to students in the Architecture and Design Learning Community. Limitless laundry lounges are available for all residents."
+        "description": "Hulen/Clement Hall is a coed, built-in furniture residence hall. The Architecture and Design Learning Community is located in Clement Hall, near the College of Architecture, English, Philosophy, and Education buildings. Men and women live on alternating floors. This residence hall offers lounges and study rooms for the convenience of residents. Special studio lounges are available to students in the Architecture and Design Learning Community. Limitless laundry lounges are available for all residents."
     },
 	"Coleman_Residence_Hall": {
         "label": "Coleman Residence Hall",
@@ -631,17 +638,6 @@
             }
 		],
         "description": "Coleman Hall is a coed, built-in furniture residence hall. The Global TECHsans Learning Community is located in Coleman Hall on the southwest side of campus near the College of Architecture and the Law School. Men and women live on alternating floors. Features of the hall include a TV lounge, a computer lab, and several floor lounges. Limitless laundry lounges are available for all residents."
-    },
-	"Computer_Center": {
-        "label": "Computer Center",
-		"code": "",
-		"tags": [
-			"staff",
-			"computing"
-        ],
-        "image": "http://www.ttu.edu/map/images/compctr.jpg",
-		"links": [],
-        "description": "The Computer Center houses computing facilities for the university."
     },
 	"Creative_Movement_Studio": {
         "label": "Creative Movement Studio",
@@ -896,28 +892,6 @@
 		],
         "description": ""
     },
-	"Engineering_Center": {
-        "label": "",
-		"code": "",
-		"tags": [
-			"",
-			""
-        ],
-        "image": "",
-		"links": [
-			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
-            }
-		],
-        "description": ""
-    },
 	"English_&_Philosophy": {
         "label": "",
 		"code": "",
@@ -1117,28 +1091,6 @@
         "description": ""
     },
 	"Goddard_Range_&_Wildlife_Management": {
-        "label": "",
-		"code": "",
-		"tags": [
-			"",
-			""
-        ],
-        "image": "",
-		"links": [
-			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
-            }
-		],
-        "description": ""
-    },
-	"Gordon_Residence_Hall": {
         "label": "",
 		"code": "",
 		"tags": [

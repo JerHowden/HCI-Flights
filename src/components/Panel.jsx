@@ -1,5 +1,9 @@
-import React, { Component, Fragment } from "react";
-import Sidebar from "react-sidebar";
+import React, { Component, Fragment } from "react"
+
+import { Chip, Avatar } from '@material-ui/core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Sidebar from "react-sidebar"
+
 import './Panel.css'
 
 export default class Panel extends Component{
@@ -15,7 +19,6 @@ export default class Panel extends Component{
 
     onSetSidebarOpen(open) {
         this.setState({ sidebarOpen: open });
-        console.log(this.state.title)
     }
 
     render() {
@@ -23,11 +26,6 @@ export default class Panel extends Component{
             <Sidebar
                 rootId="MapSidebarRoot"
                 sidebarId="MapSidebar"
-                sidebar={
-                    <Fragment>
-                        <h1>{this.props.title}</h1>
-                    </Fragment>
-                }
                 open={this.state.sidebarOpen}
                 onSetOpen={this.onSetSidebarOpen}
                 styles={{ 
@@ -35,12 +33,35 @@ export default class Panel extends Component{
                         backgroundColor: "#353535", 
                         color: "#FFF", 
                         width: window.innerWidth*.5 - 32,
-                        zIndex: 20
+                        zIndex: 20,
+                        overflowX: "hidden"
                     } 
                 }}
                 pullRight
+
+                sidebar={this.props.data ? 
+                    <div id="SidebarData">
+                        <img src={this.props.data.image} width={window.innerWidth*.5 - 32}/>
+                        <h1>
+                            {this.props.data.label}
+                            {this.props.data.code ? 
+                                <Chip variant="outlined" label={this.props.data.code} size="small" style={{marginLeft: "8px", color: "#CACACA"}} /> 
+                            : ""}
+                        </h1>
+                        <div>
+                            {this.props.data.links.map(link => 
+                                <a href={link.link} title={link.label} target="_blank" style={{ display: "inline-block", marginRight: "8px", marginBottom: "6px"}}>
+                                    <Avatar style={{backgroundColor: "#2D2D2D"}}>
+                                        <FontAwesomeIcon icon={link.icon} />
+                                    </Avatar>
+                                </a>
+                            )}
+                        </div>
+                        <p>{this.props.data.description}</p>
+                    </div>
+                : ""}
             >
-                children
+                
             </Sidebar>
         );
     }

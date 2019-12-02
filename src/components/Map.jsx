@@ -1,7 +1,9 @@
 import React, { Component, Fragment } from 'react'
 
+import { Link, Redirect, withRouter } from 'react-router-dom'
 import ReactMapGL, { Popup, Source, Layer, Marker } from 'react-map-gl'
 import Select from 'react-select'
+import { Chip } from '@material-ui/core'
 
 import 'mapbox-gl/dist/mapbox-gl.css'
 import jsonData from '../data/Buildings.geojson'
@@ -38,7 +40,7 @@ const highlighted = {
 		// "fill-outline-color": "#fcba03",
 	}
 }
-export default class Map extends Component {
+class Map extends Component {
 	constructor(props) {
 		super(props)
 
@@ -55,7 +57,7 @@ export default class Map extends Component {
 			filter: ['in', 'BUILDING', ''],
 			data: jsonData,
 			hoveredFeature: null,
-			activeFeature: null,
+			activeFeature: locations[this.props.match.params.location],
 			hoverInfo: null,
 			apiKey: 'pk.eyJ1IjoiZWxpYXNjbTE3IiwiYSI6ImNrMzR4NmJvdzFhOW8zbXBweXUwcHIwdDYifQ.T_3ZZklfpxf5b8wibfI0ew',
 			styleFill: notHighlighted,
@@ -75,15 +77,21 @@ export default class Map extends Component {
 			locations[i].value = i
 			locs.push(locations[i])
 		}
-		console.log(locations, locs, this.props)
+		console.log(locations, locs, this.props, jsonData)
 		this.setState({ locations: locs }, () => console.log("Locations:", this.state.locations))
 
-		// Check if search query parameter matches a building
-		if(this.props.match.params.search && locs.some(loc => loc.value.toLowerCase() === this.props.match.params.search.toLowerCase())) {
-			let activeFeature;
-			// We want to "click" wherever this building is
-		}
+		// Check if location parameter matches a building
+		// if(this.props.match.params.location && locations[this.props.match.params.location]) {
+		// 	let activeFeature = jsonData.features.find(f => f.properties.title === locations[this.props.match.params.location].label)
+		// 	this.setState({ activeFeature })
+		// }
 
+	}
+
+	componentWillReceiveProps(nextProps) {
+		if(nextProps.match.params.location !== this.props.match.params.location) {
+			this.setState({ activeFeature: locations[nextProps.match.params.location] || null })
+		}
 	}
 
 	_onHover = event => {
@@ -133,17 +141,26 @@ export default class Map extends Component {
 			srcEvent: { offsetX, offsetY },
 		} = event;
 
-		const activeFeature = features && features.find(f => f.layer.id === 'building-fills');
-		this.setState({ activeFeature });
+		const clickedFeature = features && features.find(f => f.layer.id === 'building-fills');
+		console.log(this.props)
+		if(clickedFeature) {
+			let buildingData = this.state.locations.find(loc => loc.label === clickedFeature.properties.title) || "";
+			this.props.history.push('/map/' + buildingData.value)
+		} else {
+			this.props.history.push('/map')
+		}
+		
+		console.log(this.props)
 
 	}
 
 	_renderSidebar() {
-		const { activeFeature } = this.state
 
-		if(activeFeature){
+		if(this.state.activeFeature){
 			return (
-				<Panel title={activeFeature.properties.title}/>
+				<Panel
+					data={this.state.activeFeature}
+				/>
 			);
 		}
 	}
@@ -155,8 +172,9 @@ export default class Map extends Component {
 				<Select
 					id="MapSelect"
 					options={this.state.locations}
-					defaultInputValue={this.props.match.params.search || ""}
-					defaultMenuIsOpen={this.props.match.params.search}
+					defaultValue={this.props.match.params.location ? 
+						locations[Object.keys(locations).find(key => key.toLowerCase() === this.props.match.params.location.toLowerCase())] || null
+					: null}
 					filterOption={(option, searchText) => {
 						console.log(option)
 						if( option.label.toLowerCase().includes(searchText.toLowerCase()) ||
@@ -166,6 +184,22 @@ export default class Map extends Component {
 						else 
 							return false
 					}}
+					formatOptionLabel={({ value, label, code }) => (
+						<Link to={'/map/' + value}>
+							<div style={{ display: "flex", color: "#353535" }}>
+								<div>{label}</div>
+								{code ? 
+									<div style={{ marginLeft: "8px"}}>
+										<Chip 
+											variant='outlined' 
+											label={code}
+											size='small'
+										/>
+									</div>
+								: ""}
+							</div>
+						</Link>
+					)}
 				/>
 				<ReactMapGL 
 					ref={(reactMap) => this.reactMap = reactMap}
@@ -189,3 +223,5 @@ export default class Map extends Component {
 		)
 	}
 }
+
+export default withRouter(Map)

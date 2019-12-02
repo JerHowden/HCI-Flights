@@ -5,3 +5,7 @@
     left: 16px;
     z-index: 2;
 }
+
+#MapSelect:hover {
+    border-color: red;
+}

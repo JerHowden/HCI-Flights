@@ -25,7 +25,7 @@ function App() {
 				<Switch>
 					<Route exact path='/' render={props => <Main {...props}/>} />
 					<Route path='/calendar' render={props => <Schedule {...props}/>} />
-					<Route path='/map/:search?' render={props => <Map {...props}/>} />
+					<Route path='/map/:location?' render={props => <Map {...props}/>} />
 				</Switch>
 			</Router>
 		</div>
