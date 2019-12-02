@@ -44,6 +44,8 @@ class Map extends Component {
 	constructor(props) {
 		super(props)
 
+		this.flyToFeature = this.flyToFeature.bind(this)
+
 		this.state = {
 
 			viewport: {
@@ -102,6 +104,11 @@ class Map extends Component {
 
 	_onHover = event => {
 
+		if(this.state.sidebarOpen && event.center.x > 0.7 * window.innerWidth) {
+			if(this.state.hoveredFeature)
+				this.setState({ hoveredFeature: null })
+			return
+		}
 		let hoverInfo = null;
 		let buildingName = '';
 		const {
@@ -123,20 +130,22 @@ class Map extends Component {
 		}
 
 	};
+
 	_renderPopup() {
 		const { hoverInfo, hoveredFeature } = this.state;
 		if (hoverInfo && hoveredFeature) {
 			return (
 				<Popup longitude={Object.values(hoverInfo)[0]} latitude={Object.values(hoverInfo)[1]} closeButton={false}>
-					<h3 className="building info-window">{hoveredFeature.properties.title}</h3>
+					<h4 className="building info-window">{hoveredFeature.properties.title}</h4>
 				</Popup>
 			);
 		}
 		return null;
 	}
 
-
 	_onClick = event => {
+
+		if(this.state.sidebarOpen && event.center.x > 0.7 * window.innerWidth) return;
 
         // const { hoverInfo } = this.state;
 		const {
@@ -170,19 +179,11 @@ class Map extends Component {
 		
         console.log(this.props)
         
-    }
-
-	_renderSidebar() {
-
-		if(this.state.activeFeature){
-			return (
-				<Panel
-					data={this.state.activeFeature}
-				/>
-			);
-		}
 	}
 	
+	flyToFeature() {
+
+	}
 
 	render() {
 		return (
@@ -231,6 +232,7 @@ class Map extends Component {
 					onViewportChange={(viewport) => this.setState({ viewport })}
 					onHover={this._onHover}
 					onClick={this._onClick}
+					// style={{pointerEvents: }}
 				>
 				<Source type="geojson" data={this.state.data}>
 					<Layer {...this.state.styleFill}/>

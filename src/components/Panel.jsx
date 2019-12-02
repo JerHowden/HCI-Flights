@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from "react"
 
+import { Link } from 'react-router-dom'
 import { Chip, Avatar } from '@material-ui/core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Sidebar from "react-sidebar"
@@ -48,13 +49,32 @@ export default class Panel extends Component{
                                 : ""}
                             </h1>
                             <div>
-                                {this.props.data.links.map(link => 
-                                    <a href={link.link} key={link.label} title={link.label} target="_blank" rel="noopener noreferrer" style={{ display: "inline-block", marginRight: "8px", marginBottom: "6px"}}>
-                                        <Avatar style={{backgroundColor: "#2D2D2D"}}>
-                                            <FontAwesomeIcon icon={link.icon} />
-                                        </Avatar>
-                                    </a>
-                                )}
+                                {this.props.data.links.map(link => {
+                                    if(link.link[0] === "/") {
+                                        return(
+                                            <Link to={link.link} key={link.label} title={link.label} style={{ display: "inline-block", marginRight: "8px", marginBottom: "6px"}}>
+                                                <Avatar style={{backgroundColor: "#2D2D2D"}}>
+                                                    <FontAwesomeIcon icon={link.icon} />
+                                                </Avatar>
+                                            </Link>
+                                        )
+                                    } else {
+                                        return(
+                                            <a 
+                                                href={link.link} 
+                                                key={link.label} 
+                                                title={link.label} 
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                style={{ display: "inline-block", marginRight: "8px", marginBottom: "6px"}}
+                                            >
+                                                <Avatar style={{backgroundColor: "#2D2D2D"}}>
+                                                    <FontAwesomeIcon icon={link.icon} />
+                                                </Avatar>
+                                            </a>
+                                        )
+                                    }
+                                })}
                             </div>
                             <p>{this.props.data.description}</p>
                         </div>
