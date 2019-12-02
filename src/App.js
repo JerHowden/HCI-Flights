@@ -20,7 +20,7 @@ function App() {
 	return (
 		<div className="App">
 			{/* <CssBaseline/> */}
-			<Router basename="/TexasTechFreshmanGuide">
+			<Router basename={process.env.PUBLIC_URL}>
 				<Navigation/>
 				<Switch>
 					<Route exact path='/' render={props => <Main {...props}/>} />

@@ -5,7 +5,7 @@
     <dd>Jeremiah Howden</dd>
     <dd>Elias Moreno</dd>
     <dt>Links</dt>
-    <dd>https://jerhowden.github.io/TexasTechResourceGuide</dd>
+    <dd>https://jerhowden.github.io/TexasTechFreshmanGuide</dd>
 </dl>
 
 ## User Feedback
@@ -21,28 +21,28 @@
 
 <table>
     <tr>
-        <th>Person</th><th>Time</th><th>Building</th>
+        <th>Person</th><th>Time (s)</th><th>Building</th>
     </tr>
     <tr>
-        <td>______</td><td>__ : __</td><td>______</td>
+        <td>______</td><td>______</td><td>Administration</td>
     </tr>
     <tr>
-        <td>______</td><td>__ : __</td><td>______</td>
+        <td>______</td><td>______</td><td>Agricultural Education</td>
     </tr>
     <tr>
-        <td>______</td><td>__ : __</td><td>______</td>
+        <td>______</td><td>______</td><td>Animal & Food Sciences</td>
     </tr>
     <tr>
-        <td>______</td><td>__ : __</td><td>______</td>
+        <td>______</td><td>______</td><td>Architecture</td>
     </tr>
     <tr>
-        <td>______</td><td>__ : __</td><td>______</td>
+        <td>______</td><td>______</td><td>Art</td>
     </tr>
     <tr>
-        <td>______</td><td>__ : __</td><td>______</td>
+        <td>______</td><td>______</td><td>Biology</td>
     </tr>
     <tr>
-        <td>______</td><td>__ : __</td><td>______</td>
+        <td>______</td><td>______</td><td>Chemistry</td>
     </tr>
 </table>
 
