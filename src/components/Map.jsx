@@ -157,11 +157,9 @@ class Map extends Component {
 			// If clicked on building, link to that building
             let buildingData = this.state.locations.find(loc => loc.label === clickedFeature.properties.title) || "";
             this.props.history.push('/map/' + buildingData.value)
-
 		} else {
 			this.props.history.push('/map')
         }
-		
         console.log(this.props)
         
 	}
@@ -172,7 +170,12 @@ class Map extends Component {
 
 			// Get Centerpoint
 			let centerpoint = polylabel(buildings.features.find(f => f.properties.title === this.state.activeFeature.label).geometry.coordinates, 1.0)
-			
+			if(!centerpoint[0] || !centerpoint[1]) {
+				console.log("Can't find centerpoint!")
+				console.log("Centerpoint:", centerpoint)
+				return
+			}
+
 			// Fly to Centerpoint
             var newViewport = {
                 width: window.innerWidth,
