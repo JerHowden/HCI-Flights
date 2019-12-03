@@ -1,0 +1,3309 @@
+{
+    "bwEventList": {
+        "resultSize": "23",
+        "paged": "true",
+        "lastMod": {
+            "utc": "20191124T234935Z",
+            "long": "November 24, 2019 5:49 PM"
+        },
+        "events": [
+            {
+                "summary": "Tech Can Share Food Drive",
+                "subscriptionId": "",
+                "calPath": "%2Fpublic%2Fcals%2FMainCal",
+                "guid": "CAL-ff808181-669d4eeb-016b-c392e9fa-00005ffaitts.systems%40ttu.edu",
+                "recurrenceId": "",
+                "name": "CAL-ff808181-669d4eeb-016b-c392e9fa-00005ffa.ics",
+                "link": "http://www.depts.ttu.edu/sub/outreach/fooddrive.php",
+                "eventlink": "http://events.ttu.edu:8080/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-ff808181-669d4eeb-016b-c392e9fa-00005ffaitts.systems@ttu.edu&recurrenceId=",
+                "status": "CONFIRMED",
+                "formattedDate": "Monday, October 28, 2019  - Mon , November 25, 2019 (all day)",
+                "start": {
+                    "allday": "true",
+                    "shortdate": "10/28/19",
+                    "longdate": "October 28, 2019",
+                    "dayname": "Monday",
+                    "time": "12:00 AM",
+                    "utcdate": "20191028T050000Z",
+                    "datetime": "20191028",
+                    "timezone": ""
+                },
+                "end": {
+                    "allday": "true",
+                    "shortdate": "11/25/19",
+                    "longdate": "November 25, 2019",
+                    "dayname": "Monday",
+                    "time": "12:00 AM",
+                    "utcdate": "20191125T060000Z",
+                    "datetime": "20191125",
+                    "timezone": ""
+                },
+                "location": {
+                    "address": "Student Union Building Courtyard",
+                    "uid": "01f61e84-32cf2096-0133-46f84450-0000326e",
+                    "name": "",
+                    "room": "",
+                    "subField1": "",
+                    "subField2": "",
+                    "accessible": "false",
+                    "geouri": "",
+                    "status": "",
+                    "street": "",
+                    "city": "",
+                    "state": "",
+                    "zip": "",
+                    "alternateAddress": "",
+                    "code": "",
+                    "link": ""
+                },
+                "contact": {
+                    "name": "Student Activities Board",
+                    "phone": "806-742-4708",
+                    "email": "sab@ttu.edu",
+                    "link": "http://www.depts.ttu.edu/sub/Activities/"
+                },
+                "calendar": {
+                    "name": "MainCal",
+                    "displayName": "MainCal",
+                    "path": "/public/cals/MainCal",
+                    "encodedPath": "%2Fpublic%2Fcals%2FMainCal"
+                },
+                "categories": [
+                    "Student Affairs",
+                    "General Announcements",
+                    "Student Activities Board"
+                ],
+                "description": "Compete against departments and student organizations for the largest donation!  All donations benefit South Plains Food Bank and count toward TTU's contribution to U Can Share Drive. \n\nDrop-off Days:\nTuesday, October 29,\nWednesday, November 6,\nTuesday, November 12,\nWednesday, November 20,\nMonday, November 25,\nall 11 am - 1 pm in \nSUB Courtyard\n\nOr drop off anytime 8am-5pm Monday-Friday in the Student Activities office in SUB West Basement Room 020.  Visit our website for list of most-needed items.",
+                "cost": "",
+                "xproperties": [
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Student Activities Board"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Subject/Tech Activities Board"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "General Announcements"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/General Announcements"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Student Activities/Campus Life"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/Student Activities_sCampus Life"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Student Activities Board"
+                            },
+                            "values": {
+                                "text": "/public/aliases/By Subject/Tech Activities Board"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "General Announcements"
+                            },
+                            "values": {
+                                "text": "/public/aliases/By Type/General Announcements"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Student Activities/Campus Life"
+                            },
+                            "values": {
+                                "text": "/public/aliases/By Type/Student Activities_sCampus Life"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-COMMENT": {
+                            "values": {
+                                "text": ""
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTER-EMAIL": {
+                            "values": {
+                                "text": "autumn.arthur@ttu.edu"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTEDBY": {
+                            "values": {
+                                "text": "auarthur"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "summary": "School of Theatre and Dance Presents \"The Father: A Tragic Farce\"",
+                "subscriptionId": "",
+                "calPath": "%2Fpublic%2Fcals%2FMainCal",
+                "guid": "CAL-01f62b63-6de37858-016d-fbbfe610-000028a6itts.systems%40ttu.edu",
+                "recurrenceId": "",
+                "name": "CAL-01f62b63-6de37858-016d-fbbfe610-000028a6.ics",
+                "link": "www.theatre.ttu.edu",
+                "eventlink": "http://events.ttu.edu:8080/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-01f62b63-6de37858-016d-fbbfe610-000028a6itts.systems@ttu.edu&recurrenceId=",
+                "status": "CONFIRMED",
+                "formattedDate": "Sunday, November 24, 2019 2:00 PM - 4:00 PM",
+                "start": {
+                    "allday": "false",
+                    "shortdate": "11/24/19",
+                    "longdate": "November 24, 2019",
+                    "dayname": "Sunday",
+                    "time": "2:00 PM",
+                    "utcdate": "20191124T200000Z",
+                    "datetime": "20191124T140000",
+                    "timezone": "America/Chicago"
+                },
+                "end": {
+                    "allday": "false",
+                    "shortdate": "11/24/19",
+                    "longdate": "November 24, 2019",
+                    "dayname": "Sunday",
+                    "time": "4:00 PM",
+                    "utcdate": "20191124T220000Z",
+                    "datetime": "20191124T160000",
+                    "timezone": "America/Chicago"
+                },
+                "location": {
+                    "address": "Black Box Theatre",
+                    "uid": "01f62b63-6c69111d-016d-1c7ad5f3-0000660b",
+                    "name": "",
+                    "room": "",
+                    "subField1": "",
+                    "subField2": "https://www.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode&amp;q=2812+18th+Street+Lubbock+Texas+79409",
+                    "accessible": "false",
+                    "geouri": "",
+                    "status": "",
+                    "street": "2812 18th St.",
+                    "city": "Lubbock",
+                    "state": "TX",
+                    "zip": "79409",
+                    "alternateAddress": "",
+                    "code": "",
+                    "link": ""
+                },
+                "contact": {
+                    "name": "Department of Theatre &amp; Dance",
+                    "phone": "(806) 742-3603",
+                    "email": "",
+                    "link": "http://www.depts.ttu.edu/theatreanddance/"
+                },
+                "calendar": {
+                    "name": "MainCal",
+                    "displayName": "MainCal",
+                    "path": "/public/cals/MainCal",
+                    "encodedPath": "%2Fpublic%2Fcals%2FMainCal"
+                },
+                "categories": [
+                    "Arts and Entertainment",
+                    "Drama/Theater",
+                    "Dance",
+                    "College of Visual &amp; Performing Arts (J.T. &amp; Margaret Talkington)"
+                ],
+                "description": "\"The Father: A Tragic Farce\" by Florian Zeller\n\nAn elderly man with dementia, Andre, has been living in the same flat for over thirty years. Accustomed to taking care of himself, he is thrown into chaos when his family and friends tell him how to live his life. The Father is a heartfelt tragicomedy about a family coping with the effects of physical and mental loss, exposing the cost of what it means for one man to maintain his independence.",
+                "cost": "$15 for individuals; $5 for students with valid ID",
+                "xproperties": [
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "College of Visual &amp; Performing Arts  (J.T. &amp; Margaret Talkington)",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Subject/College of Visual _a Performing Arts",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Subject/College of Visual _a Performing Arts"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Arts and Entertainment",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Type/Arts and Entertainment",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/Arts and Entertainment"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Drama/Theater",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Type/Drama_sTheater",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/Drama_sTheater"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Dance",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Type/Dance",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/Dance"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "College of Visual &amp; Performing Arts  (J.T. &amp; Margaret Talkington)"
+                            },
+                            "values": {
+                                "text": "/agrp_calsuite-MainCampus/By Subject/College of Visual _a Performing Arts"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTER-EMAIL": {
+                            "values": {
+                                "text": "lindsay.rigney@ttu.edu"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTEDBY": {
+                            "values": {
+                                "text": "lrigney"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-CALSUITE": {
+                            "values": {
+                                "text": "MainCampus"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "summary": "Tech Can Share Drop Off - Last Day!",
+                "subscriptionId": "",
+                "calPath": "%2Fpublic%2Fcals%2FMainCal",
+                "guid": "CAL-ff808181-669d4eeb-016b-c3bb9358-00006aaditts.systems%40ttu.edu",
+                "recurrenceId": "",
+                "name": "CAL-ff808181-669d4eeb-016b-c3bb9358-00006aad.ics",
+                "link": "http://www.depts.ttu.edu/sub/outreach/fooddrive.php",
+                "eventlink": "http://events.ttu.edu:8080/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-ff808181-669d4eeb-016b-c3bb9358-00006aaditts.systems@ttu.edu&recurrenceId=",
+                "status": "CONFIRMED",
+                "formattedDate": "Monday, November 25, 2019 11:00 AM - 1:00 PM",
+                "start": {
+                    "allday": "false",
+                    "shortdate": "11/25/19",
+                    "longdate": "November 25, 2019",
+                    "dayname": "Monday",
+                    "time": "11:00 AM",
+                    "utcdate": "20191125T170000Z",
+                    "datetime": "20191125T110000",
+                    "timezone": "America/Chicago"
+                },
+                "end": {
+                    "allday": "false",
+                    "shortdate": "11/25/19",
+                    "longdate": "November 25, 2019",
+                    "dayname": "Monday",
+                    "time": "1:00 PM",
+                    "utcdate": "20191125T190000Z",
+                    "datetime": "20191125T130000",
+                    "timezone": "America/Chicago"
+                },
+                "location": {
+                    "address": "Student Union Building Courtyard",
+                    "uid": "01f61e84-32cf2096-0133-46f84450-0000326e",
+                    "name": "",
+                    "room": "",
+                    "subField1": "",
+                    "subField2": "",
+                    "accessible": "false",
+                    "geouri": "",
+                    "status": "",
+                    "street": "",
+                    "city": "",
+                    "state": "",
+                    "zip": "",
+                    "alternateAddress": "",
+                    "code": "",
+                    "link": ""
+                },
+                "contact": {
+                    "name": "Student Activities Board",
+                    "phone": "806-742-4708",
+                    "email": "sab@ttu.edu",
+                    "link": "http://www.depts.ttu.edu/sub/Activities/"
+                },
+                "calendar": {
+                    "name": "MainCal",
+                    "displayName": "MainCal",
+                    "path": "/public/cals/MainCal",
+                    "encodedPath": "%2Fpublic%2Fcals%2FMainCal"
+                },
+                "categories": [
+                    "Student Affairs",
+                    "Student Activities Board"
+                ],
+                "description": "Compete against other orgs and departments to donate the most non-perishable foods! Drop off your donation TODAY and learn more about Tech Can Share and how your donations will benefit the South Plains Food Bank! Visit sab.ttu.edu for more information.",
+                "cost": "",
+                "xproperties": [
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Student Activities Board"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Subject/Tech Activities Board"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Student Activities/Campus Life"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/Student Activities_sCampus Life"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Student Activities Board"
+                            },
+                            "values": {
+                                "text": "/public/aliases/By Subject/Tech Activities Board"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Student Activities/Campus Life"
+                            },
+                            "values": {
+                                "text": "/public/aliases/By Type/Student Activities_sCampus Life"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-COMMENT": {
+                            "values": {
+                                "text": ""
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTER-EMAIL": {
+                            "values": {
+                                "text": "autumn.arthur@ttu.edu"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTEDBY": {
+                            "values": {
+                                "text": "auarthur"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "summary": "NRHC Closed for Holidays",
+                "subscriptionId": "",
+                "calPath": "%2Fpublic%2Fcals%2FMainCal",
+                "guid": "CAL-01f62b63-6c69111d-016d-5fb8a456-00004311itts.systems%40ttu.edu",
+                "recurrenceId": "",
+                "name": "CAL-01f62b63-6c69111d-016d-5fb8a456-00004311.ics",
+                "link": "",
+                "eventlink": "http://events.ttu.edu:8080/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-01f62b63-6c69111d-016d-5fb8a456-00004311itts.systems@ttu.edu&recurrenceId=",
+                "status": "CONFIRMED",
+                "formattedDate": "Wednesday, November 27, 2019  - Sun , December 1, 2019 (all day)",
+                "start": {
+                    "allday": "true",
+                    "shortdate": "11/27/19",
+                    "longdate": "November 27, 2019",
+                    "dayname": "Wednesday",
+                    "time": "12:00 AM",
+                    "utcdate": "20191127T060000Z",
+                    "datetime": "20191127",
+                    "timezone": ""
+                },
+                "end": {
+                    "allday": "true",
+                    "shortdate": "12/1/19",
+                    "longdate": "December 1, 2019",
+                    "dayname": "Sunday",
+                    "time": "12:00 AM",
+                    "utcdate": "20191201T060000Z",
+                    "datetime": "20191201",
+                    "timezone": ""
+                },
+                "location": {
+                    "address": "National Ranching Heritage Center",
+                    "uid": "01f61e84-31067fa7-0131-25306b96-00000f51",
+                    "name": "",
+                    "room": "",
+                    "subField1": "",
+                    "subField2": "",
+                    "accessible": "false",
+                    "geouri": "",
+                    "status": "",
+                    "street": "3121 4th St.",
+                    "city": "",
+                    "state": "",
+                    "zip": "",
+                    "alternateAddress": "",
+                    "code": "",
+                    "link": "http://www.nrhc.ttu.edu"
+                },
+                "contact": {
+                    "name": "National Ranching Heritage Center",
+                    "phone": "8067420498",
+                    "email": "scott.white@ttu.edu",
+                    "link": "http://www.NRHC.ttu.edu"
+                },
+                "calendar": {
+                    "name": "MainCal",
+                    "displayName": "MainCal",
+                    "path": "/public/cals/MainCal",
+                    "encodedPath": "%2Fpublic%2Fcals%2FMainCal"
+                },
+                "categories": [
+                    "National Ranching Heritage Center"
+                ],
+                "description": "Thanksgiving holiday for state employees",
+                "cost": "",
+                "xproperties": [
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "National Ranching Heritage Center",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Subject/National Ranching Heritage Center",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Subject/National Ranching Heritage Center"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "National Ranching Heritage Center"
+                            },
+                            "values": {
+                                "text": "/agrp_calsuite-MainCampus/By Subject/National Ranching Heritage Center"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Exhibits/Galleries"
+                            },
+                            "values": {
+                                "text": "/agrp_calsuite-MainCampus/By Type/Exhibits_sGalleries"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTER-EMAIL": {
+                            "values": {
+                                "text": "sue.jones@ttu.edu"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTEDBY": {
+                            "values": {
+                                "text": "suejones"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-CALSUITE": {
+                            "values": {
+                                "text": "MainCampus"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "summary": "Loco for Cocoa Mugs",
+                "subscriptionId": "",
+                "calPath": "%2Fpublic%2Fcals%2FMainCal",
+                "guid": "CAL-ff808181-669d4eeb-016b-c3bfddaf-00006b72itts.systems%40ttu.edu",
+                "recurrenceId": "",
+                "name": "CAL-ff808181-669d4eeb-016b-c3bfddaf-00006b72.ics",
+                "link": "www.sab.ttu.edu",
+                "eventlink": "http://events.ttu.edu:8080/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-ff808181-669d4eeb-016b-c3bfddaf-00006b72itts.systems@ttu.edu&recurrenceId=",
+                "status": "CONFIRMED",
+                "formattedDate": "Monday, December 2, 2019 8:00 AM - 12:00 PM",
+                "start": {
+                    "allday": "false",
+                    "shortdate": "12/2/19",
+                    "longdate": "December 2, 2019",
+                    "dayname": "Monday",
+                    "time": "8:00 AM",
+                    "utcdate": "20191202T140000Z",
+                    "datetime": "20191202T080000",
+                    "timezone": "America/Chicago"
+                },
+                "end": {
+                    "allday": "false",
+                    "shortdate": "12/2/19",
+                    "longdate": "December 2, 2019",
+                    "dayname": "Monday",
+                    "time": "12:00 PM",
+                    "utcdate": "20191202T180000Z",
+                    "datetime": "20191202T120000",
+                    "timezone": "America/Chicago"
+                },
+                "location": {
+                    "address": "Student Union Building Courtyard",
+                    "uid": "01f61e84-32cf2096-0133-46f84450-0000326e",
+                    "name": "",
+                    "room": "",
+                    "subField1": "",
+                    "subField2": "",
+                    "accessible": "false",
+                    "geouri": "",
+                    "status": "",
+                    "street": "",
+                    "city": "",
+                    "state": "",
+                    "zip": "",
+                    "alternateAddress": "",
+                    "code": "",
+                    "link": ""
+                },
+                "contact": {
+                    "name": "Student Activities Board",
+                    "phone": "806-742-4708",
+                    "email": "sab@ttu.edu",
+                    "link": "http://www.depts.ttu.edu/sub/Activities/"
+                },
+                "calendar": {
+                    "name": "MainCal",
+                    "displayName": "MainCal",
+                    "path": "/public/cals/MainCal",
+                    "encodedPath": "%2Fpublic%2Fcals%2FMainCal"
+                },
+                "categories": [
+                    "Student Affairs",
+                    "Student Activities Board"
+                ],
+                "description": "Kick off the season by having a holiday photo taken and putting it on a hot cocoa mug! Free with TTU Student ID. Follow @TexasTechSAB for event updates.",
+                "cost": "",
+                "xproperties": [
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Student Activities Board"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Subject/Tech Activities Board"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Student Activities/Campus Life"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/Student Activities_sCampus Life"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Student Activities Board"
+                            },
+                            "values": {
+                                "text": "/public/aliases/By Subject/Tech Activities Board"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Student Activities/Campus Life"
+                            },
+                            "values": {
+                                "text": "/public/aliases/By Type/Student Activities_sCampus Life"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-COMMENT": {
+                            "values": {
+                                "text": ""
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTER-EMAIL": {
+                            "values": {
+                                "text": "autumn.arthur@ttu.edu"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTEDBY": {
+                            "values": {
+                                "text": "auarthur"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "summary": "Fulbright U.S. Student Program - Student Info Session",
+                "subscriptionId": "",
+                "calPath": "%2Fpublic%2Fcals%2FMainCal",
+                "guid": "CAL-01f62b63-6e4aae6e-016e-6b42abab-000074f7itts.systems%40ttu.edu",
+                "recurrenceId": "",
+                "name": "CAL-01f62b63-6e4aae6e-016e-6b42abab-000074f7.ics",
+                "link": "",
+                "eventlink": "http://events.ttu.edu:8080/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-01f62b63-6e4aae6e-016e-6b42abab-000074f7itts.systems@ttu.edu&recurrenceId=",
+                "status": "CONFIRMED",
+                "formattedDate": "Tuesday, December 3, 2019 11:00 AM - 12:00 PM",
+                "start": {
+                    "allday": "false",
+                    "shortdate": "12/3/19",
+                    "longdate": "December 3, 2019",
+                    "dayname": "Tuesday",
+                    "time": "11:00 AM",
+                    "utcdate": "20191203T170000Z",
+                    "datetime": "20191203T110000",
+                    "timezone": "America/Chicago"
+                },
+                "end": {
+                    "allday": "false",
+                    "shortdate": "12/3/19",
+                    "longdate": "December 3, 2019",
+                    "dayname": "Tuesday",
+                    "time": "12:00 PM",
+                    "utcdate": "20191203T180000Z",
+                    "datetime": "20191203T120000",
+                    "timezone": "America/Chicago"
+                },
+                "location": {
+                    "address": "TLPDC",
+                    "uid": "01f61e84-314da015-0131-62b3032b-00000323",
+                    "name": "",
+                    "room": "",
+                    "subField1": "",
+                    "subField2": "",
+                    "accessible": "false",
+                    "geouri": "",
+                    "status": "",
+                    "street": "University Library - 18th &amp; Boston",
+                    "city": "",
+                    "state": "",
+                    "zip": "",
+                    "alternateAddress": "",
+                    "code": "",
+                    "link": "http://www.depts.ttu.edu/tlpdc/"
+                },
+                "contact": {
+                    "name": "National and International Scholarships and Fellowships",
+                    "phone": "806-834-5296",
+                    "email": "nisf@ttu.edu",
+                    "link": "http://www.nisf.ttu.edu"
+                },
+                "calendar": {
+                    "name": "MainCal",
+                    "displayName": "MainCal",
+                    "path": "/public/cals/MainCal",
+                    "encodedPath": "%2Fpublic%2Fcals%2FMainCal"
+                },
+                "categories": [
+                    "Youth Programs/Events/Camps",
+                    "International/Multicultural",
+                    "Research",
+                    "Graduate School",
+                    "Honors College",
+                    "Academics"
+                ],
+                "description": "Join us in the TLPDC 151 (TTU Library) to learn about the Fulbright U.S. Student Program, which provides 8-12 month funding for study, research, or teaching English abroad. Choose from over 140 countries! The grant includes round-trip fare, a monthly stipend, health coverage, and more.\n\nUndergraduates apply during the fall of their senior year.  Graduate students may not earn a Ph.D. before or during grant period.  \n\n** Texas Tech students must follow the internal TTU process to apply.",
+                "cost": "",
+                "xproperties": [
+                    {
+                        "X-BEDEWORK-IMAGE": {
+                            "values": {
+                                "text": "https://www.depts.ttu.edu/nisf/Forms/Fulbright_logo_and_title.pdf"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Academics",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Subject/Academics",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Subject/Academics"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Research",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Subject/Research",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Subject/Research"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Honors College",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Subject/Honors College",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Subject/Honors College"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Graduate School",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Subject/Graduate School",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Subject/Graduate School"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "International/Multicultural",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Type/International_sMulticultural",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/International_sMulticultural"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Youth Programs/Events/Camps",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Type/Youth Programs_sEvents_sCamps",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/Youth Programs_sEvents_sCamps"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Academics"
+                            },
+                            "values": {
+                                "text": "/agrp_calsuite-MainCampus/By Subject/Academics"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Graduate School"
+                            },
+                            "values": {
+                                "text": "/agrp_calsuite-MainCampus/By Subject/Graduate School"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Honors College"
+                            },
+                            "values": {
+                                "text": "/agrp_calsuite-MainCampus/By Subject/Honors College"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Research"
+                            },
+                            "values": {
+                                "text": "/agrp_calsuite-MainCampus/By Subject/Research"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-LOCATION": {
+                            "values": {
+                                "text": "Room 151"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTER-EMAIL": {
+                            "values": {
+                                "text": "wendoli.flores@ttu.edu"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTEDBY": {
+                            "values": {
+                                "text": "wlujan"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-CALSUITE": {
+                            "values": {
+                                "text": "MainCampus"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "summary": "IGNITE! Texas Tech's Program for LGBTQIA Allyship",
+                "subscriptionId": "",
+                "calPath": "%2Fpublic%2Fcals%2FMainCal",
+                "guid": "CAL-01f62b63-6c69111d-016c-8c6f8850-00007500itts.systems%40ttu.edu",
+                "recurrenceId": "",
+                "name": "CAL-01f62b63-6c69111d-016c-8c6f8850-00007500.ics",
+                "link": "https://www.depts.ttu.edu/lgbtqia/allies.php",
+                "eventlink": "http://events.ttu.edu:8080/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-01f62b63-6c69111d-016c-8c6f8850-00007500itts.systems@ttu.edu&recurrenceId=",
+                "status": "CONFIRMED",
+                "formattedDate": "Wednesday, December 4, 2019 1:00 PM - 2:00 PM",
+                "start": {
+                    "allday": "false",
+                    "shortdate": "12/4/19",
+                    "longdate": "December 4, 2019",
+                    "dayname": "Wednesday",
+                    "time": "1:00 PM",
+                    "utcdate": "20191204T190000Z",
+                    "datetime": "20191204T130000",
+                    "timezone": "America/Chicago"
+                },
+                "end": {
+                    "allday": "false",
+                    "shortdate": "12/4/19",
+                    "longdate": "December 4, 2019",
+                    "dayname": "Wednesday",
+                    "time": "2:00 PM",
+                    "utcdate": "20191204T200000Z",
+                    "datetime": "20191204T140000",
+                    "timezone": "America/Chicago"
+                },
+                "location": {
+                    "address": "SUB Canyon Room",
+                    "uid": "ff808181-4d4dce4e-014f-e121397c-000075f7",
+                    "name": "",
+                    "room": "",
+                    "subField1": "",
+                    "subField2": "",
+                    "accessible": "false",
+                    "geouri": "",
+                    "status": "",
+                    "street": "",
+                    "city": "",
+                    "state": "",
+                    "zip": "",
+                    "alternateAddress": "",
+                    "code": "",
+                    "link": ""
+                },
+                "contact": {
+                    "name": "Office of LGBTQIA Education &amp; Engagement",
+                    "phone": "806-742-5433",
+                    "email": "jody.randall@ttu.edu",
+                    "link": "http://www.lgbtqia.ttu.edu"
+                },
+                "calendar": {
+                    "name": "MainCal",
+                    "displayName": "MainCal",
+                    "path": "/public/cals/MainCal",
+                    "encodedPath": "%2Fpublic%2Fcals%2FMainCal"
+                },
+                "categories": [
+                    "Student Affairs",
+                    "Diversity"
+                ],
+                "description": "IGNITE! educates on the lived experiences of lesbian, gay, bisexual, transgender, queer, intersex, and asexual (LGBTQIA) people, while networking and providing general support to students, faculty, and staff in their development as authentic allies. Program participants commit to act with compassion, respect, and dignity, and engage with others, including the Office of LGBTQIA Education &amp; Engagement, to strengthen the inclusivity of Texas Tech University.",
+                "cost": "",
+                "xproperties": [
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Diversity",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Subject/Diversity",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Subject/Diversity"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Student Affairs",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Subject/Student Activities_sCampus Life",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Subject/Student Activities_sCampus Life"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Diversity"
+                            },
+                            "values": {
+                                "text": "/agrp_calsuite-MainCampus/By Subject/Diversity"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Student Affairs"
+                            },
+                            "values": {
+                                "text": "/agrp_calsuite-MainCampus/By Subject/Student Activities_sCampus Life"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-CONTACT": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-PHONE": "806-742-5433",
+                                "X-BEDEWORK-PARAM-URL": "https://www.depts.ttu.edu/lgbtqia/",
+                                "X-BEDEWORK-PARAM-EMAIL": "matthew.r.hernandez@ttu.edu"
+                            },
+                            "values": {
+                                "text": "Office of LGBTQIA Education and Engagement"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTER-EMAIL": {
+                            "values": {
+                                "text": "jonathan.r.marr@ttu.edu"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTEDBY": {
+                            "values": {
+                                "text": "jomarr"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-CALSUITE": {
+                            "values": {
+                                "text": "MainCampus"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "summary": "Sexism Cinema: Desperately Seeking Susan",
+                "subscriptionId": "",
+                "calPath": "%2Fpublic%2Fcals%2FMainCal",
+                "guid": "CAL-01f62b63-6c69111d-016d-5ea18e93-000039a6itts.systems%40ttu.edu",
+                "recurrenceId": "",
+                "name": "CAL-01f62b63-6c69111d-016d-5ea18e93-000039a6.ics",
+                "link": "https://www.facebook.com/SexismCinema/",
+                "eventlink": "http://events.ttu.edu:8080/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-01f62b63-6c69111d-016d-5ea18e93-000039a6itts.systems@ttu.edu&recurrenceId=",
+                "status": "CONFIRMED",
+                "formattedDate": "Wednesday, December 4, 2019 7:00 PM - 9:00 PM",
+                "start": {
+                    "allday": "false",
+                    "shortdate": "12/4/19",
+                    "longdate": "December 4, 2019",
+                    "dayname": "Wednesday",
+                    "time": "7:00 PM",
+                    "utcdate": "20191205T010000Z",
+                    "datetime": "20191204T190000",
+                    "timezone": "America/Chicago"
+                },
+                "end": {
+                    "allday": "false",
+                    "shortdate": "12/4/19",
+                    "longdate": "December 4, 2019",
+                    "dayname": "Wednesday",
+                    "time": "9:00 PM",
+                    "utcdate": "20191205T030000Z",
+                    "datetime": "20191204T210000",
+                    "timezone": "America/Chicago"
+                },
+                "location": {
+                    "address": "Off-campus locations",
+                    "uid": "01f61e84-31067fa7-0131-253213ec-00000f5f",
+                    "name": "",
+                    "room": "",
+                    "subField1": "",
+                    "subField2": "",
+                    "accessible": "false",
+                    "geouri": "",
+                    "status": "",
+                    "street": "",
+                    "city": "",
+                    "state": "",
+                    "zip": "",
+                    "alternateAddress": "",
+                    "code": "",
+                    "link": ""
+                },
+                "contact": {
+                    "name": "Women's &amp; Gender Studies",
+                    "phone": "(806) 742-4335",
+                    "email": "patricial.a.earl@ttu.edu",
+                    "link": "http://www.depts.ttu.edu/wstudies/"
+                },
+                "calendar": {
+                    "name": "MainCal",
+                    "displayName": "MainCal",
+                    "path": "/public/cals/MainCal",
+                    "encodedPath": "%2Fpublic%2Fcals%2FMainCal"
+                },
+                "categories": [
+                    "Clubs and Organizations",
+                    "Lecture/Reading/Talk",
+                    "General Announcements",
+                    "Women&acirc;&#128;&#153;s and Gender Studies"
+                ],
+                "description": "Fifty+ years ago, the term &ldquo;sexism&rdquo; was coined. This film series considers ways in which sexism is embedded, endorsed, and/or challenged in the cinema. Together, these films featuring women as central protagonists offer an intriguing site for the analysis of representations of race/ethnicity, femininities, masculinities, socio-economic classes, and sexualities. All movies are screened on the first Wednesday of the month during the school year at the Alamo Drafthouse.",
+                "cost": "",
+                "xproperties": [
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Womens and Gender Studies",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Subject/Womens Studies",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Subject/Womens Studies"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "General Announcements",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Type/General Announcements",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/General Announcements"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Clubs and Organizations",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Type/Clubs and Organizations",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/Clubs and Organizations"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Lecture/Reading/Talk",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Type/Lecture_sReading_sTalk",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/Lecture_sReading_sTalk"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "General Announcements"
+                            },
+                            "values": {
+                                "text": "/agrp_calsuite-MainCampus/By Type/General Announcements"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTER-EMAIL": {
+                            "values": {
+                                "text": "patricia.a.earl@ttu.edu"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTEDBY": {
+                            "values": {
+                                "text": "pearl"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-CALSUITE": {
+                            "values": {
+                                "text": "MainCampus"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "summary": "Trans-Siberian Orchestra: United Supermarkets Arena",
+                "subscriptionId": "",
+                "calPath": "%2Fpublic%2Fcals%2FMainCal",
+                "guid": "CAL-01f62b63-6c69111d-016d-69a80b21-00000805itts.systems%40ttu.edu",
+                "recurrenceId": "",
+                "name": "CAL-01f62b63-6c69111d-016d-69a80b21-00000805.ics",
+                "link": "http://www.unitedsupermarketsarena.com/events-1/trans-siberian-orchestra-2",
+                "eventlink": "http://events.ttu.edu:8080/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-01f62b63-6c69111d-016d-69a80b21-00000805itts.systems@ttu.edu&recurrenceId=",
+                "status": "CONFIRMED",
+                "formattedDate": "Thursday, December 5, 2019 7:00 PM - 11:00 PM",
+                "start": {
+                    "allday": "false",
+                    "shortdate": "12/5/19",
+                    "longdate": "December 5, 2019",
+                    "dayname": "Thursday",
+                    "time": "7:00 PM",
+                    "utcdate": "20191206T010000Z",
+                    "datetime": "20191205T190000",
+                    "timezone": "America/Chicago"
+                },
+                "end": {
+                    "allday": "false",
+                    "shortdate": "12/5/19",
+                    "longdate": "December 5, 2019",
+                    "dayname": "Thursday",
+                    "time": "11:00 PM",
+                    "utcdate": "20191206T050000Z",
+                    "datetime": "20191205T230000",
+                    "timezone": "America/Chicago"
+                },
+                "location": {
+                    "address": "United Supermarkets Arena",
+                    "uid": "01f61e84-31067fa7-0131-252fc75f-00000f4c",
+                    "name": "",
+                    "room": "",
+                    "subField1": "",
+                    "subField2": "",
+                    "accessible": "false",
+                    "geouri": "",
+                    "status": "",
+                    "street": "",
+                    "city": "",
+                    "state": "",
+                    "zip": "",
+                    "alternateAddress": "",
+                    "code": "",
+                    "link": "http://www.unitedspiritarena.com/"
+                },
+                "contact": {
+                    "name": "United Supermarket Arena",
+                    "phone": "806-742-7362",
+                    "email": "",
+                    "link": "http://www.unitedsupermarketsarena.com/"
+                },
+                "calendar": {
+                    "name": "MainCal",
+                    "displayName": "MainCal",
+                    "path": "/public/cals/MainCal",
+                    "encodedPath": "%2Fpublic%2Fcals%2FMainCal"
+                },
+                "categories": [
+                    "Arts and Entertainment",
+                    "General Announcements",
+                    "Music"
+                ],
+                "description": "The multi-platinum, critically-acclaimed progressive rock group announced its highly-anticipated Winter Tour 2019. Returning with all-new staging and effects is the unforgettable show that started it all, &ldquo;Christmas Eve and Other Stories.&rdquo; TSO&rsquo;s show that started small, performed to 12,000 people in five cities in 1999, which then exploded onto the national scene, eventually playing to 9 million fans over the course of an incredible 12 years, the mega-hit &ldquo;Christmas Eve and Other Stories.\"",
+                "cost": "https://ci.lubbock.tx.us/departments/civic-center/ticketing/trans-siberian-orchestra-presents-christmas-eve-and-other-stories",
+                "xproperties": [
+                    {
+                        "X-BEDEWORK-IMAGE": {
+                            "values": {
+                                "text": "http://www.unitedsupermarketsarena.com/images/event/10285189_157630_TSOLubbockWeb.jpg"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Arts and Entertainment",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Type/Arts and Entertainment",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/Arts and Entertainment"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "General Announcements",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Type/General Announcements",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/General Announcements"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Music",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Type/Music",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/Music"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Arts and Entertainment"
+                            },
+                            "values": {
+                                "text": "/agrp_calsuite-MainCampus/By Type/Arts and Entertainment"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTER-EMAIL": {
+                            "values": {
+                                "text": "megan.d.escobar@ttu.edu"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTEDBY": {
+                            "values": {
+                                "text": "megescob"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-CALSUITE": {
+                            "values": {
+                                "text": "MainCampus"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "summary": "19th Annual High and Dry Photography Exhibit &ndash; Opening Reception",
+                "subscriptionId": "",
+                "calPath": "%2Fpublic%2Fcals%2FMainCal",
+                "guid": "CAL-01f62b63-6e4aae6e-016e-6babdf76-00007850itts.systems%40ttu.edu",
+                "recurrenceId": "",
+                "name": "CAL-01f62b63-6e4aae6e-016e-6babdf76-00007850.ics",
+                "link": "http://www.depts.ttu.edu/international/events/2019/high_dry_reception.php",
+                "eventlink": "http://events.ttu.edu:8080/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-01f62b63-6e4aae6e-016e-6babdf76-00007850itts.systems@ttu.edu&recurrenceId=",
+                "status": "CONFIRMED",
+                "formattedDate": "Friday, December 6, 2019 5:00 PM - 6:30 PM",
+                "start": {
+                    "allday": "false",
+                    "shortdate": "12/6/19",
+                    "longdate": "December 6, 2019",
+                    "dayname": "Friday",
+                    "time": "5:00 PM",
+                    "utcdate": "20191206T230000Z",
+                    "datetime": "20191206T170000",
+                    "timezone": "America/Chicago"
+                },
+                "end": {
+                    "allday": "false",
+                    "shortdate": "12/6/19",
+                    "longdate": "December 6, 2019",
+                    "dayname": "Friday",
+                    "time": "6:30 PM",
+                    "utcdate": "20191207T003000Z",
+                    "datetime": "20191206T183000",
+                    "timezone": "America/Chicago"
+                },
+                "location": {
+                    "address": "International Cultural Center",
+                    "uid": "01f61e84-31067fa7-0131-2530edec-00000f56",
+                    "name": "",
+                    "room": "",
+                    "subField1": "",
+                    "subField2": "",
+                    "accessible": "false",
+                    "geouri": "",
+                    "status": "",
+                    "street": "",
+                    "city": "",
+                    "state": "",
+                    "zip": "",
+                    "alternateAddress": "",
+                    "code": "",
+                    "link": "http://www.iaff.ttu.edu/"
+                },
+                "contact": {
+                    "name": "Office of International Affairs",
+                    "phone": "742-2974 ext. 232",
+                    "email": "",
+                    "link": "http://www.iaff.ttu.edu/main/index.asp"
+                },
+                "calendar": {
+                    "name": "MainCal",
+                    "displayName": "MainCal",
+                    "path": "/public/cals/MainCal",
+                    "encodedPath": "%2Fpublic%2Fcals%2FMainCal"
+                },
+                "categories": [
+                    "Exhibits/Galleries",
+                    "International/Multicultural"
+                ],
+                "description": "Hosted by the TTU Office of International Affairs: Come celebrate the unique beauty of the world&rsquo;s arid and semiarid landscapes at the opening reception for the 19th Annual High and Dry Exhibit. This premiere juried photographic exhibition will display the work of fifty-seven local and national photographers. \n\nThis exhibit is made possible in part through a grant from the City of Lubbock, as recommended by Civic Lubbock, Inc. and The CH Foundation.",
+                "cost": "",
+                "xproperties": [
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "International/Multicultural",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Type/International_sMulticultural",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/International_sMulticultural"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Exhibits/Galleries",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Type/Exhibits_sGalleries",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/Exhibits_sGalleries"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTER-EMAIL": {
+                            "values": {
+                                "text": "jan.stogner@ttu.edu"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTEDBY": {
+                            "values": {
+                                "text": "jstogner"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-CALSUITE": {
+                            "values": {
+                                "text": "MainCampus"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "summary": "Luke Combs: United Supermarkets Arena",
+                "subscriptionId": "",
+                "calPath": "%2Fpublic%2Fcals%2FMainCal",
+                "guid": "CAL-01f62b63-6c69111d-016c-b5258d34-000012c1itts.systems%40ttu.edu",
+                "recurrenceId": "",
+                "name": "CAL-01f62b63-6c69111d-016c-b5258d34-000012c1.ics",
+                "link": "http://www.unitedsupermarketsarena.com/events-1/luke-combs",
+                "eventlink": "http://events.ttu.edu:8080/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-01f62b63-6c69111d-016c-b5258d34-000012c1itts.systems@ttu.edu&recurrenceId=",
+                "status": "CONFIRMED",
+                "formattedDate": "Friday, December 6, 2019 7:00 PM - 11:00 PM",
+                "start": {
+                    "allday": "false",
+                    "shortdate": "12/6/19",
+                    "longdate": "December 6, 2019",
+                    "dayname": "Friday",
+                    "time": "7:00 PM",
+                    "utcdate": "20191207T010000Z",
+                    "datetime": "20191206T190000",
+                    "timezone": "America/Chicago"
+                },
+                "end": {
+                    "allday": "false",
+                    "shortdate": "12/6/19",
+                    "longdate": "December 6, 2019",
+                    "dayname": "Friday",
+                    "time": "11:00 PM",
+                    "utcdate": "20191207T050000Z",
+                    "datetime": "20191206T230000",
+                    "timezone": "America/Chicago"
+                },
+                "location": {
+                    "address": "United Supermarkets Arena",
+                    "uid": "01f61e84-31067fa7-0131-252fc75f-00000f4c",
+                    "name": "",
+                    "room": "",
+                    "subField1": "",
+                    "subField2": "",
+                    "accessible": "false",
+                    "geouri": "",
+                    "status": "",
+                    "street": "",
+                    "city": "",
+                    "state": "",
+                    "zip": "",
+                    "alternateAddress": "",
+                    "code": "",
+                    "link": "http://www.unitedspiritarena.com/"
+                },
+                "contact": {
+                    "name": "United Supermarket Arena",
+                    "phone": "806-742-7362",
+                    "email": "",
+                    "link": "http://www.unitedsupermarketsarena.com/"
+                },
+                "calendar": {
+                    "name": "MainCal",
+                    "displayName": "MainCal",
+                    "path": "/public/cals/MainCal",
+                    "encodedPath": "%2Fpublic%2Fcals%2FMainCal"
+                },
+                "categories": [
+                    "Arts and Entertainment",
+                    "General Announcements"
+                ],
+                "description": "CMA and ACM Award-winning musician Luke Combs will extend his sold-out &ldquo;Beer Never Broke My Heart Tour&rdquo; through this fall.\n\nThe tour will make its stop at Lubbock's United Supermarkets Arena Friday, December 6, and will feature special guests Morgan Wallen &amp; Jameson Rodgers.\n\nTickets are priced $57.50, 52.00, $41.25, and $30.25 (inclusive of fees) and are scheduled to go on sale through at www.selectaseatlubbock.com, 806-770-2000, and Lubbock area Select-a-Seat outlets.",
+                "cost": "https://ci.lubbock.tx.us/departments/civic-center/ticketing/luke-combs",
+                "xproperties": [
+                    {
+                        "X-BEDEWORK-IMAGE": {
+                            "values": {
+                                "text": "http://www.unitedsupermarketsarena.com/images/event/10234232_157630_Web500x400.jpg"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Arts and Entertainment",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Type/Arts and Entertainment",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/Arts and Entertainment"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "General Announcements",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Type/General Announcements",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/General Announcements"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Arts and Entertainment"
+                            },
+                            "values": {
+                                "text": "/agrp_calsuite-MainCampus/By Type/Arts and Entertainment"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-CATEGORIES": {
+                            "values": {
+                                "text": "Concert"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTER-EMAIL": {
+                            "values": {
+                                "text": "megan.d.escobar@ttu.edu"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTEDBY": {
+                            "values": {
+                                "text": "megescob"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-CALSUITE": {
+                            "values": {
+                                "text": "MainCampus"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "summary": "Weihnachtsfest",
+                "subscriptionId": "",
+                "calPath": "%2Fpublic%2Fcals%2FMainCal",
+                "guid": "CAL-01f62b63-6e4aae6e-016e-4d1a001f-0000135ditts.systems%40ttu.edu",
+                "recurrenceId": "",
+                "name": "CAL-01f62b63-6e4aae6e-016e-4d1a001f-0000135d.ics",
+                "link": "http://www.depts.ttu.edu/international/events/2019/weihnachtsfest.php",
+                "eventlink": "http://events.ttu.edu:8080/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-01f62b63-6e4aae6e-016e-4d1a001f-0000135ditts.systems@ttu.edu&recurrenceId=",
+                "status": "CONFIRMED",
+                "formattedDate": "Friday, December 13, 2019 5:30 PM - 7:00 PM",
+                "start": {
+                    "allday": "false",
+                    "shortdate": "12/13/19",
+                    "longdate": "December 13, 2019",
+                    "dayname": "Friday",
+                    "time": "5:30 PM",
+                    "utcdate": "20191213T233000Z",
+                    "datetime": "20191213T173000",
+                    "timezone": "America/Chicago"
+                },
+                "end": {
+                    "allday": "false",
+                    "shortdate": "12/13/19",
+                    "longdate": "December 13, 2019",
+                    "dayname": "Friday",
+                    "time": "7:00 PM",
+                    "utcdate": "20191214T010000Z",
+                    "datetime": "20191213T190000",
+                    "timezone": "America/Chicago"
+                },
+                "location": {
+                    "address": "International Cultural Center (ICC)",
+                    "uid": "01f61e84-31d6ea91-0132-1bbf2ee8-000052f1",
+                    "name": "",
+                    "room": "",
+                    "subField1": "",
+                    "subField2": "",
+                    "accessible": "false",
+                    "geouri": "",
+                    "status": "",
+                    "street": "Hall of Nations",
+                    "city": "",
+                    "state": "",
+                    "zip": "",
+                    "alternateAddress": "",
+                    "code": "",
+                    "link": "http://www.iaff.ttu.edu/main/ICCOperations.asp"
+                },
+                "contact": {
+                    "name": "Office of International Affairs",
+                    "phone": "742-2974 ext. 232",
+                    "email": "",
+                    "link": "http://www.iaff.ttu.edu/main/index.asp"
+                },
+                "calendar": {
+                    "name": "MainCal",
+                    "displayName": "MainCal",
+                    "path": "/public/cals/MainCal",
+                    "encodedPath": "%2Fpublic%2Fcals%2FMainCal"
+                },
+                "categories": [
+                    "General Announcements",
+                    "Exhibits/Galleries",
+                    "International/Multicultural"
+                ],
+                "description": "The Office of International Affairs invites you to a pre-Candlelight celebration on Friday, December 13, from 5:30 PM - 7:00 PM at the International Cultural Center located at 601 Indiana Avenue. Weihnachtsfest will feature German Christmas traditions including a band, crafts, gingerbread cookies, and sausage.",
+                "cost": "FREE",
+                "xproperties": [
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Exhibits/Galleries",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Type/Exhibits_sGalleries",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/Exhibits_sGalleries"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "General Announcements",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Type/General Announcements",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/General Announcements"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "International/Multicultural",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Type/International_sMulticultural",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/International_sMulticultural"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Arts and Entertainment"
+                            },
+                            "values": {
+                                "text": "/agrp_calsuite-MainCampus/By Type/Arts and Entertainment"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Alumni"
+                            },
+                            "values": {
+                                "text": "/agrp_calsuite-MainCampus/By Type/Alumni"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Faculty"
+                            },
+                            "values": {
+                                "text": "/agrp_calsuite-MainCampus/By Type/Faculty"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Exhibits/Galleries"
+                            },
+                            "values": {
+                                "text": "/agrp_calsuite-MainCampus/By Type/Exhibits_sGalleries"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Music"
+                            },
+                            "values": {
+                                "text": "/agrp_calsuite-MainCampus/By Type/Music"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "University Events (commencement, convocation, etc.)"
+                            },
+                            "values": {
+                                "text": "/agrp_calsuite-MainCampus/By Type/University Events (commencement, convocation, etc.)"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTER-EMAIL": {
+                            "values": {
+                                "text": "elizabeth.espino@ttu.edu"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTEDBY": {
+                            "values": {
+                                "text": "harrrobe"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-CALSUITE": {
+                            "values": {
+                                "text": "MainCampus"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "summary": "41st Annual Candlelight at the Ranch",
+                "subscriptionId": "",
+                "calPath": "%2Fpublic%2Fcals%2FMainCal",
+                "guid": "CAL-01f62b63-6c69111d-016d-60149efb-000045d3itts.systems%40ttu.edu",
+                "recurrenceId": "",
+                "name": "CAL-01f62b63-6c69111d-016d-60149efb-000045d3.ics",
+                "link": "http://www.depts.ttu.edu/nrhc/events/Candlelight/index.php",
+                "eventlink": "http://events.ttu.edu:8080/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-01f62b63-6c69111d-016d-60149efb-000045d3itts.systems@ttu.edu&recurrenceId=",
+                "status": "CONFIRMED",
+                "formattedDate": "Friday, December 13, 2019 6:30 PM - 9:00 PM",
+                "start": {
+                    "allday": "false",
+                    "shortdate": "12/13/19",
+                    "longdate": "December 13, 2019",
+                    "dayname": "Friday",
+                    "time": "6:30 PM",
+                    "utcdate": "20191214T003000Z",
+                    "datetime": "20191213T183000",
+                    "timezone": "America/Chicago"
+                },
+                "end": {
+                    "allday": "false",
+                    "shortdate": "12/13/19",
+                    "longdate": "December 13, 2019",
+                    "dayname": "Friday",
+                    "time": "9:00 PM",
+                    "utcdate": "20191214T030000Z",
+                    "datetime": "20191213T210000",
+                    "timezone": "America/Chicago"
+                },
+                "location": {
+                    "address": "National Ranching Heritage Center",
+                    "uid": "01f61e84-31067fa7-0131-25306b96-00000f51",
+                    "name": "",
+                    "room": "",
+                    "subField1": "",
+                    "subField2": "",
+                    "accessible": "false",
+                    "geouri": "",
+                    "status": "",
+                    "street": "3121 4th St.",
+                    "city": "",
+                    "state": "",
+                    "zip": "",
+                    "alternateAddress": "",
+                    "code": "",
+                    "link": "http://www.nrhc.ttu.edu"
+                },
+                "contact": {
+                    "name": "National Ranching Heritage Center",
+                    "phone": "8067420498",
+                    "email": "scott.white@ttu.edu",
+                    "link": "http://www.NRHC.ttu.edu"
+                },
+                "calendar": {
+                    "name": "MainCal",
+                    "displayName": "MainCal",
+                    "path": "/public/cals/MainCal",
+                    "encodedPath": "%2Fpublic%2Fcals%2FMainCal"
+                },
+                "categories": [
+                    "Exhibits/Galleries",
+                    "National Ranching Heritage Center"
+                ],
+                "description": "Visitors will experience what Christmas might have been like on the open prairie in frontier days with the entire historic park lit as much as possible with only lanterns, fireplaces and campfires. Meet Santa and enjoy living history, live music, hot cocoa and kettle corn. Free of charge with a suggested donation of $5 per family.",
+                "cost": "",
+                "xproperties": [
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "National Ranching Heritage Center",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Subject/National Ranching Heritage Center",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Subject/National Ranching Heritage Center"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Exhibits/Galleries",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Type/Exhibits_sGalleries",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/Exhibits_sGalleries"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "National Ranching Heritage Center"
+                            },
+                            "values": {
+                                "text": "/agrp_calsuite-MainCampus/By Subject/National Ranching Heritage Center"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTER-EMAIL": {
+                            "values": {
+                                "text": "sue.jones@ttu.edu"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTEDBY": {
+                            "values": {
+                                "text": "suejones"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-CALSUITE": {
+                            "values": {
+                                "text": "MainCampus"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "summary": "41st Annual Candlelight at the Ranch",
+                "subscriptionId": "",
+                "calPath": "%2Fpublic%2Fcals%2FMainCal",
+                "guid": "CAL-01f62b63-6c69111d-016d-601786d0-00004614itts.systems%40ttu.edu",
+                "recurrenceId": "",
+                "name": "CAL-01f62b63-6c69111d-016d-601786d0-00004614.ics",
+                "link": "",
+                "eventlink": "http://events.ttu.edu:8080/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-01f62b63-6c69111d-016d-601786d0-00004614itts.systems@ttu.edu&recurrenceId=",
+                "status": "CONFIRMED",
+                "formattedDate": "Saturday, December 14, 2019 6:30 PM - 9:00 PM",
+                "start": {
+                    "allday": "false",
+                    "shortdate": "12/14/19",
+                    "longdate": "December 14, 2019",
+                    "dayname": "Saturday",
+                    "time": "6:30 PM",
+                    "utcdate": "20191215T003000Z",
+                    "datetime": "20191214T183000",
+                    "timezone": "America/Chicago"
+                },
+                "end": {
+                    "allday": "false",
+                    "shortdate": "12/14/19",
+                    "longdate": "December 14, 2019",
+                    "dayname": "Saturday",
+                    "time": "9:00 PM",
+                    "utcdate": "20191215T030000Z",
+                    "datetime": "20191214T210000",
+                    "timezone": "America/Chicago"
+                },
+                "location": {
+                    "address": "National Ranching Heritage Center",
+                    "uid": "01f61e84-31067fa7-0131-25306b96-00000f51",
+                    "name": "",
+                    "room": "",
+                    "subField1": "",
+                    "subField2": "",
+                    "accessible": "false",
+                    "geouri": "",
+                    "status": "",
+                    "street": "3121 4th St.",
+                    "city": "",
+                    "state": "",
+                    "zip": "",
+                    "alternateAddress": "",
+                    "code": "",
+                    "link": "http://www.nrhc.ttu.edu"
+                },
+                "contact": {
+                    "name": "National Ranching Heritage Center",
+                    "phone": "8067420498",
+                    "email": "scott.white@ttu.edu",
+                    "link": "http://www.NRHC.ttu.edu"
+                },
+                "calendar": {
+                    "name": "MainCal",
+                    "displayName": "MainCal",
+                    "path": "/public/cals/MainCal",
+                    "encodedPath": "%2Fpublic%2Fcals%2FMainCal"
+                },
+                "categories": [
+                    "Exhibits/Galleries",
+                    "National Ranching Heritage Center"
+                ],
+                "description": "Visitors will experience what Christmas might have been like on the open prairie in frontier days with the entire historic park lit as much as possible with only lanterns, fireplaces and campfires. Meet Santa and enjoy living history, live music, hot cocoa and kettle corn. Free of charge with a suggested donation of $5 per family.",
+                "cost": "",
+                "xproperties": [
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "National Ranching Heritage Center",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Subject/National Ranching Heritage Center",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Subject/National Ranching Heritage Center"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Exhibits/Galleries",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Type/Exhibits_sGalleries",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/Exhibits_sGalleries"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "National Ranching Heritage Center"
+                            },
+                            "values": {
+                                "text": "/agrp_calsuite-MainCampus/By Subject/National Ranching Heritage Center"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Exhibits/Galleries"
+                            },
+                            "values": {
+                                "text": "/agrp_calsuite-MainCampus/By Type/Exhibits_sGalleries"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Arts and Entertainment"
+                            },
+                            "values": {
+                                "text": "/agrp_calsuite-MainCampus/By Type/Arts and Entertainment"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTER-EMAIL": {
+                            "values": {
+                                "text": "sue.jones@ttu.edu"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTEDBY": {
+                            "values": {
+                                "text": "suejones"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-CALSUITE": {
+                            "values": {
+                                "text": "MainCampus"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "summary": "NRHC Closed for Holidays",
+                "subscriptionId": "",
+                "calPath": "%2Fpublic%2Fcals%2FMainCal",
+                "guid": "CAL-01f62b63-6c69111d-016d-5fbbd565-00004312itts.systems%40ttu.edu",
+                "recurrenceId": "",
+                "name": "CAL-01f62b63-6c69111d-016d-5fbbd565-00004312.ics",
+                "link": "",
+                "eventlink": "http://events.ttu.edu:8080/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-01f62b63-6c69111d-016d-5fbbd565-00004312itts.systems@ttu.edu&recurrenceId=",
+                "status": "CONFIRMED",
+                "formattedDate": "Monday, December 23, 2019  - Wed , January 1, 2020 (all day)",
+                "start": {
+                    "allday": "true",
+                    "shortdate": "12/23/19",
+                    "longdate": "December 23, 2019",
+                    "dayname": "Monday",
+                    "time": "12:00 AM",
+                    "utcdate": "20191223T060000Z",
+                    "datetime": "20191223",
+                    "timezone": ""
+                },
+                "end": {
+                    "allday": "true",
+                    "shortdate": "1/1/20",
+                    "longdate": "January 1, 2020",
+                    "dayname": "Wednesday",
+                    "time": "12:00 AM",
+                    "utcdate": "20200101T060000Z",
+                    "datetime": "20200101",
+                    "timezone": ""
+                },
+                "location": {
+                    "address": "National Ranching Heritage Center",
+                    "uid": "01f61e84-31067fa7-0131-25306b96-00000f51",
+                    "name": "",
+                    "room": "",
+                    "subField1": "",
+                    "subField2": "",
+                    "accessible": "false",
+                    "geouri": "",
+                    "status": "",
+                    "street": "3121 4th St.",
+                    "city": "",
+                    "state": "",
+                    "zip": "",
+                    "alternateAddress": "",
+                    "code": "",
+                    "link": "http://www.nrhc.ttu.edu"
+                },
+                "contact": {
+                    "name": "National Ranching Heritage Center",
+                    "phone": "8067420498",
+                    "email": "scott.white@ttu.edu",
+                    "link": "http://www.NRHC.ttu.edu"
+                },
+                "calendar": {
+                    "name": "MainCal",
+                    "displayName": "MainCal",
+                    "path": "/public/cals/MainCal",
+                    "encodedPath": "%2Fpublic%2Fcals%2FMainCal"
+                },
+                "categories": [
+                    "Exhibits/Galleries",
+                    "National Ranching Heritage Center"
+                ],
+                "description": "State holidays for employees",
+                "cost": "",
+                "xproperties": [
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "National Ranching Heritage Center",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Subject/National Ranching Heritage Center",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Subject/National Ranching Heritage Center"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Exhibits/Galleries",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Type/Exhibits_sGalleries",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/Exhibits_sGalleries"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "National Ranching Heritage Center"
+                            },
+                            "values": {
+                                "text": "/agrp_calsuite-MainCampus/By Subject/National Ranching Heritage Center"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Exhibits/Galleries"
+                            },
+                            "values": {
+                                "text": "/agrp_calsuite-MainCampus/By Type/Exhibits_sGalleries"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTER-EMAIL": {
+                            "values": {
+                                "text": "sue.jones@ttu.edu"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTEDBY": {
+                            "values": {
+                                "text": "suejones"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-CALSUITE": {
+                            "values": {
+                                "text": "MainCampus"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "summary": "Closed for MLK Holiday",
+                "subscriptionId": "",
+                "calPath": "%2Fpublic%2Fcals%2FMainCal",
+                "guid": "CAL-01f62b63-6d722c74-016d-73f7c6de-00000e61itts.systems%40ttu.edu",
+                "recurrenceId": "",
+                "name": "CAL-01f62b63-6d722c74-016d-73f7c6de-00000e61.ics",
+                "link": "",
+                "eventlink": "http://events.ttu.edu:8080/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-01f62b63-6d722c74-016d-73f7c6de-00000e61itts.systems@ttu.edu&recurrenceId=",
+                "status": "CONFIRMED",
+                "formattedDate": "Monday, January 20, 2020 (all day)",
+                "start": {
+                    "allday": "true",
+                    "shortdate": "1/20/20",
+                    "longdate": "January 20, 2020",
+                    "dayname": "Monday",
+                    "time": "12:00 AM",
+                    "utcdate": "20200120T060000Z",
+                    "datetime": "20200120",
+                    "timezone": ""
+                },
+                "end": {
+                    "allday": "true",
+                    "shortdate": "1/20/20",
+                    "longdate": "January 20, 2020",
+                    "dayname": "Monday",
+                    "time": "12:00 AM",
+                    "utcdate": "20200120T060000Z",
+                    "datetime": "20200120",
+                    "timezone": ""
+                },
+                "location": {
+                    "address": "National Ranching Heritage Center",
+                    "uid": "01f61e84-31067fa7-0131-25306b96-00000f51",
+                    "name": "",
+                    "room": "",
+                    "subField1": "",
+                    "subField2": "",
+                    "accessible": "false",
+                    "geouri": "",
+                    "status": "",
+                    "street": "3121 4th St.",
+                    "city": "",
+                    "state": "",
+                    "zip": "",
+                    "alternateAddress": "",
+                    "code": "",
+                    "link": "http://www.nrhc.ttu.edu"
+                },
+                "contact": {
+                    "name": "National Ranching Heritage Center",
+                    "phone": "8067420498",
+                    "email": "scott.white@ttu.edu",
+                    "link": "http://www.NRHC.ttu.edu"
+                },
+                "calendar": {
+                    "name": "MainCal",
+                    "displayName": "MainCal",
+                    "path": "/public/cals/MainCal",
+                    "encodedPath": "%2Fpublic%2Fcals%2FMainCal"
+                },
+                "categories": [
+                    "Exhibits/Galleries",
+                    "National Ranching Heritage Center"
+                ],
+                "description": "State holiday for employees",
+                "cost": "",
+                "xproperties": [
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "National Ranching Heritage Center",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Subject/National Ranching Heritage Center",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Subject/National Ranching Heritage Center"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Exhibits/Galleries",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Type/Exhibits_sGalleries",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/Exhibits_sGalleries"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "National Ranching Heritage Center"
+                            },
+                            "values": {
+                                "text": "/agrp_calsuite-MainCampus/By Subject/National Ranching Heritage Center"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Exhibits/Galleries"
+                            },
+                            "values": {
+                                "text": "/agrp_calsuite-MainCampus/By Type/Exhibits_sGalleries"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTER-EMAIL": {
+                            "values": {
+                                "text": "sue.jones@ttu.edu"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTEDBY": {
+                            "values": {
+                                "text": "suejones"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-CALSUITE": {
+                            "values": {
+                                "text": "MainCampus"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "summary": "NRHC Closed for MLK Day",
+                "subscriptionId": "",
+                "calPath": "%2Fpublic%2Fcals%2FMainCal",
+                "guid": "CAL-01f62b63-6c69111d-016d-60078b5e-0000458ditts.systems%40ttu.edu",
+                "recurrenceId": "",
+                "name": "CAL-01f62b63-6c69111d-016d-60078b5e-0000458d.ics",
+                "link": "",
+                "eventlink": "http://events.ttu.edu:8080/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-01f62b63-6c69111d-016d-60078b5e-0000458ditts.systems@ttu.edu&recurrenceId=",
+                "status": "CONFIRMED",
+                "formattedDate": "Monday, January 20, 2020 (all day)",
+                "start": {
+                    "allday": "true",
+                    "shortdate": "1/20/20",
+                    "longdate": "January 20, 2020",
+                    "dayname": "Monday",
+                    "time": "12:00 AM",
+                    "utcdate": "20200120T060000Z",
+                    "datetime": "20200120",
+                    "timezone": ""
+                },
+                "end": {
+                    "allday": "true",
+                    "shortdate": "1/20/20",
+                    "longdate": "January 20, 2020",
+                    "dayname": "Monday",
+                    "time": "12:00 AM",
+                    "utcdate": "20200120T060000Z",
+                    "datetime": "20200120",
+                    "timezone": ""
+                },
+                "location": {
+                    "address": "National Ranching Heritage Center",
+                    "uid": "01f61e84-31067fa7-0131-25306b96-00000f51",
+                    "name": "",
+                    "room": "",
+                    "subField1": "",
+                    "subField2": "",
+                    "accessible": "false",
+                    "geouri": "",
+                    "status": "",
+                    "street": "3121 4th St.",
+                    "city": "",
+                    "state": "",
+                    "zip": "",
+                    "alternateAddress": "",
+                    "code": "",
+                    "link": "http://www.nrhc.ttu.edu"
+                },
+                "contact": {
+                    "name": "National Ranching Heritage Center",
+                    "phone": "8067420498",
+                    "email": "scott.white@ttu.edu",
+                    "link": "http://www.NRHC.ttu.edu"
+                },
+                "calendar": {
+                    "name": "MainCal",
+                    "displayName": "MainCal",
+                    "path": "/public/cals/MainCal",
+                    "encodedPath": "%2Fpublic%2Fcals%2FMainCal"
+                },
+                "categories": [
+                    "Exhibits/Galleries",
+                    "National Ranching Heritage Center"
+                ],
+                "description": "State holiday for employees",
+                "cost": "",
+                "xproperties": [
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "National Ranching Heritage Center",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Subject/National Ranching Heritage Center",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Subject/National Ranching Heritage Center"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Exhibits/Galleries",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Type/Exhibits_sGalleries",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/Exhibits_sGalleries"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "National Ranching Heritage Center"
+                            },
+                            "values": {
+                                "text": "/agrp_calsuite-MainCampus/By Subject/National Ranching Heritage Center"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Exhibits/Galleries"
+                            },
+                            "values": {
+                                "text": "/agrp_calsuite-MainCampus/By Type/Exhibits_sGalleries"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTER-EMAIL": {
+                            "values": {
+                                "text": "sue.jones@ttu.edu"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTEDBY": {
+                            "values": {
+                                "text": "suejones"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-CALSUITE": {
+                            "values": {
+                                "text": "MainCampus"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "summary": "Resume Critique Day",
+                "subscriptionId": "",
+                "calPath": "%2Fpublic%2Fcals%2FMainCal",
+                "guid": "CAL-01f62b63-6c4768b5-016c-495349b7-00000d21itts.systems%40ttu.edu",
+                "recurrenceId": "",
+                "name": "CAL-01f62b63-6c4768b5-016c-495349b7-00000d21.ics",
+                "link": "https://www.depts.ttu.edu/careercenter/resumecritiqueday/index.php",
+                "eventlink": "http://events.ttu.edu:8080/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-01f62b63-6c4768b5-016c-495349b7-00000d21itts.systems@ttu.edu&recurrenceId=",
+                "status": "CONFIRMED",
+                "formattedDate": "Wednesday, January 29, 2020 9:00 AM - 4:00 PM",
+                "start": {
+                    "allday": "false",
+                    "shortdate": "1/29/20",
+                    "longdate": "January 29, 2020",
+                    "dayname": "Wednesday",
+                    "time": "9:00 AM",
+                    "utcdate": "20200129T150000Z",
+                    "datetime": "20200129T090000",
+                    "timezone": "America/Chicago"
+                },
+                "end": {
+                    "allday": "false",
+                    "shortdate": "1/29/20",
+                    "longdate": "January 29, 2020",
+                    "dayname": "Wednesday",
+                    "time": "4:00 PM",
+                    "utcdate": "20200129T220000Z",
+                    "datetime": "20200129T160000",
+                    "timezone": "America/Chicago"
+                },
+                "location": {
+                    "address": "University Career Services",
+                    "uid": "01f61e84-35ff8d0c-0136-0ce1ebbc-0000335b",
+                    "name": "",
+                    "room": "",
+                    "subField1": "",
+                    "subField2": "",
+                    "accessible": "false",
+                    "geouri": "",
+                    "status": "",
+                    "street": "Wiggins Complex",
+                    "city": "",
+                    "state": "",
+                    "zip": "",
+                    "alternateAddress": "",
+                    "code": "",
+                    "link": "http://www.depts.ttu.edu/careercenter/"
+                },
+                "contact": {
+                    "name": "University Career Center",
+                    "phone": "806-742-2210",
+                    "email": "Tori.Coleman@ttu.edu",
+                    "link": "http://www.careercenter.ttu.edu"
+                },
+                "calendar": {
+                    "name": "MainCal",
+                    "displayName": "MainCal",
+                    "path": "/public/cals/MainCal",
+                    "encodedPath": "%2Fpublic%2Fcals%2FMainCal"
+                },
+                "categories": [
+                    "Student Affairs",
+                    "General Announcements"
+                ],
+                "description": "Students are encouraged to stop by the UCC (150 Wiggins Complex, next to Sam's Place West) any time between 9:00 am &ndash; 4:00 pm the day of the event to have their resume or any other professional document critiqued by our friendly staff. No appointment necessary!",
+                "cost": "",
+                "xproperties": [
+                    {
+                        "X-BEDEWORK-IMAGE": {
+                            "values": {
+                                "text": "https://www.depts.ttu.edu/careercenter/resumecritiqueday/ResumeCritiqueDayLP.jpg"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Student Affairs",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Subject/Student Activities_sCampus Life",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Subject/Student Activities_sCampus Life"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "General Announcements",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Type/General Announcements",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/General Announcements"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTER-EMAIL": {
+                            "values": {
+                                "text": "tori.coleman@ttu.edu"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTEDBY": {
+                            "values": {
+                                "text": "toricole"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-CALSUITE": {
+                            "values": {
+                                "text": "MainCampus"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "summary": "Resume Critique Day",
+                "subscriptionId": "",
+                "calPath": "%2Fpublic%2Fcals%2FMainCal",
+                "guid": "CAL-01f62b63-6c4768b5-016c-4985a3c1-00000ec5itts.systems%40ttu.edu",
+                "recurrenceId": "",
+                "name": "CAL-01f62b63-6c4768b5-016c-4985a3c1-00000ec5.ics",
+                "link": "https://www.depts.ttu.edu/careercenter/resumecritiqueday/index.php",
+                "eventlink": "http://events.ttu.edu:8080/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-01f62b63-6c4768b5-016c-4985a3c1-00000ec5itts.systems@ttu.edu&recurrenceId=",
+                "status": "CONFIRMED",
+                "formattedDate": "Wednesday, January 29, 2020 9:00 AM - 4:00 PM",
+                "start": {
+                    "allday": "false",
+                    "shortdate": "1/29/20",
+                    "longdate": "January 29, 2020",
+                    "dayname": "Wednesday",
+                    "time": "9:00 AM",
+                    "utcdate": "20200129T150000Z",
+                    "datetime": "20200129T090000",
+                    "timezone": "America/Chicago"
+                },
+                "end": {
+                    "allday": "false",
+                    "shortdate": "1/29/20",
+                    "longdate": "January 29, 2020",
+                    "dayname": "Wednesday",
+                    "time": "4:00 PM",
+                    "utcdate": "20200129T220000Z",
+                    "datetime": "20200129T160000",
+                    "timezone": "America/Chicago"
+                },
+                "location": {
+                    "address": "University Career Services",
+                    "uid": "01f61e84-35ff8d0c-0136-0ce1ebbc-0000335b",
+                    "name": "",
+                    "room": "",
+                    "subField1": "",
+                    "subField2": "",
+                    "accessible": "false",
+                    "geouri": "",
+                    "status": "",
+                    "street": "Wiggins Complex",
+                    "city": "",
+                    "state": "",
+                    "zip": "",
+                    "alternateAddress": "",
+                    "code": "",
+                    "link": "http://www.depts.ttu.edu/careercenter/"
+                },
+                "contact": {
+                    "name": "University Career Center",
+                    "phone": "806-742-2210",
+                    "email": "Tori.Coleman@ttu.edu",
+                    "link": "http://www.careercenter.ttu.edu"
+                },
+                "calendar": {
+                    "name": "MainCal",
+                    "displayName": "MainCal",
+                    "path": "/public/cals/MainCal",
+                    "encodedPath": "%2Fpublic%2Fcals%2FMainCal"
+                },
+                "categories": [
+                    "Lectures, Meetings",
+                    "Student Affairs",
+                    "General Announcements",
+                    "Academics"
+                ],
+                "description": "Students are encouraged to stop by the UCC (150 Wiggins Complex, next to Sam's Place West) any time between 9:00 am &ndash; 4:00 pm the day of the event to have their resume or any other professional document critiqued by our friendly staff. No appointment necessary!",
+                "cost": "",
+                "xproperties": [
+                    {
+                        "X-BEDEWORK-IMAGE": {
+                            "values": {
+                                "text": "https://www.depts.ttu.edu/careercenter/resumecritiqueday/ResumeCritiqueDayLP.jpg"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Student Affairs",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Subject/Student Activities_sCampus Life",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Subject/Student Activities_sCampus Life"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Academics",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Subject/Academics",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Subject/Academics"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "General Announcements",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Type/General Announcements",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/General Announcements"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Lectures, Meetings",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Type/Lectures, Meetings",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/Lectures, Meetings"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-LOCATION": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-URL": "https://goo.gl/maps/4FVJxz511Zt7rLdy9"
+                            },
+                            "values": {
+                                "text": "150 Wiggins Complex, next to Sam's Place West"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTER-EMAIL": {
+                            "values": {
+                                "text": "tori.coleman@ttu.edu"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTEDBY": {
+                            "values": {
+                                "text": "toricole"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-CALSUITE": {
+                            "values": {
+                                "text": "MainCampus"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "summary": "Office Hours with the President for Students",
+                "subscriptionId": "",
+                "calPath": "%2Fpublic%2Fcals%2FMainCal",
+                "guid": "CAL-01f62b63-6c69111d-016c-df37ebd0-000039aaitts.systems%40ttu.edu",
+                "recurrenceId": "",
+                "name": "CAL-01f62b63-6c69111d-016c-df37ebd0-000039aa.ics",
+                "link": "https://www.ttu.edu/administration/president/",
+                "eventlink": "http://events.ttu.edu:8080/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-01f62b63-6c69111d-016c-df37ebd0-000039aaitts.systems@ttu.edu&recurrenceId=",
+                "status": "CONFIRMED",
+                "formattedDate": "Monday, February 3, 2020 3:00 PM",
+                "start": {
+                    "allday": "false",
+                    "shortdate": "2/3/20",
+                    "longdate": "February 3, 2020",
+                    "dayname": "Monday",
+                    "time": "3:00 PM",
+                    "utcdate": "20200203T210000Z",
+                    "datetime": "20200203T150000",
+                    "timezone": "America/Chicago"
+                },
+                "end": {
+                    "allday": "false",
+                    "shortdate": "2/3/20",
+                    "longdate": "February 3, 2020",
+                    "dayname": "Monday",
+                    "time": "3:00 PM",
+                    "utcdate": "20200203T210000Z",
+                    "datetime": "20200203T150000",
+                    "timezone": "America/Chicago"
+                },
+                "location": {
+                    "address": "President's Office",
+                    "uid": "01f62b63-6c69111d-016c-df1a791f-000038c5",
+                    "name": "",
+                    "room": "Suite 115",
+                    "subField1": "",
+                    "subField2": "",
+                    "accessible": "false",
+                    "geouri": "",
+                    "status": "",
+                    "street": "Administration Building",
+                    "city": "",
+                    "state": "",
+                    "zip": "",
+                    "alternateAddress": "",
+                    "code": "",
+                    "link": ""
+                },
+                "contact": {
+                    "name": "President's Office",
+                    "phone": "806-742-2121",
+                    "email": "",
+                    "link": ""
+                },
+                "calendar": {
+                    "name": "MainCal",
+                    "displayName": "MainCal",
+                    "path": "/public/cals/MainCal",
+                    "encodedPath": "%2Fpublic%2Fcals%2FMainCal"
+                },
+                "categories": [
+                    "Lecture/Reading/Talk",
+                    "Student Affairs",
+                    "General Announcements"
+                ],
+                "description": "Texas Tech&rsquo;s President Lawrence Schovanec will open up his office to host Office Hours with the President throughout the semester. During this time, guests are invited to share ideas, ask questions or just get to know President Schovanec. \n\nStudents: \nFebruary 3 (Monday) - 3 p.m.\nApril 7 (Tuesday) - 3 p.m.\n\nFaculty and Staff: \nMarch 5 (Thursday) - 11 a.m.",
+                "cost": "",
+                "xproperties": [
+                    {
+                        "X-BEDEWORK-IMAGE": {
+                            "values": {
+                                "text": "https://www.depts.ttu.edu/communications/events/images/Schovanec_event2.jpg"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "General Announcements",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Type/General Announcements",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/General Announcements"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Lecture/Reading/Talk",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Type/Lecture_sReading_sTalk",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/Lecture_sReading_sTalk"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Student Activities/Campus Life",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Type/Student Activities_sCampus Life",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/Student Activities_sCampus Life"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Lectures, Meetings"
+                            },
+                            "values": {
+                                "text": "/agrp_calsuite-MainCampus/By Type/Lectures, Meetings"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTER-EMAIL": {
+                            "values": {
+                                "text": "karin.slyker@ttu.edu"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTEDBY": {
+                            "values": {
+                                "text": "kslyker"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-CALSUITE": {
+                            "values": {
+                                "text": "MainCampus"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "summary": "Office Hours with the President for Students",
+                "subscriptionId": "",
+                "calPath": "%2Fpublic%2Fcals%2FMainCal",
+                "guid": "CAL-01f62b63-6c69111d-016c-df3437cd-00003962itts.systems%40ttu.edu",
+                "recurrenceId": "",
+                "name": "CAL-01f62b63-6c69111d-016c-df3437cd-00003962.ics",
+                "link": "https://www.ttu.edu/administration/president/",
+                "eventlink": "http://events.ttu.edu:8080/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-01f62b63-6c69111d-016c-df3437cd-00003962itts.systems@ttu.edu&recurrenceId=",
+                "status": "CONFIRMED",
+                "formattedDate": "Monday, February 3, 2020 3:00 PM",
+                "start": {
+                    "allday": "false",
+                    "shortdate": "2/3/20",
+                    "longdate": "February 3, 2020",
+                    "dayname": "Monday",
+                    "time": "3:00 PM",
+                    "utcdate": "20200203T210000Z",
+                    "datetime": "20200203T150000",
+                    "timezone": "America/Chicago"
+                },
+                "end": {
+                    "allday": "false",
+                    "shortdate": "2/3/20",
+                    "longdate": "February 3, 2020",
+                    "dayname": "Monday",
+                    "time": "3:00 PM",
+                    "utcdate": "20200203T210000Z",
+                    "datetime": "20200203T150000",
+                    "timezone": "America/Chicago"
+                },
+                "location": {
+                    "address": "President's Office",
+                    "uid": "01f62b63-6c69111d-016c-df1a791f-000038c5",
+                    "name": "",
+                    "room": "Suite 115",
+                    "subField1": "",
+                    "subField2": "",
+                    "accessible": "false",
+                    "geouri": "",
+                    "status": "",
+                    "street": "Administration Building",
+                    "city": "",
+                    "state": "",
+                    "zip": "",
+                    "alternateAddress": "",
+                    "code": "",
+                    "link": ""
+                },
+                "contact": {
+                    "name": "President's Office",
+                    "phone": "806-742-2121",
+                    "email": "",
+                    "link": ""
+                },
+                "calendar": {
+                    "name": "MainCal",
+                    "displayName": "MainCal",
+                    "path": "/public/cals/MainCal",
+                    "encodedPath": "%2Fpublic%2Fcals%2FMainCal"
+                },
+                "categories": [
+                    "Lecture/Reading/Talk",
+                    "Student Affairs",
+                    "General Announcements"
+                ],
+                "description": "Texas Tech&rsquo;s President Lawrence Schovanec will open up his office to host Office Hours with the President throughout the semester. During this time, guests are invited to share ideas, ask questions or just get to know President Schovanec. \n\nStudents: \nFebruary 3 (Monday) - 3 p.m.\nApril 7 (Tuesday) - 3 p.m.\n\nFaculty and Staff: \nMarch 5 (Thursday) - 11 a.m.",
+                "cost": "",
+                "xproperties": [
+                    {
+                        "X-BEDEWORK-IMAGE": {
+                            "values": {
+                                "text": "https://www.depts.ttu.edu/communications/events/images/Schovanec_event2.jpg"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Lecture/Reading/Talk",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Type/Lecture_sReading_sTalk",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/Lecture_sReading_sTalk"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "General Announcements",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Type/General Announcements",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/General Announcements"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Student Activities/Campus Life",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Type/Student Activities_sCampus Life",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/Student Activities_sCampus Life"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Lectures, Meetings"
+                            },
+                            "values": {
+                                "text": "/agrp_calsuite-MainCampus/By Type/Lectures, Meetings"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTER-EMAIL": {
+                            "values": {
+                                "text": "karin.slyker@ttu.edu"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTEDBY": {
+                            "values": {
+                                "text": "kslyker"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-CALSUITE": {
+                            "values": {
+                                "text": "MainCampus"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "summary": "Summer Camp Job Fair Spring 2020",
+                "subscriptionId": "",
+                "calPath": "%2Fpublic%2Fcals%2FMainCal",
+                "guid": "CAL-01f62b63-6c4768b5-016c-498afe49-00000f06itts.systems%40ttu.edu",
+                "recurrenceId": "",
+                "name": "CAL-01f62b63-6c4768b5-016c-498afe49-00000f06.ics",
+                "link": "https://www.depts.ttu.edu/careercenter/20scjf/index.php",
+                "eventlink": "http://events.ttu.edu:8080/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-01f62b63-6c4768b5-016c-498afe49-00000f06itts.systems@ttu.edu&recurrenceId=",
+                "status": "CONFIRMED",
+                "formattedDate": "Wednesday, February 5, 2020 11:00 AM - 2:00 PM",
+                "start": {
+                    "allday": "false",
+                    "shortdate": "2/5/20",
+                    "longdate": "February 5, 2020",
+                    "dayname": "Wednesday",
+                    "time": "11:00 AM",
+                    "utcdate": "20200205T170000Z",
+                    "datetime": "20200205T110000",
+                    "timezone": "America/Chicago"
+                },
+                "end": {
+                    "allday": "false",
+                    "shortdate": "2/5/20",
+                    "longdate": "February 5, 2020",
+                    "dayname": "Wednesday",
+                    "time": "2:00 PM",
+                    "utcdate": "20200205T200000Z",
+                    "datetime": "20200205T140000",
+                    "timezone": "America/Chicago"
+                },
+                "location": {
+                    "address": "SUB Ballroom",
+                    "uid": "ff808181-45bc1dea-0146-6846b714-00003401",
+                    "name": "",
+                    "room": "",
+                    "subField1": "",
+                    "subField2": "",
+                    "accessible": "false",
+                    "geouri": "",
+                    "status": "",
+                    "street": "",
+                    "city": "",
+                    "state": "",
+                    "zip": "",
+                    "alternateAddress": "",
+                    "code": "",
+                    "link": ""
+                },
+                "contact": {
+                    "name": "University Career Center",
+                    "phone": "806-742-2210",
+                    "email": "Tori.Coleman@ttu.edu",
+                    "link": "http://www.careercenter.ttu.edu"
+                },
+                "calendar": {
+                    "name": "MainCal",
+                    "displayName": "MainCal",
+                    "path": "/public/cals/MainCal",
+                    "encodedPath": "%2Fpublic%2Fcals%2FMainCal"
+                },
+                "categories": [
+                    "Student Affairs",
+                    "General Announcements"
+                ],
+                "description": "If you are interested in working with children or managing projects, drop by the SUB Courtyard and Ballroom on Wednesday, February 5, 2020, 11am &ndash; 2pm, to visit with representatives from diverse summer camps offering a variety of paid positions for Summer 2020. The Summer Camp Job Fair is open to all classifications and majors and there is no registration required!",
+                "cost": "",
+                "xproperties": [
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Student Affairs",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Subject/Student Activities_sCampus Life",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Subject/Student Activities_sCampus Life"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "General Announcements",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Type/General Announcements",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/General Announcements"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Student Activities/Campus Life",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Type/Student Activities_sCampus Life",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/Student Activities_sCampus Life"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTER-EMAIL": {
+                            "values": {
+                                "text": "tori.coleman@ttu.edu"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTEDBY": {
+                            "values": {
+                                "text": "toricole"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-CALSUITE": {
+                            "values": {
+                                "text": "MainCampus"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "summary": "Resume Critique Day",
+                "subscriptionId": "",
+                "calPath": "%2Fpublic%2Fcals%2FMainCal",
+                "guid": "CAL-01f62b63-6c69111d-016c-71af4727-00003a5aitts.systems%40ttu.edu",
+                "recurrenceId": "",
+                "name": "CAL-01f62b63-6c69111d-016c-71af4727-00003a5a.ics",
+                "link": "http://www.depts.ttu.edu/careercenter/resumecritiqueday/index.php",
+                "eventlink": "http://events.ttu.edu:8080/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-01f62b63-6c69111d-016c-71af4727-00003a5aitts.systems@ttu.edu&recurrenceId=",
+                "status": "CONFIRMED",
+                "formattedDate": "Tuesday, February 18, 2020 9:00 AM - 4:00 PM",
+                "start": {
+                    "allday": "false",
+                    "shortdate": "2/18/20",
+                    "longdate": "February 18, 2020",
+                    "dayname": "Tuesday",
+                    "time": "9:00 AM",
+                    "utcdate": "20200218T150000Z",
+                    "datetime": "20200218T090000",
+                    "timezone": "America/Chicago"
+                },
+                "end": {
+                    "allday": "false",
+                    "shortdate": "2/18/20",
+                    "longdate": "February 18, 2020",
+                    "dayname": "Tuesday",
+                    "time": "4:00 PM",
+                    "utcdate": "20200218T220000Z",
+                    "datetime": "20200218T160000",
+                    "timezone": "America/Chicago"
+                },
+                "location": {
+                    "address": "University Career Services",
+                    "uid": "01f61e84-35ff8d0c-0136-0ce1ebbc-0000335b",
+                    "name": "",
+                    "room": "",
+                    "subField1": "",
+                    "subField2": "",
+                    "accessible": "false",
+                    "geouri": "",
+                    "status": "",
+                    "street": "Wiggins Complex",
+                    "city": "",
+                    "state": "",
+                    "zip": "",
+                    "alternateAddress": "",
+                    "code": "",
+                    "link": "http://www.depts.ttu.edu/careercenter/"
+                },
+                "contact": {
+                    "name": "University Career Center",
+                    "phone": "806-742-2210",
+                    "email": "Tori.Coleman@ttu.edu",
+                    "link": "http://www.careercenter.ttu.edu"
+                },
+                "calendar": {
+                    "name": "MainCal",
+                    "displayName": "MainCal",
+                    "path": "/public/cals/MainCal",
+                    "encodedPath": "%2Fpublic%2Fcals%2FMainCal"
+                },
+                "categories": [
+                    "Lectures, Meetings",
+                    "Student Affairs"
+                ],
+                "description": "Students are encouraged to stop by the UCC (150 Wiggins Complex, next to Sam's Place West) any time between 9:00 am &ndash; 4:00 pm the day of the event to have their resume or any other professional document critiqued by our friendly staff. No appointment necessary!",
+                "cost": "",
+                "xproperties": [
+                    {
+                        "X-BEDEWORK-IMAGE": {
+                            "values": {
+                                "text": "http://www.depts.ttu.edu/careercenter/resumecritiqueday/ResumeCritiqueDayLP.jpg"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Lectures, Meetings",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Type/Lectures, Meetings",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Type/Lectures, Meetings"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Student Affairs",
+                                "X-BEDEWORK-PARAM-PATH": "/public/aliases/By Subject/Student Activities_sCampus Life",
+                                "X-BEDEWORK-PARAM-ALIASPATH": "/public/cals/MainCal"
+                            },
+                            "values": {
+                                "text": "/user/agrp_calsuite-MainCampus/By Subject/Student Activities_sCampus Life"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMIT-ALIAS": {
+                            "parameters": {
+                                "X-BEDEWORK-PARAM-DISPLAYNAME": "Student Affairs"
+                            },
+                            "values": {
+                                "text": "/agrp_calsuite-MainCampus/By Subject/Student Activities_sCampus Life"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTER-EMAIL": {
+                            "values": {
+                                "text": "tori.coleman@ttu.edu"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-SUBMITTEDBY": {
+                            "values": {
+                                "text": "toricole"
+                            }
+                        }
+                    },
+                    {
+                        "X-BEDEWORK-CALSUITE": {
+                            "values": {
+                                "text": "MainCampus"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

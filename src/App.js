@@ -8,7 +8,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 import { far } from '@fortawesome/free-regular-svg-icons'
 
 import Main from './components/Main'
-import Schedule from './components/Schedule'
+import CalendarPage from './components/CalendarPage'
 import Map from './components/Map'
 import Navigation from './components/Navigation'
 import './App.css';
@@ -19,13 +19,12 @@ function App() {
 
 	return (
 		<div className="App">
-			{/* <CssBaseline/> */}
 			<Router basename={process.env.PUBLIC_URL}>
 				<Navigation/>
 				<Switch>
 					<Route exact path='/' render={props => <Main {...props}/>} />
-					<Route path='/calendar' render={props => <Schedule {...props}/>} />
 					<Route path='/map/:location?' render={props => <Map {...props}/>} />
+					<Route path='/calendar/:filter?' render={props => <CalendarPage {...props}/>} />
 				</Switch>
 			</Router>
 		</div>
