@@ -14,6 +14,12 @@ const CardExampleCard = (props) => (
                 {props.description}
             </Card.Description>
         </Card.Content>
+        <Card.Content extra>
+            <a>
+                <Icon name={props.icon} />
+                {props.iconDesc}
+            </a>
+        </Card.Content>
     </Card>
 )
 
