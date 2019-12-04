@@ -47,7 +47,7 @@ class Resources extends Component {
                 ></Card> */}
                 
                 <Grid container spacing={3} direction="row" justify="space-evenly" alignItems="center">
-                    <Grid item xs={4}>
+                    <Grid item xs={4} style={{flexBasis: 'auto'}}>
                         <Card
                             image={'https://images.unsplash.com/photo-1575290970649-8490709215cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60'}
                             title={'YOMOMMA'}
@@ -57,7 +57,7 @@ class Resources extends Component {
                             iconDesc={' Do proident cupidatat'}
                         ></Card>
                     </Grid>
-                    <Grid item xs={4}>
+                    <Grid item xs={4} style={{flexBasis: 'auto'}}>
                         <Card
                             image={'https://images.unsplash.com/photo-1575290970649-8490709215cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60'}
                             title={'YOMOMMA'}
@@ -67,7 +67,7 @@ class Resources extends Component {
                             iconDesc={' Do proident cupidatat'}
                         ></Card>
                     </Grid>
-                    <Grid item xs={4}>
+                    <Grid item xs={4} style={{flexBasis: 'auto'}}>
                         <Card
                             image={'https://images.unsplash.com/photo-1575290970649-8490709215cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60'}
                             title={'YOMOMMA'}
