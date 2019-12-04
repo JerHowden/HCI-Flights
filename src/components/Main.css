@@ -15,7 +15,7 @@
 }
 
 #MainTitle > div:nth-child(2) {
-    margin-top: -14px;
+    margin-top: 14px;
     font-size: 48px;
     font-weight: bold;
 }

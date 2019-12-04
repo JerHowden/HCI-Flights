@@ -1,4 +1,17 @@
 #SidebarData > div {
     margin-left: 16px;
     margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+#SidebarData > div > p {
+    padding-top: 16px;
+}
+
+#SidebarData a > div:hover {
+    background-color: rgb(128, 0, 0) !important;
+}
+
+#SidebarData a > div:active {
+    background-color: rgb(255, 0, 0) !important;
 }

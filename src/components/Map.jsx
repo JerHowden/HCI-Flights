@@ -76,6 +76,7 @@ class Map extends Component {
 				'layout': {},
 				"paint": {
 					"fill-color": "#627BC1",
+					// "fill-color": "#991b1b",
 					"fill-opacity": ["case",
 						["boolean", ["feature-state", "hover"], false],
 						1,
@@ -91,6 +92,7 @@ class Map extends Component {
 				'layout': {},
 				'paint': {
 					'line-color': '#627BC1',
+					// 'line-color': '#991b1b',
 					'line-width': 2
 				}
 			})
