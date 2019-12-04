@@ -12,33 +12,7 @@ import locations from '../data/locations.json'
 import Panel from './Panel'
 import './Map.css'
 
-const fill = {
-	"id": "building-fills",
-	"type": "fill",
-	"source": "buildings",
-	"layout": {},
-	"paint": {
-		"fill-color": "#627BC1",
-		"fill-opacity": ["case",
-			["boolean", ["feature-state", "hover"], false],
-			1,
-			0.3
-		]
-	}
-}
-
-const outline = {
-	"id": "building-outline",
-	"type": "line",
-	"source": "buildings",
-	"layout": {},
-	"paint": {
-		"line-color": "#627BC1",
-		"line-width": 2
-	}
-}
 var map = null;
-
 class Map extends Component {
 	constructor(props) {
 		super(props)
@@ -57,17 +31,14 @@ class Map extends Component {
 			},
 
 			apiKey: 'pk.eyJ1IjoiZWxpYXNjbTE3IiwiYSI6ImNrMzR4NmJvdzFhOW8zbXBweXUwcHIwdDYifQ.T_3ZZklfpxf5b8wibfI0ew',
-			styleFill: fill,
-			styleOutline: outline,
 
 			hoveredFeature: null,
+			hoveredBuildingid: null,
 			hoverInfo: null,
 			activeFeature: locations[this.props.match.params.location],
 			sidebarOpen: !!locations[this.props.match.params.location],
 
 			locations: [],
-
-			hoveredBuildingid: null
 
 		}
 	}
@@ -91,11 +62,13 @@ class Map extends Component {
 		map = this.reactMap.getMap();
 
 		map.on('load', () => {
+			//source from buildings.json
 			map.addSource('buildings', {
 				'type': 'geojson',
 				'data': buildings
 			})
-
+			
+			//fill of each building
 			map.addLayer({
 				"id": 'building-fills',
 				'type': 'fill',
@@ -110,25 +83,17 @@ class Map extends Component {
 					]
 				}
 			})
-
+			//outline of each building
 			map.addLayer({
-				"id": 'building-outline',
+				"id": 'building-borders',
 				'type': 'line',
 				'source': 'buildings',
 				'layout': {},
-				"paint": {
-					"line-color": "#627BC1",
-					"line-width": 2
+				'paint': {
+					'line-color': '#627BC1',
+					'line-width': 2
 				}
 			})
-
-			map.on("mouseleave", "building-fills", function () {
-				if (hoveredBuildingid) {
-					map.setFeatureState({ source: 'buildings', id: hoveredBuildingid }, { hover: false });
-				}
-				hoveredBuildingid = null;
-				this.setState({hoveredBuildingid: null})
-			});
 
 		})
 
@@ -146,46 +111,34 @@ class Map extends Component {
 
 	_onHover = event => {
 
-		const { hoveredBuildingid } = this.state
+		const { hoveredBuildingid, hoveredFeature, sidebarOpen } = this.state
 
-		if(this.state.sidebarOpen && event.center.x > 0.7 * window.innerWidth) {
-			if(this.state.hoveredFeature)
+		//something with the sidebar idk
+		if(sidebarOpen && event.center.x > 0.7 * window.innerWidth) {
+			if(hoveredFeature)
 				this.setState({ hoveredFeature: null })
 			return
 		}
-		let hoverInfo = null;
-		let buildingName = '';
+
 		const {
 			features,
 			srcEvent: { offsetX, offsetY },
 		} = event;
 
-		const hoveredFeature = features && features.find(f => f.layer.id === 'building-fills');
-		// console.log(event.features)
+		// assigns the building that is underneath the cursor. If there is one.
+		this.setState({ hoveredFeature: features && features.find(f => f.layer.id === 'building-fills')});
 
-		this.setState({ hoveredFeature });
-		
-		var hoveredBuildingidset = null;
-
-		// const building = event.features[0]
+		//if the mouse is over a building, then turn the building's opacity to 1
 		if(hoveredFeature){
 
-			var hoveredStateid = null;
-			// console.log(hoveredFeature);
-			// console.log(event)
-			// buildingName = event.features[0].properties.title;
-			hoverInfo = event.lngLat;
-			this.setState({ hoverInfo });
-			// console.log(event.features[0].id)
-			// hoveredBuildingid = event.features[0].id;
+			//used for rendering the popup if the mouse is over a building
+			this.setState({ hoverInfo: event.lngLat });
 
 			if (event.features.length > 0) {
 				if (hoveredBuildingid) {
 					map.setFeatureState({ source: 'buildings', id: hoveredBuildingid }, { hover: false });
 				}
-				hoveredBuildingidset = parseInt(event.features[0].id);
-				this.setState({hoveredBuildingid: hoveredBuildingidset})
-				console.log('it works')
+				this.setState({hoveredBuildingid: event.features[0].id})
 				map.setFeatureState({ source: 'buildings', id: hoveredBuildingid }, { hover: true });
 			}
 			
@@ -196,11 +149,12 @@ class Map extends Component {
 	_onMouseMove = event => {
 
 		const { hoveredBuildingid , hoveredFeature} = this.state
+
+		//if the mouse isn't over a building then turn the building back to its original opacity
 		if(!hoveredFeature){
 			if (hoveredBuildingid) {
 				map.setFeatureState({ source: 'buildings', id: hoveredBuildingid }, { hover: false });
 			}
-			// hoveredBuildingid = null;
 			this.setState({ hoveredBuildingid: null })
 		}
 	}
@@ -334,10 +288,6 @@ class Map extends Component {
 					onClick={this._onClick}
 					onMouseMove={this._onMouseMove}
 				>
-				{/* <Source type="geojson" data={buildings}> */}
-					{/* <Layer {...this.state.styleOutline} />
-					<Layer {...this.state.styleFill}/> */}
-				{/* </Source> */}
 				{this._renderPopup()}
 				<Panel
 					data={this.state.activeFeature}
