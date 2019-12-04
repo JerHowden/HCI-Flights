@@ -67,10 +67,14 @@ class Map extends Component {
 
 			locations: [],
 
+			hoveredBuildingid: null
+
 		}
 	}
 
 	componentDidMount() {
+
+		const { hoveredBuildingid } = this.state
 
 		console.log("Building in url:", !!locations[this.props.match.params.location])
 		if(!!locations[this.props.match.params.location])
@@ -118,6 +122,14 @@ class Map extends Component {
 				}
 			})
 
+			map.on("mouseleave", "building-fills", function () {
+				if (hoveredBuildingid) {
+					map.setFeatureState({ source: 'buildings', id: hoveredBuildingid }, { hover: false });
+				}
+				hoveredBuildingid = null;
+				this.setState({hoveredBuildingid: null})
+			});
+
 		})
 
 	}
@@ -133,6 +145,8 @@ class Map extends Component {
 	}
 
 	_onHover = event => {
+
+		const { hoveredBuildingid } = this.state
 
 		if(this.state.sidebarOpen && event.center.x > 0.7 * window.innerWidth) {
 			if(this.state.hoveredFeature)
@@ -151,7 +165,7 @@ class Map extends Component {
 
 		this.setState({ hoveredFeature });
 		
-		var hoveredBuildingid = null;
+		var hoveredBuildingidset = null;
 
 		// const building = event.features[0]
 		if(hoveredFeature){
@@ -169,20 +183,27 @@ class Map extends Component {
 				if (hoveredBuildingid) {
 					map.setFeatureState({ source: 'buildings', id: hoveredBuildingid }, { hover: false });
 				}
-				hoveredBuildingid = parseInt(event.features[0].id);
+				hoveredBuildingidset = parseInt(event.features[0].id);
+				this.setState({hoveredBuildingid: hoveredBuildingidset})
 				console.log('it works')
 				map.setFeatureState({ source: 'buildings', id: hoveredBuildingid }, { hover: true });
 			}
-
-				// if (hoveredBuildingid) {
-				// 	map.setFeatureState({ source: 'buildings', id: hoveredBuildingid }, { hover: false });
-				// }
-				// hoveredBuildingid = null;
 			
 		}
 
-
 	};
+
+	_onMouseMove = event => {
+
+		const { hoveredBuildingid , hoveredFeature} = this.state
+		if(!hoveredFeature){
+			if (hoveredBuildingid) {
+				map.setFeatureState({ source: 'buildings', id: hoveredBuildingid }, { hover: false });
+			}
+			// hoveredBuildingid = null;
+			this.setState({ hoveredBuildingid: null })
+		}
+	}
 
 	_renderPopup() {
 		const { hoverInfo, hoveredFeature } = this.state;
@@ -311,6 +332,7 @@ class Map extends Component {
 					onViewportChange={(viewport) => this.setState({ viewport })}
 					onHover={this._onHover}
 					onClick={this._onClick}
+					onMouseMove={this._onMouseMove}
 				>
 				{/* <Source type="geojson" data={buildings}> */}
 					{/* <Layer {...this.state.styleOutline} />
