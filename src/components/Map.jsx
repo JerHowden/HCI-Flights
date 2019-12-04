@@ -12,35 +12,32 @@ import locations from '../data/locations.json'
 import Panel from './Panel'
 import './Map.css'
 
-const notHighlighted = {
+const fill = {
 	"id": "building-fills",
 	"type": "fill",
-	"source": "Building Data",
-	"layout": {
-		// "text-field": "title",
-		// "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"]
-	},
+	"source": "buildings",
+	"layout": {},
 	"paint": {
 		"fill-color": "#627BC1",
-		"fill-opacity": .3,
-		// "fill-outline-color": "#627BC1",
+		"fill-opacity": ["case",
+			["boolean", ["feature-state", "hover"], false],
+			1,
+			0.3
+		]
 	}
 }
 
-const highlighted = {
-	"id": "building-fills",
-	"type": "fill",
-	"source": "Building Data",
-	"layout": {
-		// "text-field": "title",
-		// "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"]
-	},
+const outline = {
+	"id": "building-outline",
+	"type": "line",
+	"source": "buildings",
+	"layout": {},
 	"paint": {
-		"fill-color": "#fcba03",
-		"fill-opacity": 1,
-		// "fill-outline-color": "#fcba03",
+		"line-color": "#627BC1",
+		"line-width": 2
 	}
 }
+var map = null;
 
 class Map extends Component {
 	constructor(props) {
@@ -60,8 +57,8 @@ class Map extends Component {
 			},
 
 			apiKey: 'pk.eyJ1IjoiZWxpYXNjbTE3IiwiYSI6ImNrMzR4NmJvdzFhOW8zbXBweXUwcHIwdDYifQ.T_3ZZklfpxf5b8wibfI0ew',
-			styleFill: notHighlighted,
-			highlightedFill: highlighted,
+			styleFill: fill,
+			styleOutline: outline,
 
 			hoveredFeature: null,
 			hoverInfo: null,
@@ -86,6 +83,42 @@ class Map extends Component {
 			locs.push(locations[i])
 		}
 		this.setState({ locations: locs })
+
+		map = this.reactMap.getMap();
+
+		map.on('load', () => {
+			map.addSource('buildings', {
+				'type': 'geojson',
+				'data': buildings
+			})
+
+			map.addLayer({
+				"id": 'building-fills',
+				'type': 'fill',
+				'source': 'buildings',
+				'layout': {},
+				"paint": {
+					"fill-color": "#627BC1",
+					"fill-opacity": ["case",
+						["boolean", ["feature-state", "hover"], false],
+						1,
+						0.5
+					]
+				}
+			})
+
+			map.addLayer({
+				"id": 'building-outline',
+				'type': 'line',
+				'source': 'buildings',
+				'layout': {},
+				"paint": {
+					"line-color": "#627BC1",
+					"line-width": 2
+				}
+			})
+
+		})
 
 	}
 
@@ -114,17 +147,40 @@ class Map extends Component {
 		} = event;
 
 		const hoveredFeature = features && features.find(f => f.layer.id === 'building-fills');
+		// console.log(event.features)
 
 		this.setState({ hoveredFeature });
 		
+		var hoveredBuildingid = null;
+
 		// const building = event.features[0]
 		if(hoveredFeature){
+
+			var hoveredStateid = null;
 			// console.log(hoveredFeature);
 			// console.log(event)
-			buildingName = event.features[0].properties.title;
+			// buildingName = event.features[0].properties.title;
 			hoverInfo = event.lngLat;
 			this.setState({ hoverInfo });
+			// console.log(event.features[0].id)
+			// hoveredBuildingid = event.features[0].id;
+
+			if (event.features.length > 0) {
+				if (hoveredBuildingid) {
+					map.setFeatureState({ source: 'buildings', id: hoveredBuildingid }, { hover: false });
+				}
+				hoveredBuildingid = parseInt(event.features[0].id);
+				console.log('it works')
+				map.setFeatureState({ source: 'buildings', id: hoveredBuildingid }, { hover: true });
+			}
+
+				// if (hoveredBuildingid) {
+				// 	map.setFeatureState({ source: 'buildings', id: hoveredBuildingid }, { hover: false });
+				// }
+				// hoveredBuildingid = null;
+			
 		}
+
 
 	};
 
@@ -256,10 +312,10 @@ class Map extends Component {
 					onHover={this._onHover}
 					onClick={this._onClick}
 				>
-				<Source type="geojson" data={buildings}>
-					<Layer {...this.state.styleFill}/>
-					<Layer {...this.state.highlightedFill} filter={this.state.filter}/>
-				</Source>
+				{/* <Source type="geojson" data={buildings}> */}
+					{/* <Layer {...this.state.styleOutline} />
+					<Layer {...this.state.styleFill}/> */}
+				{/* </Source> */}
 				{this._renderPopup()}
 				<Panel
 					data={this.state.activeFeature}
