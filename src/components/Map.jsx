@@ -1,9 +1,9 @@
 import React, { Component, Fragment } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Link, Redirect, withRouter } from 'react-router-dom'
-import ReactMapGL, { Popup, Source, Layer, Marker, FlyToInterpolator } from 'react-map-gl'
+import { Link, withRouter } from 'react-router-dom'
+import ReactMapGL, { Popup, FlyToInterpolator } from 'react-map-gl'
 import Select from 'react-select'
-import { Chip, Avatar } from '@material-ui/core'
+import { Chip, Avatar, Grid } from '@material-ui/core'
 import polylabel from '@mapbox/polylabel'
 
 import 'mapbox-gl/dist/mapbox-gl.css'
@@ -38,24 +38,36 @@ class Map extends Component {
 			hoverInfo: null,
 			activeFeature: locations[this.props.match.params.location],
 			sidebarOpen: !!locations[this.props.match.params.location],
-			selectInputValue: "",
+			selectInputValue: locations[this.props.match.params.location] ? "" : this.props.match.params.location,
 			mapStyle: "dark-v10",
 			filteredOptions: [],
 			locations: [],
 
+			categories: [
+				{ category: "study", icon: "book" },
+				{ category: "classes", icon: "university" },
+				{ category: "food", icon: "utensils" },
+				{ category: "sports", icon: "football-ball" },
+				{ category: "leisure", icon: "walking" },
+				{ category: "residence", icon: "hotel" },
+				{ category: "help", icon: "hands-helping" },
+				{ category: "advising", icon: "user-tie" },
+			],
 		}
 	}
 
 	componentDidMount() {
 
 		const { hoveredBuildingid } = this.state
-
+		
 		if(this.props.match.params.location) {
 			console.log("Building in url:", !!locations[this.props.match.params.location])
 			if(!!locations[this.props.match.params.location])
 				this.flyToFeature()
-			else
+			else {
 				this.setState({ selectInputValue: this.props.match.params.location })
+				this.mapSelect.focus()
+			}
 		}
 
 		// Load Locations json into state
@@ -111,10 +123,14 @@ class Map extends Component {
 	componentWillReceiveProps(nextProps) {
 		// console.log("CWRP:", nextProps, this.props)
 		if(nextProps.match.params.location !== this.props.match.params.location) {
-			if(nextProps.match.params.location && locations[nextProps.match.params.location])
+			if(nextProps.match.params.location && locations[nextProps.match.params.location]) {
 				this.setState({ activeFeature: locations[nextProps.match.params.location], sidebarOpen: true}, () => this.flyToFeature())
-			else
-				this.setState({ activeFeature: null, sidebarOpen: false }, () => this.flyToDefault())
+			} else {
+				console.log("NPMPL", nextProps.match.params.location)
+				this.setState({ activeFeature: null, sidebarOpen: false, selectInputValue: nextProps.match.params.location || "" }, () => this.flyToDefault())
+				if(nextProps.match.params.location)
+					this.mapSelect.focus()
+			}
 		}
 	}
 
@@ -245,7 +261,7 @@ class Map extends Component {
 			transitionDuration: 2000,
 			transitionInterpolator: new FlyToInterpolator(),
 		}
-		this.setState({ viewport: newViewport, selectInputValue: "" });
+		this.setState({ viewport: newViewport });
 
 	}
 
@@ -262,35 +278,53 @@ class Map extends Component {
 	render() {
 		return (
 			<Fragment>
-				<Select
-					id="MapSelect"
-					options={this.state.locations}
-					defaultValue={this.props.match.params.location ? 
-						locations[Object.keys(locations).find(key => key.toLowerCase() === this.props.match.params.location.toLowerCase())] || null
-					: null}
-					value={this.state.activeFeature}
-					inputValue={this.state.selectInputValue}
-					onInputChange={(searchText) => {
-						this.setState({ selectInputValue: searchText })
-					}}
-					filterOption={this.filterOption}
-					formatOptionLabel={({ value, label, code }) => (
-						<Link to={'/map/' + value}>
-							<div style={{ display: "flex", color: "#353535" }}>
-								<div>{label}</div>
-								{code ? 
-									<div style={{ marginLeft: "8px"}}>
-										<Chip 
-											variant='outlined' 
-											label={code}
-											size='small'
-										/>
-									</div>
-								: ""}
-							</div>
-						</Link>
-					)}
-				/>
+				<div>
+					<Select
+						id="MapSelect"
+						ref={(mapSelect) => this.mapSelect = mapSelect}
+						options={this.state.locations}
+						defaultValue={this.props.match.params.location ? 
+							locations[Object.keys(locations).find(key => key.toLowerCase() === this.props.match.params.location.toLowerCase())] || null
+						: null}
+						value={this.state.activeFeature}
+						inputValue={this.state.selectInputValue}
+						onInputChange={(searchText) => {
+							this.setState({ selectInputValue: searchText })
+						}}
+						openMenuOnFocus
+						defaultMenuIsOpen={this.state.selectInputValue}
+						filterOption={this.filterOption}
+						formatOptionLabel={({ value, label, code }) => (
+							<Link to={'/map/' + value}>
+								<div style={{ display: "flex", color: "#353535" }}>
+									<div>{label}</div>
+									{code ? 
+										<div style={{ marginLeft: "8px"}}>
+											<Chip 
+												variant='outlined' 
+												label={code}
+												size='small'
+											/>
+										</div>
+									: ""}
+								</div>
+							</Link>
+						)}
+					/>
+					<Grid container justify="space-between" id="SelectCategories">
+						{this.state.categories.map(cat => {
+							return(
+								<Grid item>
+									<Link to={"/map/" + cat.category}>
+										<Avatar title={cat.category.charAt(0).toUpperCase() + cat.category.slice(1)}>
+											<FontAwesomeIcon icon={cat.icon}/>
+										</Avatar>
+									</Link>
+								</Grid>
+							)
+						})}
+					</Grid>
+				</div>
 				<ReactMapGL 
 					ref={(reactMap) => this.reactMap = reactMap}
 					style={{ width: '100%', height: '100%'}}
@@ -303,7 +337,6 @@ class Map extends Component {
 					onClick={this._onClick}
 					onMouseMove={this._onMouseMove}
 				>
-		
 				<Link style={{ 
 					display: "inline-block", 
 					marginRight: "8px", 
@@ -311,23 +344,23 @@ class Map extends Component {
 					position: 'absolute',
 					left: '10px',
 					bottom: '28px'
-					}}>
-						
-						<Avatar style={
-							this.state.mapStyle == 'dark-v10' ? 
-								{	backgroundColor : "#9fa7b5",
-									width: '50px',
-									height: '50px'
-							
-								} : {
-									backgroundColor: "#0a090a",
-									width: '50px',
-									height: '50px'}
-						}>
-							<FontAwesomeIcon icon={this.state.mapStyle == "dark-v10" ? 'sun' : 'moon'} style={{
-									width: '30px',
-									height: '30px'
-								}}/>
+				}}>
+					<Avatar style={
+						this.state.mapStyle === 'dark-v10' ? 
+							{	
+								backgroundColor : "#9fa7b5",
+								width: '50px',
+								height: '50px'
+							} : {
+								backgroundColor: "#0a090a",
+								width: '50px',
+								height: '50px'
+							}
+					}>
+						<FontAwesomeIcon icon={this.state.mapStyle === "dark-v10" ? 'sun' : 'moon'} style={{
+							width: '30px',
+							height: '30px'
+						}}/>
 					</Avatar>
 				</Link>
 				
