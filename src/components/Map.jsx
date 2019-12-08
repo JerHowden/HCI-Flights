@@ -1,9 +1,9 @@
 import React, { Component, Fragment } from 'react'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link, Redirect, withRouter } from 'react-router-dom'
 import ReactMapGL, { Popup, Source, Layer, Marker, FlyToInterpolator } from 'react-map-gl'
 import Select from 'react-select'
-import { Chip } from '@material-ui/core'
+import { Chip, Avatar } from '@material-ui/core'
 import polylabel from '@mapbox/polylabel'
 
 import 'mapbox-gl/dist/mapbox-gl.css'
@@ -39,8 +39,8 @@ class Map extends Component {
 			activeFeature: locations[this.props.match.params.location],
 			sidebarOpen: !!locations[this.props.match.params.location],
 			selectInputValue: "",
+			mapStyle: "dark-v10",
 			filteredOptions: [],
-
 			locations: [],
 
 		}
@@ -294,7 +294,7 @@ class Map extends Component {
 				<ReactMapGL 
 					ref={(reactMap) => this.reactMap = reactMap}
 					style={{ width: '100%', height: '100%'}}
-					mapStyle="mapbox://styles/mapbox/dark-v10"
+					mapStyle={"mapbox://styles/mapbox/" + this.state.mapStyle}
 					mapboxApiAccessToken={this.state.apiKey}
 					interactiveLayerIds={['building-fills']}
 					{...this.state.viewport}
@@ -303,6 +303,34 @@ class Map extends Component {
 					onClick={this._onClick}
 					onMouseMove={this._onMouseMove}
 				>
+		
+				<Link style={{ 
+					display: "inline-block", 
+					marginRight: "8px", 
+					marginBottom: "6px",
+					position: 'absolute',
+					left: '10px',
+					bottom: '28px'
+					}}>
+						
+						<Avatar style={
+							this.state.mapStyle == 'dark-v10' ? 
+								{	backgroundColor : "#9fa7b5",
+									width: '50px',
+									height: '50px'
+							
+								} : {
+									backgroundColor: "#0a090a",
+									width: '50px',
+									height: '50px'}
+						}>
+							<FontAwesomeIcon icon={this.state.mapStyle == "dark-v10" ? 'sun' : 'moon'} style={{
+									width: '30px',
+									height: '30px'
+								}}/>
+					</Avatar>
+				</Link>
+				
 				{this._renderPopup()}
 				<Panel
 					data={this.state.activeFeature}
