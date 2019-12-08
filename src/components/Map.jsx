@@ -19,6 +19,7 @@ class Map extends Component {
 
 		this.flyToFeature = this.flyToFeature.bind(this)
 		this.flyToDefault = this.flyToDefault.bind(this)
+		this.filterOption = this.filterOption.bind(this)
 
 		this.state = {
 
@@ -37,6 +38,8 @@ class Map extends Component {
 			hoverInfo: null,
 			activeFeature: locations[this.props.match.params.location],
 			sidebarOpen: !!locations[this.props.match.params.location],
+			selectInputValue: "",
+			filteredOptions: [],
 
 			locations: [],
 
@@ -47,9 +50,13 @@ class Map extends Component {
 
 		const { hoveredBuildingid } = this.state
 
-		console.log("Building in url:", !!locations[this.props.match.params.location])
-		if(!!locations[this.props.match.params.location])
-			this.flyToFeature()
+		if(this.props.match.params.location) {
+			console.log("Building in url:", !!locations[this.props.match.params.location])
+			if(!!locations[this.props.match.params.location])
+				this.flyToFeature()
+			else
+				this.setState({ selectInputValue: this.props.match.params.location })
+		}
 
 		// Load Locations json into state
 		let locs = [];
@@ -202,11 +209,12 @@ class Map extends Component {
 		if(this.state.activeFeature) {
 
 			// Get Centerpoint
-			let centerpoint = polylabel(buildings.features.find(f => f.properties.title === this.state.activeFeature.label).geometry.coordinates, 1.0)
+			let building = buildings.features.find(f => f.properties.title === this.state.activeFeature.label)
+			let centerpoint = polylabel(building.geometry.coordinates, 1.0)
 			if(!centerpoint[0] || !centerpoint[1]) {
 				console.log("Can't find centerpoint!")
-				console.log("Centerpoint:", centerpoint)
-				return
+				centerpoint = building.geometry.coordinates[0][0][0]
+				console.log(centerpoint)
 			}
 
 			// Fly to Centerpoint
@@ -237,8 +245,18 @@ class Map extends Component {
 			transitionDuration: 2000,
 			transitionInterpolator: new FlyToInterpolator(),
 		}
-		this.setState({ viewport: newViewport });
+		this.setState({ viewport: newViewport, selectInputValue: "" });
 
+	}
+
+	filterOption(option, searchText) {
+		if( option.label.toLowerCase().includes(searchText.toLowerCase()) ||
+			option.value.toLowerCase().includes(searchText.toLowerCase()) ||
+			option.data.code.includes(searchText) ||
+			option.data.tags.some(tag => tag.includes(searchText.toLowerCase())) ) 
+			return true 
+		else 
+			return false
 	}
 
 	render() {
@@ -251,16 +269,11 @@ class Map extends Component {
 						locations[Object.keys(locations).find(key => key.toLowerCase() === this.props.match.params.location.toLowerCase())] || null
 					: null}
 					value={this.state.activeFeature}
-					filterOption={(option, searchText) => {
-						console.log(option)
-						if( option.label.toLowerCase().includes(searchText.toLowerCase()) ||
-							option.value.toLowerCase().includes(searchText.toLowerCase()) ||
-							option.data.code.includes(searchText) ||
-							option.data.tags.some(tag => tag.includes(searchText.toLowerCase())) ) 
-							return true 
-						else 
-							return false
+					inputValue={this.state.selectInputValue}
+					onInputChange={(searchText) => {
+						this.setState({ selectInputValue: searchText })
 					}}
+					filterOption={this.filterOption}
 					formatOptionLabel={({ value, label, code }) => (
 						<Link to={'/map/' + value}>
 							<div style={{ display: "flex", color: "#353535" }}>
