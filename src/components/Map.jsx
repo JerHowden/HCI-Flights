@@ -314,7 +314,7 @@ class Map extends Component {
 					}}>
 						
 						<Avatar style={
-							this.state.mapStyle == 'dark-v10' ? 
+							this.state.mapStyle === 'dark-v10' ? 
 								{	backgroundColor : "#9fa7b5",
 									width: '50px',
 									height: '50px'
@@ -324,7 +324,7 @@ class Map extends Component {
 									width: '50px',
 									height: '50px'}
 						}>
-							<FontAwesomeIcon icon={this.state.mapStyle == "dark-v10" ? 'sun' : 'moon'} style={{
+							<FontAwesomeIcon icon={this.state.mapStyle === "dark-v10" ? 'sun' : 'moon'} style={{
 									width: '30px',
 									height: '30px'
 								}}/>
