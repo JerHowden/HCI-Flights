@@ -3,7 +3,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Livestock Arena / Meat Lab"
+        "title": "Meat Lab & Livestock Arena"
       },
       "geometry": {
         "coordinates": [
@@ -261,96 +261,6 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Central Heating & Cooling I"
-      },
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -101.886128,
-              33.584527
-            ],
-            [
-              -101.885791,
-              33.584727
-            ],
-            [
-              -101.885813,
-              33.584753
-            ],
-            [
-              -101.885643,
-              33.584859
-            ],
-            [
-              -101.885261,
-              33.584409
-            ],
-            [
-              -101.885308,
-              33.584379
-            ],
-            [
-              -101.885258,
-              33.584318
-            ],
-            [
-              -101.885366,
-              33.584255
-            ],
-            [
-              -101.885347,
-              33.584235
-            ],
-            [
-              -101.885666,
-              33.584045
-            ],
-            [
-              -101.885679,
-              33.584062
-            ],
-            [
-              -101.886088,
-              33.583807
-            ],
-            [
-              -101.886387,
-              33.584155
-            ],
-            [
-              -101.886251,
-              33.584233
-            ],
-            [
-              -101.886326,
-              33.584324
-            ],
-            [
-              -101.886228,
-              33.584384
-            ],
-            [
-              -101.886185,
-              33.584338
-            ],
-            [
-              -101.886041,
-              33.584428
-            ],
-            [
-              -101.886128,
-              33.584527
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "id": 4
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "title": "Agricultural Education"
       },
       "geometry": {
@@ -573,7 +483,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Human Sciences Building"
+        "title": "Human Sciences"
       },
       "geometry": {
         "coordinates": [
@@ -1325,66 +1235,6 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "KOHM-FM (Lubbock)"
-      },
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              [
-                -101.890708,
-                33.582053
-              ],
-              [
-                -101.890634,
-                33.582056
-              ],
-              [
-                -101.89064,
-                33.582117
-              ],
-              [
-                -101.890714,
-                33.582114
-              ],
-              [
-                -101.890708,
-                33.582053
-              ]
-            ]
-          ],
-          [
-            [
-              [
-                -101.890691,
-                33.582019
-              ],
-              [
-                -101.890574,
-                33.582025
-              ],
-              [
-                -101.890565,
-                33.581883
-              ],
-              [
-                -101.890683,
-                33.581877
-              ],
-              [
-                -101.890691,
-                33.582019
-              ]
-            ]
-          ]
-        ],
-        "type": "MultiPolygon"
-      },
-      "id": 15
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "title": "Plant Sciences Greenhouse"
       },
       "geometry": {
@@ -1753,7 +1603,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Stangel Murdough Residence Hall"
+        "title": "Stangel/Murdough Residence Hall"
       },
       "geometry": {
         "coordinates": [
@@ -2113,7 +1963,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Student Recreation Center"
+        "title": "Robert H. Ewalt Student Rec Center"
       },
       "geometry": {
         "coordinates": [
@@ -2405,7 +2255,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "College of Media and Communication"
+        "title": "Media & Communication"
       },
       "geometry": {
         "coordinates": [
@@ -2527,7 +2377,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "West Village Residence A"
+        "title": "West Village A Residence Hall"
       },
       "geometry": {
         "coordinates": [
@@ -3271,7 +3121,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Jones AT&T Stadium"
+        "title": "Jones AT&T Stadium (Football)"
       },
       "geometry": {
         "coordinates": [
@@ -3761,7 +3611,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Psychology Building"
+        "title": "Psychology"
       },
       "geometry": {
         "coordinates": [
@@ -3811,7 +3661,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Terry Fuller Petroleum Research Building"
+        "title": "Terry Fuller Petroleum Engineering Research Building"
       },
       "geometry": {
         "coordinates": [

@@ -287,47 +287,6 @@
 		],
         "description": "The facility houses research projects as well as teaching materials for various Department of Biological Sciences classes."
     },
-	"Gordon_Bledsoe_Residence_Hall": {
-        "label": "Gordon/Bledsoe Residence Hall",
-		"code": "",
-		"tags": [
-            "coed",
-            "suite",
-            "mens",
-            "residence",
-            "food",
-            "engineering"
-        ],
-        "image": "http://www.ttu.edu/map/images/bledsoe.jpg",
-		"links": [
-			{
-				"icon": "home",
-				"label": "Gordon Homepage",
-				"link": "https://www.depts.ttu.edu/housing/halls/gordon.php"
-            },
-            {
-				"icon": "home",
-				"label": "Bledsoe Homepage",
-				"link": "https://www.depts.ttu.edu/housing/halls/bledsoe.php"
-            },
-            {
-                "icon": "utensils",
-                "label": "The Fresh Plate @ Bledsoe | Gordon",
-                "link": "https://www.depts.ttu.edu/hospitality/freshplate.php"
-            },
-            {
-                "icon": "cube",
-                "label": "Gordon Floor Plan",
-                "link": "https://www.depts.ttu.edu/housing/documents/halls/gordonFloorPlan.pdf"
-            },
-            {
-                "icon": "cube",
-                "label": "Bledsoe Floor Plan",
-                "link": "https://www.depts.ttu.edu/housing/documents/halls/bledsoeFloorPlan.pdf"
-            }
-		],
-        "description": "Gordon Hall is a coed, suite-style residence hall located on the northeast side of campus. Students in the hall share a suite with students of the same gender only. A furnished living room sits between two bedroom units. Each fully furnished bedroom unit accommodates one to two students and includes a vanity area and private bathroom.\nBledsoe Hall is a residence hall for men. It is home to the Engineering Success Learning Community."
-    },
 	"Burkhart_Center_for_Autism_Education_and_Research": {
         "label": "Burkhart Center for Autism Education & Research",
 		"code": "",
@@ -366,7 +325,7 @@
                 "link": "http://www.depts.ttu.edu/housing/documents/halls/carpenterwellsFloorPlan.pdf"
             }
 		],
-        "description": "The Carpenter/Wells Complex is a coed, suite-style residence hall, offering three-bedroom townhouses and four-bedroom flats along with a limited number of two-bedroom units available to men and women of sophomore or higher classification. The Leadership Development Center (LDC) serves as a commons building, featuring a computer lab and several study lounges. Other amenities include meeting rooms and limitless laundry rooms for all residents. Students share a suite with other students of the same gender.\nEach suite includes a living room, kitchenette (refrigerator, microwave oven and two-burner cook-top), private bedrooms and two bathrooms. All suites have outside entrances.\nSuite furnishings include a sofa, table and chair (living room); dining table and chairs; and each bedroom is furnished with a twin bed, dresser, study desk and chair. The bedrooms have vinyl wood-plank flooring. The kitchen and bathrooms have vinyl floors."
+        "description": "The Carpenter/Wells Complex is a coed, suite-style residence hall, offering three-bedroom townhouses and four-bedroom flats along with a limited number of two-bedroom units available to men and women of sophomore or higher classification. The Leadership Development Center (LDC) serves as a commons building, featuring a computer lab and several study lounges. Other amenities include meeting rooms and limitless laundry rooms for all residents. Students share a suite with other students of the same gender.\n\nEach suite includes a living room, kitchenette (refrigerator, microwave oven and two-burner cook-top), private bedrooms and two bathrooms. All suites have outside entrances.\n\nSuite furnishings include a sofa, table and chair (living room); dining table and chairs; and each bedroom is furnished with a twin bed, dresser, study desk and chair. The bedrooms have vinyl wood-plank flooring. The kitchen and bathrooms have vinyl floors."
     },
 	"Charles_E._Maedgen_Jr._Theatre": {
         "label": "Charles E. Maedgen Jr. Theatre",
@@ -582,39 +541,6 @@
 		],
         "description": "The building is home to the Department of Classical & Modern Languages & Literatures classrooms, labs and offices."
     },
-	"Hulen_Clement_Residence_Hall": {
-        "label": "Hulen/Clement Residence Hall",
-		"code": "",
-		"tags": [
-			"coed",
-            "built-in",
-            "archtiectureanddesign"
-        ],
-        "image": "http://www.ttu.edu/map/images/hulenclem.jpg",
-		"links": [
-            {
-				"icon": "home",
-				"label": "Hulen Hall Homepage",
-				"link": "https://www.depts.ttu.edu/housing/halls/hulen.php"
-            },
-			{
-				"icon": "home",
-				"label": "Clement Hall Homepage",
-				"link": "https://www.depts.ttu.edu/housing/halls/clement.php"
-            },
-            {
-                "icon": "cube",
-                "label": "Hulen Floor Plan",
-                "link": "https://www.depts.ttu.edu/housing/documents/halls/hulenFloorPlan.pdf"
-            },
-            {
-                "icon": "cube",
-                "label": "Clement Floor Plan",
-                "link": "https://www.depts.ttu.edu/housing/documents/halls/clementFloorPlan.pdf"
-            }
-		],
-        "description": "Hulen/Clement Hall is a coed, built-in furniture residence hall. The Architecture and Design Learning Community is located in Clement Hall, near the College of Architecture, English, Philosophy, and Education buildings. Men and women live on alternating floors. This residence hall offers lounges and study rooms for the convenience of residents. Special studio lounges are available to students in the Architecture and Design Learning Community. Limitless laundry lounges are available for all residents."
-    },
 	"Coleman_Residence_Hall": {
         "label": "Coleman Residence Hall",
 		"code": "",
@@ -638,6 +564,31 @@
             }
 		],
         "description": "Coleman Hall is a coed, built-in furniture residence hall. The Global TECHsans Learning Community is located in Coleman Hall on the southwest side of campus near the College of Architecture and the Law School. Men and women live on alternating floors. Features of the hall include a TV lounge, a computer lab, and several floor lounges. Limitless laundry lounges are available for all residents."
+    },
+    "Computer_Science": {
+        "label": "Computer Science",
+		"code": "ENGCTR",
+		"tags": [
+			"classes",
+            "advising",
+            "research",
+            "labs",
+            "engineering"
+        ],
+        "image": "http://www.ttu.edu/map/images/engctr.jpg",
+		"links": [
+			{
+				"icon": "home",
+				"label": "Computer Science Homepage",
+				"link": "http://www.depts.ttu.edu/cs/"
+            },
+            {
+                "icon": "hands-helping",
+                "label": "Engineering Opportunities Center",
+                "link": "http://www.depts.ttu.edu/coe/undergraduate/index.php"
+            }
+		],
+        "description": "The Department of Computer Science engages in the research, education, and service activities required to create and disseminate the knowledge of problem solving using computers."
     },
 	"Creative_Movement_Studio": {
         "label": "Creative Movement Studio",
@@ -665,13 +616,29 @@
 		],
         "description": "The Creative Movement Studio is a multi-purpose studio that houses the Dance & Theatre programs, including studio spaces for rehearsals, and the university's cheer and pom squads."
     },
+    "Dairy_Barn": {
+        "label": "Dairy Barn",
+		"code": "",
+		"tags": [
+			"landmark"
+        ],
+        "image": "http://www.ttu.edu/map/images/dairybarn.jpg",
+		"links": [
+			{
+				"icon": "home",
+				"label": "Dairy Barn Homepage",
+				"link": "https://www.depts.ttu.edu/agriculturalsciences/Alumni/dairyBarn/now.php"
+            }
+		],
+        "description": "The Dairy Barn was one of the original campus structures. Abandoned in 1964, the Texas Antiquities Committee designated the barn as a historical landmark in 1985."
+    },
 	"Dan_Law_Field_(Baseball)_at_Rip_Griffin_Park": {
         "label": "Dan Law Field (Baseball) at Rip Griffin Park",
 		"code": "",
 		"tags": [
 			"baseball",
             "sports",
-            "lesiure"
+            "leisure"
         ],
         "image": "https://stadiumjourney.com/wp-content/uploads/2017/11/Rip-Griffin-Park-Fans-Looking-on-1080x810.jpg",
 		"links": [
@@ -732,6 +699,11 @@
 				"link": "https://www.depts.ttu.edu/wstudies/ws_doak.php"
             },
             {
+                "icon": "building",
+                "label": "Doak Hall",
+                "link": "/map/Doak_Hall"
+            },
+            {
                 "icon": "address-book",
                 "label": "HR at Doak Conference Center",
                 "link": "https://www.depts.ttu.edu/hr/AboutHR/"
@@ -758,6 +730,11 @@
                 "icon": "home",
                 "label": "Women's and Gender Studies Homepage",
                 "link": "https://www.depts.ttu.edu/wstudies/"
+            },
+            {
+                "icon": "ring",
+                "label": "Doak Conference Center",
+                "link": "/map/Doak_Conference_Center"
             },
 			{
 				"icon": "building",
@@ -827,26 +804,28 @@
         "description": "Drane Hall houses various business offices of Texas Tech University as well as administrative offices of the College of Visual and Performing Arts."
     },
 	"Education": {
-        "label": "",
-		"code": "",
+        "label": "Education",
+		"code": "EDUC",
 		"tags": [
-			"",
-			""
+			"classes",
+            "academic-help",
+            "advising",
+            "study"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/educ.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "Education Homepage",
+				"link": "https://www.depts.ttu.edu/education/"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "hands-helping",
+                "label": "College of Education Resources",
+                "link": "https://www.depts.ttu.edu/education/student-resources/undergraduate/"
             }
 		],
-        "description": ""
+        "description": "The Education building opened in 2002. The building faces the English/Philosophy building across a large courtyard. The two buildings mirror each other in architectural design."
     },
 	"Electrical_&_Computer_Engineering": {
         "label": "",
@@ -871,26 +850,21 @@
         "description": ""
     },
 	"Engineering_&_Technology_Lab": {
-        "label": "",
-		"code": "",
+        "label": "Engineering & Technology Lab",
+		"code": "ETLAB",
 		"tags": [
-			"",
-			""
+			"research",
+            "classes"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/etlab.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
+				"icon": "building",
+				"label": "College of Engineering Facilities",
+				"link": "http://www.depts.ttu.edu/coe/research/facilities.php"
             }
 		],
-        "description": ""
+        "description": "The building provides research lab and office space for the Whitacre College of Engineering."
     },
 	"English_&_Philosophy": {
         "label": "",
@@ -915,48 +889,38 @@
         "description": ""
     },
 	"Experimental_Sciences": {
-        "label": "",
-		"code": "",
+        "label": "Experimental Sciences",
+		"code": "EXPSC",
 		"tags": [
-			"",
-			""
+			"study",
+            "classes",
+            "research",
+            "labs"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/expsc.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "seedling",
+				"label": "College of Agricultural Sciences & Natural Resources",
+				"link": "http://www.depts.ttu.edu/agriculturalsciences/"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
-            }
-		],
-        "description": ""
-    },
-	"Experimental_Sciences_II": {
-        "label": "",
-		"code": "",
-		"tags": [
-			"",
-			""
-        ],
-        "image": "",
-		"links": [
-			{
-				"icon": "",
-				"label": "",
-				"link": ""
+                "icon": "microscope",
+                "label": "College of Arts & Sciences",
+                "link": "https://www.depts.ttu.edu/artsandsciences/"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "cog",
+                "label": "Edward E. Whitacre Jr. College of Engineering",
+                "link": "http://www.depts.ttu.edu/coe/"
+            },
+            {
+                "icon": "atlas",
+                "label": "College of Human Sciences",
+                "link": "http://www.depts.ttu.edu/hs/"
             }
 		],
-        "description": ""
+        "description": "The building houses multi-discipline research laboratories and classrooms."
     },
 	"Fisheries_&_Wildlife_Research": {
         "label": "",
@@ -1068,28 +1032,6 @@
 		],
         "description": ""
     },
-	"Gates_Residence_Hall": {
-        "label": "",
-		"code": "",
-		"tags": [
-			"",
-			""
-        ],
-        "image": "",
-		"links": [
-			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
-            }
-		],
-        "description": ""
-    },
 	"Goddard_Range_&_Wildlife_Management": {
         "label": "",
 		"code": "",
@@ -1111,6 +1053,47 @@
             }
 		],
         "description": ""
+    },
+    "Gordon_Bledsoe_Residence_Hall": {
+        "label": "Gordon/Bledsoe Residence Hall",
+		"code": "",
+		"tags": [
+            "coed",
+            "suite",
+            "mens",
+            "residence",
+            "food",
+            "engineering"
+        ],
+        "image": "http://www.ttu.edu/map/images/bledsoe.jpg",
+		"links": [
+			{
+				"icon": "home",
+				"label": "Gordon Homepage",
+				"link": "https://www.depts.ttu.edu/housing/halls/gordon.php"
+            },
+            {
+				"icon": "home",
+				"label": "Bledsoe Homepage",
+				"link": "https://www.depts.ttu.edu/housing/halls/bledsoe.php"
+            },
+            {
+                "icon": "utensils",
+                "label": "The Fresh Plate @ Bledsoe | Gordon",
+                "link": "https://www.depts.ttu.edu/hospitality/freshplate.php"
+            },
+            {
+                "icon": "cube",
+                "label": "Gordon Floor Plan",
+                "link": "https://www.depts.ttu.edu/housing/documents/halls/gordonFloorPlan.pdf"
+            },
+            {
+                "icon": "cube",
+                "label": "Bledsoe Floor Plan",
+                "link": "https://www.depts.ttu.edu/housing/documents/halls/bledsoeFloorPlan.pdf"
+            }
+		],
+        "description": "Gordon Hall is a coed, suite-style residence hall located on the northeast side of campus. Students in the hall share a suite with students of the same gender only. A furnished living room sits between two bedroom units. Each fully furnished bedroom unit accommodates one to two students and includes a vanity area and private bathroom.\n\nBledsoe Hall is a residence hall for men. It is home to the Engineering Success Learning Community."
     },
 	"Greenhouse_&_Horticultural_Gardens": {
         "label": "",
@@ -1135,48 +1118,49 @@
         "description": ""
     },
 	"Holden_Hall": {
-        "label": "",
-		"code": "",
+        "label": "Holden Hall",
+		"code": "HOLDEN",
 		"tags": [
-			"",
-			""
+			"classes",
+            "study",
+            "staff",
+            "engineering"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/holden.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
+				"icon": "home",
+				"label": "Holden Homepage",
+				"link": "https://www.depts.ttu.edu/artsandsciences/about/InnovatingHoldenHall.php"
             }
 		],
-        "description": ""
+        "description": "Holden Hall houses the College of Arts and Sciences administrative offices and classrooms. The original building features a 1,300 square-foot fresco mural by renowned painter Peter Hurd."
     },
 	"Honors_Residence_Hall": {
-        "label": "",
+        "label": "Honors Residential Hall",
 		"code": "",
 		"tags": [
-			"",
-			""
+			"residence",
+            "movable",
+            "starbucks",
+            "pods",
+            "study",
+            "food"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/honors-res.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "Honors Homepage",
+				"link": "https://www.depts.ttu.edu/housing/halls/honors.php"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "cube",
+                "label": "Honors Floor Plan",
+                "link": "https://www.depts.ttu.edu/housing/documents/halls/Spaces_by_gender_2019_Web.pdf"
             }
 		],
-        "description": ""
+        "description": "The honors residence hall is a co-ed, pod style residence hall with movable furniture. Rooms in the hall are clustered around a central community bathroom, with an additional nearby private bathroom. Study lounges are adjacent to the rooms to allow residents a place to study and meet other honors students. Additional features include a multi-purpose room for special group meetings and presentations, study lounges near each pod, a new 944 square foot Starbucks® which will accept dining bucks, and several large lounges, with the main lounge located on the first floor of the building. "
     },
 	"Horn_Residence_Hall": {
         "label": "",
@@ -1222,49 +1206,60 @@
 		],
         "description": ""
     },
-	"Hulen_Residence_Hall": {
-        "label": "",
+	"Hulen_Clement_Residence_Hall": {
+        "label": "Hulen/Clement Residence Hall",
 		"code": "",
 		"tags": [
-			"",
-			""
+			"coed",
+            "built-in",
+            "archtiectureanddesign"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/hulenclem.jpg",
 		"links": [
+            {
+				"icon": "home",
+				"label": "Hulen Hall Homepage",
+				"link": "https://www.depts.ttu.edu/housing/halls/hulen.php"
+            },
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "Clement Hall Homepage",
+				"link": "https://www.depts.ttu.edu/housing/halls/clement.php"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "cube",
+                "label": "Hulen Floor Plan",
+                "link": "https://www.depts.ttu.edu/housing/documents/halls/hulenFloorPlan.pdf"
+            },
+            {
+                "icon": "cube",
+                "label": "Clement Floor Plan",
+                "link": "https://www.depts.ttu.edu/housing/documents/halls/clementFloorPlan.pdf"
             }
 		],
-        "description": ""
+        "description": "Hulen/Clement Hall is a coed, built-in furniture residence hall. The Architecture and Design Learning Community is located in Clement Hall, near the College of Architecture, English, Philosophy, and Education buildings. Men and women live on alternating floors. This residence hall offers lounges and study rooms for the convenience of residents. Special studio lounges are available to students in the Architecture and Design Learning Community. Limitless laundry lounges are available for all residents."
     },
 	"Human_Sciences": {
-        "label": "",
-		"code": "",
+        "label": "Human Sciences",
+		"code": "HUMSCI",
 		"tags": [
-			"",
-			""
+			"classes",
+			"research"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/humsci.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "College of Human Sciences Homepage",
+				"link": "https://www.depts.ttu.edu/hs/"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "user-tie",
+                "label": "Human Sciences Advising",
+                "link": "https://www.depts.ttu.edu/hs/current_students/advising.php"
             }
 		],
-        "description": ""
+        "description": "The College of Human Sciences features programs ranging from family studies to financial planning to fashion design to the study of addiction of recovery."
     },
 	"Industrial,_Manufacturing,_and_Systems_Engineering": {
         "label": "",
@@ -1311,48 +1306,56 @@
         "description": ""
     },
 	"International_Cultural_Center": {
-        "label": "",
-		"code": "",
+        "label": "International Cultural Center",
+		"code": "ICC",
 		"tags": [
-			"",
-			""
+			"study",
+            "staff",
+            "operations"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/icc.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "ICC Homepage",
+				"link": "http://www.depts.ttu.edu/international/"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "plane-departure",
+                "label": "Study Abroad",
+                "link": "http://www.depts.ttu.edu/international/studyabroad/students/process/steps.php"
             }
 		],
-        "description": ""
+        "description": "The International Cultural Center houses Texas Tech's Office of International Affairs and Study Abroad programs, as well as a U.S. passport office. The university offers a variety of educational opportunities in more than 70 countries worldwide."
     },
 	"J.T._&_Margaret_Talkington_Residence_Hall": {
-        "label": "",
+        "label": "J.T. and Margaret Talkington Residence Hall",
 		"code": "",
 		"tags": [
-			"",
-			""
+			"residence",
+            "coed",
+            "suite",
+            "food"
         ],
-        "image": "",
+        "image": "https://www.depts.ttu.edu/housing/images/exteriorHalls/TalkingtonLarge.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "Talkington Homepage",
+				"link": "https://www.depts.ttu.edu/housing/halls/talkington.php"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "utensils",
+                "label": "The Commons @ Talkington Hall",
+                "link": "https://www.depts.ttu.edu/hospitality/commons.php"
+            },
+            {
+                "icon": "cube",
+                "label": "Floor Plan",
+                "link": "https://www.depts.ttu.edu/housing/documents/halls/talkingtonFloorPlans.pdf"
             }
 		],
-        "description": ""
+        "description": "Talkington Hall is a coed, suite-style residence hall. A two-story, 20,500-square-foot dining facility, office, limitless laundry lounges, and meeting rooms are located in the complex. Students share a suite with students of the same gender.\n\nEach suite has private bathrooms, a living area, and two or four bedrooms. Bedrooms are furnished with a twin bed, desk, and dresser. The shared living area in most suites is furnished with a sofa, entertainment center, coffee table, full-sized refrigerator, and a microwave oven. Some rooms may have lounge chairs instead of sofas, and not all spaces will have a coffee table. Each living room and bedroom has laminate wood flooring. Bathrooms have ceramic tile flooring and separate sink/vanity areas. Ceiling fans are included in each bedroom and the living area."
     },
 	"John_B._Walker_Soccer_Complex": {
         "label": "",
@@ -1377,26 +1380,21 @@
         "description": ""
     },
 	"Jones_AT&T_Stadium_(Football)": {
-        "label": "",
-		"code": "",
+        "label": "Jones AT&T Stadium (Football)",
+		"code": "JONES",
 		"tags": [
-			"",
-			""
+			"sports",
+			"leisure"
         ],
-        "image": "",
+        "image": "http://footballstadiumdigest.com/wp-content/uploads/2017/08/Jones-ATT-Stadium.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
+				"icon": "home",
+				"label": "Facility Homepage",
+				"link": "https://texastech.com/facilities/jones-at-t-stadium/2"
             }
 		],
-        "description": ""
+        "description": "Jones AT&T Stadium, home of Red Raider football since Nov. 29, 1947, is arguably one of the most electric game day atmospheres in all of college football. Armed with 60,000-plus rabid fans, Dave Curtis of The Sporting News proclaimed in May of 2010 that Jones AT&T Stadium was the best home field advantage in all of college football."
     },
 	"Kent_R._Hance_Chapel": {
         "label": "",
@@ -1597,26 +1595,27 @@
         "description": ""
     },
 	"McClellan_Hall": {
-        "label": "",
+        "label": "McClellan Hall",
 		"code": "",
 		"tags": [
-			"",
-			""
+			"staff",
+            "honors",
+            "advising"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/mcclellan.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "Honors Contact Page",
+				"link": "https://www.depts.ttu.edu/honors/contact.php"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "user-tie",
+                "label": "Honors Advising",
+                "link": "https://www.depts.ttu.edu/honors/about/facultystaff/advisors.php"
             }
 		],
-        "description": ""
+        "description": "The building is the home of the Honors College administrative offices."
     },
 	"McKenzie-Merket_Alumni_Center": {
         "label": "",
@@ -1641,26 +1640,22 @@
         "description": ""
     },
 	"Meat_Lab_&_Livestock_Arena": {
-        "label": "",
-		"code": "",
+        "label": "Meat Lab & Livestock Arena",
+		"code": "MLAB",
 		"tags": [
-			"",
-			""
+			"afs",
+            "research",
+            "classes"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/mlab.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
+				"icon": "home",
+				"label": "Animal & Food Sciences Homepage",
+				"link": "https://www.depts.ttu.edu/afs/"
             }
 		],
-        "description": ""
+        "description": "The Meat Lab is home to research and teaching facilities. The Livestock arena is used for various animal classes and events."
     },
 	"Mechanical_Engineering_North": {
         "label": "",
@@ -1707,26 +1702,30 @@
         "description": ""
     },
 	"Media_&_Communication": {
-        "label": "",
-		"code": "",
+        "label": "Media & Communication",
+		"code": "MCOM",
 		"tags": [
-			"",
-			""
+			"study",
+            "classes",
+            "labs",
+            "research",
+            "advising",
+            "staff"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/mcom.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "MCOM Homepage",
+				"link": "https://www.depts.ttu.edu/comc/"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "user-tie",
+                "label": "Advising",
+                "link": "https://www.depts.ttu.edu/comc/advising/"
             }
 		],
-        "description": ""
+        "description": "The Media & Communication building houses the College of    Media & Communication, the Department of Communication Studies, Army ROTC, Atmospheric Science, Texas Tech University Press and Student Media."
     },
 	"Medical_Office_Plaza": {
         "label": "",
@@ -1750,49 +1749,35 @@
 		],
         "description": ""
     },
-	"Murdough_Residence_Hall": {
-        "label": "",
-		"code": "",
-		"tags": [
-			"",
-			""
-        ],
-        "image": "",
-		"links": [
-			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
-            }
-		],
-        "description": ""
-    },
 	"Murray_Residence_Hall": {
-        "label": "",
+        "label": "Murray Residence Hall",
 		"code": "",
 		"tags": [
-			"",
-			""
+			"residence",
+            "suite",
+            "coed",
+            "food",
+            "study"
         ],
-        "image": "",
+        "image": "http://www.depts.ttu.edu/housing/images/exteriorHalls/MurrayLarge.JPG",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "Murray Homepage",
+				"link": "http://www.depts.ttu.edu/housing/halls/murray.php"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "utensils",
+                "label": "Sam's Place Murray",
+                "link": "http://www.depts.ttu.edu/hospitality/samsmurray.php"
+            },
+            {
+                "icon": "cube",
+                "label": "Floor Plan",
+                "link": "http://www.depts.ttu.edu/housing/documents/halls/murrayFloorPlan.pdf"
             }
 		],
-        "description": ""
+        "description": "Murray Hall is a coed, suite-style residence hall. The Business, Honors, and Terry Scholars learning communities are located in Murray Hall near several engineering buildings. Murray Hall is open year-round to provide residents a location where they may live continuously throughout their academic career. Students share a suite with students of the same gender only.\n\nEach suite has private bathrooms, a living area and four bedrooms (a limited number of suites have three bedrooms). Bedrooms are furnished with a twin bed, desk and dresser. The shared living area is furnished with a sofa, entertainment center, coffee table, full-sized refrigerator, and a microwave oven. Bedrooms have vinyl flooring while the living area has laminate wood flooring. Bathrooms have ceramic tile flooring and separate sink/vanity areas. Ceiling fans are included in each bedroom and the living area."
     },
 	"Music": {
         "label": "",
@@ -1927,48 +1912,44 @@
         "description": ""
     },
 	"Physical_Plant": {
-        "label": "",
+        "label": "Physical Plant",
 		"code": "",
 		"tags": [
-			"",
-			""
+			"staff",
+            "help/assistance",
+            "operations"
         ],
-        "image": "",
+        "image": "http://www.depts.ttu.edu/operations/Pictures/Employment-Page.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
+				"icon": "home",
+				"label": "Operations Homepage",
+				"link": "http://www.depts.ttu.edu/operations/"
             }
 		],
-        "description": ""
+        "description": "Location of the Operations Division at Texas Tech."
     },
-	"Plant_Sciences": {
-        "label": "",
+	"Plant_Sciences_Greenhouse": {
+        "label": "Plant Sciences Greenhouse",
 		"code": "",
 		"tags": [
-			"",
-			""
+			"classes",
+            "research",
+            "labs",
+            "horticulture",
+            "leisure",
+            "plants",
+            "garden"
         ],
-        "image": "",
+        "image": "https://www.depts.ttu.edu/pss/greenhouse/images/Gardens_bench.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
+				"icon": "home",
+				"label": "Horticulture Gardens and Greenhouse Complex Homepage",
+				"link": "https://www.depts.ttu.edu/pss/greenhouse/index.php"
             }
 		],
-        "description": ""
+        "description": "The Texas Tech University Gardens and Greenhouse Complex is located just north of the United Spirit Arena. This facility provides teaching, research and engagement opportunities for the Department of Plant and Soil Science faculty and students as well as the local community."
     },
 	"Preston_Smith_Library": {
         "label": "",
@@ -1993,26 +1974,22 @@
         "description": ""
     },
 	"Psychology": {
-        "label": "",
-		"code": "",
+        "label": "Psychology",
+		"code": "PSYC",
 		"tags": [
-			"",
-			""
+			"classes",
+            "labs",
+            "staff"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/psyc.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
+				"icon": "home",
+				"label": "Psychology Homepage",
+				"link": "http://www.depts.ttu.edu/psy/"
             }
 		],
-        "description": ""
+        "description": "The facility is home to Department of Psychology classrooms, labs and offices."
     },
 	"Rawls_College_of_Business": {
         "label": "",
@@ -2058,49 +2035,54 @@
 		],
         "description": ""
     },
-	"Rec_Sports_Softball_Fields": {
-        "label": "",
+	"Rec_Sports_Leisure_Pool": {
+        "label": "Rec Sports Leisure Pool",
 		"code": "",
 		"tags": [
-			"",
-			""
+			"leisure"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/recleisure.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "Aquatics Homepage",
+				"link": "https://www.depts.ttu.edu/recsports/aquatics/facilities.php"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "clock",
+                "label": "Facility Hours",
+                "link": "https://www.depts.ttu.edu/recsports/facilities/hours.php"
             }
 		],
-        "description": ""
+        "description": "The leisure pool opened in 2009 and features a lazy river, a 15-foot slide, and a hot tub that seats up to 20 people."
     },
 	"Robert_H._Ewalt_Student_Rec_Center": {
-        "label": "",
+        "label": "Robert H. Ewalt Student Rec Center",
 		"code": "",
 		"tags": [
-			"",
-			""
+			"leisure",
+            "sports",
+            "landmark"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/src.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "Rec Center Homepage",
+				"link": "https://www.depts.ttu.edu/recsports/"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "golf-ball",
+                "label": "Sports Clubs",
+                "link": "https://www.depts.ttu.edu/recsports/sportclubs/clubs.php"
+            },
+            {
+                "icon": "clock",
+                "label": "Facilities Hours",
+                "link": "https://www.depts.ttu.edu/recsports/facilities/hours.php"
             }
 		],
-        "description": ""
+        "description": "The Robert H. Ewalt Student Recreation Center features a raised jogging track, volleyball/basketball courts and weight room facilities. The climbing, outdoor pursuits and aquatic centers are also found here."
     },
 	"Rocky_Johnson_Field_(Softball)": {
         "label": "",
@@ -2257,48 +2239,62 @@
         "description": ""
     },
 	"Sports_Performance_Center": {
-        "label": "",
+        "label": "Sports Performance Center",
 		"code": "",
 		"tags": [
-			"",
-			""
+            "sports",
+            "leisure"
         ],
-        "image": "",
+        "image": "https://ramar.images.worldnow.com/images/16095196_G.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
+				"icon": "building",
+				"label": "Main Building",
+				"link": "https://texastech.com/facilities/sports-performance-center/12"
             }
 		],
-        "description": ""
+        "description": "The new facility will also enable Texas Tech to host championship-level track and field events, including the Big 12 Conference Indoor Track and Field Championships. The facility will also build upon Texas Tech's service to the community as the university plans to continue to host numerous high school indoor track and field meets each year.\n\nBeginning this January, the facility will host the nation's top track and field programs from across the country as Texas Tech will be among the few schools nationally to boast an indoor 200-meter banked track. Wes Kittley's track and field program will be able to host the premier collegiate events in the facility, including the Big 12 Indoor Championships as well as potentially the NCAA Championships."
     },
-	"Stangel_Residence_Hall": {
-        "label": "",
+	"Stangel_Murdough_Residence_Hall": {
+        "label": "Stangel/Murdough Residence Hal",
 		"code": "",
 		"tags": [
-			"",
-			""
+			"residence",
+            "food",
+            "study",
+            "coed",
+            "built-in",
+            "leisure"
         ],
-        "image": "",
+        "image": "https://www.depts.ttu.edu/housing/images/exteriorHalls/StangelLarge.JPG",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "Stangel Homepage",
+				"link": "https://www.depts.ttu.edu/housing/halls/stangel.php"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "home",
+                "label": "Murdough Homepage",
+                "link": "https://www.depts.ttu.edu/housing/halls/murdough.php"
+            },
+            {
+                "icon": "utensils",
+                "label": "The Market",
+                "link": "http://www.depts.ttu.edu/hospitality/market.php"
+            },
+            {
+				"icon": "cube",
+				"label": "Stangel Floor Plan",
+				"link": "https://www.depts.ttu.edu/housing/documents/halls/stangelFloorPlan.pdf"
+            },
+            {
+                "icon": "cube",
+                "label": "Murdough Floor Plan",
+                "link": "https://www.depts.ttu.edu/housing/documents/halls/murdoughFloorPlan.pdf"
             }
 		],
-        "description": ""
+        "description": "Stangel Hall is a coed, built-in furniture residence hall. The Health Sciences Learning Community is located in Stangel Hall on the central western edge of the main campus, near Agriculture row, Biology building, and Experimental Science buildings. Stangel Hall is coed by wing. A TV lounge, piano lounge, and several study lounges are located on the second and fourth floors. Limitless laundry lounges are available for all residents. The Stangel/Murdough Complex has two sand volleyball courts just south of the complex.\n\nMurdough Hall is a coed, built-in furniture residence hall. The Media and Communication, First Gen, PreLaw, and the College of Agricultural Sciences and Natural Resources learning communities are located in Murdough Hall on the central western edge of the main campus near Agriculture row, Biology, and Experimental Science buildings. Murdough is coed by wing. A TV lounge, piano lounge and several study lounges are located on the second and fourth floors. Limitless laundry lounges are available for all residents. The Stangel/Murdough Complex has two sand volleyball courts on the south side of the complex."
     },
 	"Student_Union_Building": {
         "label": "",
@@ -2323,26 +2319,28 @@
         "description": ""
     },
 	"Student_Wellness_Center": {
-        "label": "",
+        "label": "Student Wellness Center",
 		"code": "",
 		"tags": [
-			"",
-			""
+			"help/assistance",
+            "medical",
+            "family",
+            "health"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/wellness.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "Student Health Homepage",
+				"link": "https://www.depts.ttu.edu/studenthealth/"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "user-nurse",
+                "label": "Need Care?",
+                "link": "https://www.depts.ttu.edu/studenthealth/NewPatients/index.php"
             }
 		],
-        "description": ""
+        "description": "The Student Wellness Center houses both Student Health Services and the Student Counseling Center. A pharmacy that offers student discounts is located in the building."
     },
 	"TTU_Health_Sciences_Center": {
         "label": "",
@@ -2389,26 +2387,24 @@
         "description": ""
     },
 	"Terry_Fuller_Petroleum_Engineering_Research_Building": {
-        "label": "",
+        "label": "Terry Fuller Petroleum Engineering Research Building",
 		"code": "",
 		"tags": [
-			"",
-			""
+			"classes",
+            "research",
+            "labs",
+            "staff",
+            "study"
         ],
-        "image": "",
+        "image": "https://www.depts.ttu.edu/pe/images/peslideshowbuilding.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
+				"icon": "building",
+				"label": "Main Petroleum Engineering Building",
+				"link": "https://www.depts.ttu.edu/pe/building/"
             }
 		],
-        "description": ""
+        "description": "The Terry Fuller Petroleum Engineering Research Building has approximately 42,000 square feet of modern classroom and research space and features a unique cluster of laboratories."
     },
 	"Texas_Tech_Federal_Credit_Union": {
         "label": "",
@@ -2666,27 +2662,44 @@
 		],
         "description": ""
     },
-	"Wall_Residence_Hall": {
-        "label": "",
+	"Wall_Gates_Residence_Hall": {
+        "label": "Wall/Gates Residence Hall",
 		"code": "",
 		"tags": [
-			"",
-			""
+			"residence",
+            "coed",
+            "built-in",
+            "food"
         ],
-        "image": "",
+        "image": "https://www.depts.ttu.edu/housing/images/exteriorHalls/GatesLarge.JPG",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "Wall Homepage",
+				"link": "https://www.depts.ttu.edu/housing/halls/wall.php"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "home",
+                "label": "Gates Homepage",
+                "link": "https://www.depts.ttu.edu/housing/halls/gates.php"
+            },
+            {
+                "icon": "utensils",
+                "label": "Sam's Place @ Wall | Gates",
+                "link": "http://www.depts.ttu.edu/hospitality/samswall.php"
+            },
+            {
+				"icon": "home",
+				"label": "Wall Floor Plan",
+				"link": "https://www.depts.ttu.edu/housing/documents/halls/wallFloorPlan.pdf"
+            },
+            {
+                "icon": "home",
+                "label": "Gates Floor Plan",
+                "link": "https://www.depts.ttu.edu/housing/documents/halls/gatesFloorPlan.pdf"
             }
 		],
-        "description": ""
+        "description": "Wall/Gates Hall is a coed, built-in furniture residence hall. The Fine Arts Learning Community is located on the south side of campus in Wall Hall and the Tech Transfer Acceleration Program (TTAP) Learning Communities are located on the south side of campus in Gates Hall, near the Charles E. Maedgen Jr. Theatre, Music building, and the Library. Men and women live on alternating floors at Wall/Gates Hall. A large lobby connects Wall Hall and Gates Hall. A study lounge and vending rooms are features of the Wall/Gates Complex. Limitless laundry lounges are available for all residents."
     },
 	"Weeks_Hall": {
         "label": "",
@@ -2733,48 +2746,63 @@
         "description": ""
     },
 	"West_Village_A_Residence_Hall": {
-        "label": "",
+        "label": "West Village A Residence Hall",
 		"code": "",
 		"tags": [
-			"",
-			""
+            "residence",
+			"coed",
+            "apartment",
+            "graduate",
+            "upperclass"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/villageA.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "West Village Homepage",
+				"link": "https://www.depts.ttu.edu/housing/halls/westvillage.php"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "utensils",
+                "label": "Raider Exchange @ West Village",
+                "link": "https://www.depts.ttu.edu/hospitality/raiderexchange.php"
+            },
+            {
+                "icon": "cube",
+                "label": "West Village Floor Plan",
+                "link": "https://www.depts.ttu.edu/housing/documents/halls/westVillageFloorPlan.pdf"
             }
 		],
-        "description": ""
+        "description": "The West Village is a coed, apartment-style residence hall offering one-bedroom, two-bedroom and four-bedroom units. Students over 21 years of age may live in West Village B (West Village Graduate), and students of sophomore or higher classification may live in West Village A (West Village Upperclass). Amenities include washers and dryers in the one-bedroom and two-bedroom apartments, and limitless laundry lounges with free WiFi for the four-bedroom apartments."
     },
 	"West_Village_B_Residence_Hall": {
-        "label": "",
+        "label": "West Village B Residence Hall",
 		"code": "",
 		"tags": [
-			"",
-			""
+            "residence",
+			"coed",
+            "apartment",
+            "graduate"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/villageB.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "West Village Homepage",
+				"link": "https://www.depts.ttu.edu/housing/halls/westvillage.php"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "utensils",
+                "label": "Raider Exchange @ West Village",
+                "link": "https://www.depts.ttu.edu/hospitality/raiderexchange.php"
+            },
+            {
+                "icon": "cube",
+                "label": "West Village Floor Plan",
+                "link": "https://www.depts.ttu.edu/housing/documents/halls/westVillageFloorPlan.pdf"
             }
 		],
-        "description": ""
+        "description": "The West Village is a coed, apartment-style residence hall offering one-bedroom, two-bedroom and four-bedroom units. Students over 21 years of age may live in West Village B (West Village Graduate), and students of sophomore or higher classification may live in West Village A (West Village Upperclass). Amenities include washers and dryers in the one-bedroom and two-bedroom apartments, and limitless laundry lounges with free WiFi for the four-bedroom apartments."
     },
 	"Weymouth_Residence_Hall": {
         "label": "",

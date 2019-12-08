@@ -6,6 +6,7 @@
 
 #SidebarData > div > p {
     padding-top: 16px;
+    white-space: pre-wrap;
 }
 
 #SidebarData a > div:hover {
