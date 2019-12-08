@@ -34,8 +34,8 @@ class Navigation extends Component {
                         <Grid container justify="space-between">
                             <Grid item>
                                 <Link to="/">
-                                    <Button className="navButton" style={this.props.location.pathname === "/" ? {color: "#353535"} : {color: "#FFF"}}>
-                                        <img width={32} height={37} src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Texas_Tech_Athletics_logo.svg" alt="Logo" />
+                                    <Button className="navButton" style={this.props.location.pathname === "/" ? {color: "#353535"} : {color: "#FFF"} }>
+                                        <img className="logo" width={32} height={37} src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Texas_Tech_Athletics_logo.svg" alt="Logo" />
                                             Resource Guide
                                     </Button>
                                 </Link>

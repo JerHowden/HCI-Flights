@@ -8,6 +8,7 @@
 
 #Navigation div {
 	height: 64px;
+	box-sizing: content-box;
 }
 
 .navButton {
@@ -30,4 +31,8 @@
 
 .navButton img {
 	padding-right: 10px;
+}
+
+.logo {
+	box-sizing: content-box;
 }

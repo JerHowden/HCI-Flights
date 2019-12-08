@@ -19,3 +19,13 @@
     font-size: 48px;
     font-weight: bold;
 }
+
+#background-video {
+    height: auto;
+    width: 100%;
+    float: left;
+    padding: none;
+    margin-right: 0;
+    position: absolute;
+    top: 0;
+}
