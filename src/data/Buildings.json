@@ -4253,7 +4253,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Marsha Sharp Venter for Student Athletics"
+        "title": "Marsha Sharp Center for Student Athletics"
       },
       "geometry": {
         "coordinates": [
@@ -4445,7 +4445,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Wiggins Complex/Dining Hall"
+        "title": "Wiggins Complex"
       },
       "geometry": {
         "coordinates": [
@@ -4495,7 +4495,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Engineering and Materials Research Center"
+        "title": "Maddox Engineering Research Center"
       },
       "geometry": {
         "coordinates": [
@@ -4529,7 +4529,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Physical Plant Annex"
+        "title": "Physical Plant"
       },
       "geometry": {
         "coordinates": [
@@ -4563,7 +4563,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Goddard Range and Wildlife Management Building"
+        "title": "Goddard Range & Wildlife Management"
       },
       "geometry": {
         "coordinates": [
@@ -4597,7 +4597,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "KTXT-TV PBS"
+        "title": "PBS Station KTTZ"
       },
       "geometry": {
         "coordinates": [
@@ -5089,7 +5089,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Music Building"
+        "title": "Music"
       },
       "geometry": {
         "coordinates": [
@@ -5473,7 +5473,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Athletic Training Complex"
+        "title": "Football Training Complex"
       },
       "geometry": {
         "coordinates": [
@@ -5547,83 +5547,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Brandon Unit 1"
-      },
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              [
-                -101.886325,
-                33.585028
-              ],
-              [
-                -101.886062,
-                33.5852
-              ],
-              [
-                -101.885919,
-                33.585033
-              ],
-              [
-                -101.886184,
-                33.584866
-              ],
-              [
-                -101.886325,
-                33.585028
-              ]
-            ]
-          ],
-          [
-            [
-              [
-                -101.886273,
-                33.585211
-              ],
-              [
-                -101.886108,
-                33.585317
-              ],
-              [
-                -101.886137,
-                33.585346
-              ],
-              [
-                -101.886056,
-                33.585399
-              ],
-              [
-                -101.885898,
-                33.585214
-              ],
-              [
-                -101.885975,
-                33.585171
-              ],
-              [
-                -101.886052,
-                33.585248
-              ],
-              [
-                -101.886219,
-                33.585144
-              ],
-              [
-                -101.886273,
-                33.585211
-              ]
-            ]
-          ]
-        ],
-        "type": "MultiPolygon"
-      },
-      "id": 64
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Title": "Flint Ave Garage"
+        "title": "Parking Garage"
       },
       "geometry": {
         "coordinates": [
@@ -5657,7 +5581,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "United Spirit Arena"
+        "title": "United Supermarkets Arena"
       },
       "geometry": {
         "coordinates": [
@@ -5941,7 +5865,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Industrial, Mechanical & Systes Engineering"
+        "title": "Industrial, Mechanical & Systems Engineering"
       },
       "geometry": {
         "coordinates": [
@@ -6871,7 +6795,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Science Building"
+        "title": "Science - Physics & Geosciences"
       },
       "geometry": {
         "coordinates": [
@@ -7349,7 +7273,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Market Alumni Center"
+        "title": "McKenzie-Merket Alumni Center"
       },
       "geometry": {
         "coordinates": [
@@ -7561,7 +7485,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Texas Tech School of Law"
+        "title": "School of Law"
       },
       "geometry": {
         "coordinates": [
@@ -8147,7 +8071,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "The Commons Food Court"
+        "title": "J.T. and Margaret Talkington Residence Hall"
       },
       "geometry": {
         "coordinates": [
@@ -8337,7 +8261,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Museum of Texas Tech University"
+        "title": "Texas Tech Museum"
       },
       "geometry": {
         "coordinates": [
@@ -8935,7 +8859,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Southwest Collection/Special Collection Library"
+        "title": "Southwest Collection/Special Collections Library"
       },
       "geometry": {
         "coordinates": [
@@ -9115,7 +9039,7 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Dan Law Baseball Field"
+        "title": "Dan Law Field (Baseball) at Rip Griffin Park"
       },
       "geometry": {
         "coordinates": [

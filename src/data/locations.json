@@ -828,7 +828,7 @@
         "description": "The Education building opened in 2002. The building faces the English/Philosophy building across a large courtyard. The two buildings mirror each other in architectural design."
     },
 	"Electrical_&_Computer_Engineering": {
-        "label": "",
+        "label": "Electrical & Computer Engineering",
 		"code": "",
 		"tags": [
 			"",
@@ -867,7 +867,7 @@
         "description": "The building provides research lab and office space for the Whitacre College of Engineering."
     },
 	"English_&_Philosophy": {
-        "label": "",
+        "label": "English & Philosophy",
 		"code": "",
 		"tags": [
 			"",
@@ -923,136 +923,91 @@
         "description": "The building houses multi-discipline research laboratories and classrooms."
     },
 	"Fisheries_&_Wildlife_Research": {
-        "label": "",
-		"code": "",
+        "label": "Fisheries & Wildlife Research",
+		"code": "FSHWLD",
 		"tags": [
-			"",
-			""
+			"research",
+            "labs",
+            "classes"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/fshwld.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "Department of Natural Resources Management",
+				"link": "http://www.depts.ttu.edu/nrm/"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "book-open",
+                "label": "Research Unit",
+                "link": "https://www.depts.ttu.edu/tcfwru/"
             }
 		],
-        "description": ""
-    },
-	"Food_Technology": {
-        "label": "",
-		"code": "",
-		"tags": [
-			"",
-			""
-        ],
-        "image": "",
-		"links": [
-			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
-            }
-		],
-        "description": ""
+        "description": "The building is home to Department of Natural Resources Management classrooms, research labs and offices."
     },
 	"Football_Training_Complex": {
-        "label": "",
+        "label": "Football Training Complex",
 		"code": "",
 		"tags": [
-			"",
-			""
+			"sports"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/athcomplex.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
+				"icon": "building",
+				"label": "Football Training Complex Building",
+				"link": "https://texastech.com/sports/2016/6/8/facilities-fac-ftf-html.aspx"
             }
 		],
-        "description": ""
+        "description": "The Athletic Complex, commonly known as the Football Training Complex or FTC, features training facilities and access to the outdoor football practice field."
     },
 	"Frazier_Alumni_Pavilion": {
-        "label": "",
+        "label": "Frazier Alumni Pavilion",
 		"code": "",
 		"tags": [
-			"",
-			""
+			"staff",
+            "alumni",
+            "operations",
+            "landmark"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/frazier.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "Alumni Association Homepage",
+				"link": "https://www.texastechalumni.org/s/1422/alumni/start.aspx?sid=1422&gid=1&pgid=1417"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "building",
+                "label": "Frazier Alumni Pavilion Building",
+                "link": "https://www.texastechalumni.org/s/1422/alumni/index.aspx?sid=1422&gid=1&pgid=1631"
             }
 		],
-        "description": ""
-    },
-	"Garrison_Geriatric_Education_&_Care_Center": {
-        "label": "",
-		"code": "",
-		"tags": [
-			"",
-			""
-        ],
-        "image": "",
-		"links": [
-			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
-            }
-		],
-        "description": ""
+        "description": "Owned by the Texas Tech Alumni Association, the facility is used for a variety of meetings and events."
     },
 	"Goddard_Range_&_Wildlife_Management": {
-        "label": "",
-		"code": "",
+        "label": "Goddard Range & Wildlife Management",
+		"code": "GODDRD",
 		"tags": [
-			"",
-			""
+			"classes",
+            "labs",
+            "staff",
+            "naturalresources"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/goddrd.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "CASNR Homepage",
+				"link": "https://www.depts.ttu.edu/agriculturalsciences/"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "building",
+                "label": "Goddard Building",
+                "link": "https://www.depts.ttu.edu/agriculturalsciences/About/facilities/factsheet/goddard.php"
             }
 		],
-        "description": ""
+        "description": "The building is home to the Office of the Dean of the College of Agricultural Sciences and Natural Resources as well as classrooms and lab space."
     },
     "Gordon_Bledsoe_Residence_Hall": {
         "label": "Gordon/Bledsoe Residence Hall",
@@ -1094,28 +1049,6 @@
             }
 		],
         "description": "Gordon Hall is a coed, suite-style residence hall located on the northeast side of campus. Students in the hall share a suite with students of the same gender only. A furnished living room sits between two bedroom units. Each fully furnished bedroom unit accommodates one to two students and includes a vanity area and private bathroom.\n\nBledsoe Hall is a residence hall for men. It is home to the Engineering Success Learning Community."
-    },
-	"Greenhouse_&_Horticultural_Gardens": {
-        "label": "",
-		"code": "",
-		"tags": [
-			"",
-			""
-        ],
-        "image": "",
-		"links": [
-			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
-            }
-		],
-        "description": ""
     },
 	"Holden_Hall": {
         "label": "Holden Hall",
@@ -1162,8 +1095,8 @@
 		],
         "description": "The honors residence hall is a co-ed, pod style residence hall with movable furniture. Rooms in the hall are clustered around a central community bathroom, with an additional nearby private bathroom. Study lounges are adjacent to the rooms to allow residents a place to study and meet other honors students. Additional features include a multi-purpose room for special group meetings and presentations, study lounges near each pod, a new 944 square foot Starbucks® which will accept dining bucks, and several large lounges, with the main lounge located on the first floor of the building. "
     },
-	"Horn_Residence_Hall": {
-        "label": "",
+	"Horn_Knapp_Residence_Hall": {
+        "label": "Horn/Knapp Residence Hall",
 		"code": "",
 		"tags": [
 			"",
@@ -1185,7 +1118,7 @@
         "description": ""
     },
 	"Housing_Services": {
-        "label": "",
+        "label": "Housing Services",
 		"code": "",
 		"tags": [
 			"",
@@ -1261,49 +1194,22 @@
 		],
         "description": "The College of Human Sciences features programs ranging from family studies to financial planning to fashion design to the study of addiction of recovery."
     },
-	"Industrial,_Manufacturing,_and_Systems_Engineering": {
-        "label": "",
-		"code": "",
+	"Industrial,_Manufacturing,_&_Systems_Engineering": {
+        "label": "Industrial, Mechanical & Systems Engineering",
+		"code": "IMSE",
 		"tags": [
-			"",
-			""
+			"classes",
+			"labs"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/petre.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
+				"icon": "home",
+				"label": "IMSE Homepage",
+				"link": "http://www.depts.ttu.edu/imse/"
             }
 		],
-        "description": ""
-    },
-	"Innovation_Hub_at_Research Park": {
-        "label": "",
-		"code": "",
-		"tags": [
-			"",
-			""
-        ],
-        "image": "",
-		"links": [
-			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
-            }
-		],
-        "description": ""
+        "description": "The building is home to the Department of Industrial, Manufacturing & Systems Engineering classrooms, labs and offices."
     },
 	"International_Cultural_Center": {
         "label": "International Cultural Center",
@@ -1357,34 +1263,13 @@
 		],
         "description": "Talkington Hall is a coed, suite-style residence hall. A two-story, 20,500-square-foot dining facility, office, limitless laundry lounges, and meeting rooms are located in the complex. Students share a suite with students of the same gender.\n\nEach suite has private bathrooms, a living area, and two or four bedrooms. Bedrooms are furnished with a twin bed, desk, and dresser. The shared living area in most suites is furnished with a sofa, entertainment center, coffee table, full-sized refrigerator, and a microwave oven. Some rooms may have lounge chairs instead of sofas, and not all spaces will have a coffee table. Each living room and bedroom has laminate wood flooring. Bathrooms have ceramic tile flooring and separate sink/vanity areas. Ceiling fans are included in each bedroom and the living area."
     },
-	"John_B._Walker_Soccer_Complex": {
-        "label": "",
-		"code": "",
-		"tags": [
-			"",
-			""
-        ],
-        "image": "",
-		"links": [
-			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
-            }
-		],
-        "description": ""
-    },
 	"Jones_AT&T_Stadium_(Football)": {
         "label": "Jones AT&T Stadium (Football)",
 		"code": "JONES",
 		"tags": [
 			"sports",
-			"leisure"
+            "leisure",
+            "landmark"
         ],
         "image": "http://footballstadiumdigest.com/wp-content/uploads/2017/08/Jones-ATT-Stadium.jpg",
 		"links": [
@@ -1397,117 +1282,7 @@
         "description": "Jones AT&T Stadium, home of Red Raider football since Nov. 29, 1947, is arguably one of the most electric game day atmospheres in all of college football. Armed with 60,000-plus rabid fans, Dave Curtis of The Sporting News proclaimed in May of 2010 that Jones AT&T Stadium was the best home field advantage in all of college football."
     },
 	"Kent_R._Hance_Chapel": {
-        "label": "",
-		"code": "",
-		"tags": [
-			"",
-			""
-        ],
-        "image": "",
-		"links": [
-			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
-            }
-		],
-        "description": ""
-    },
-	"Kinesiology_&_Sport_Management": {
-        "label": "",
-		"code": "",
-		"tags": [
-			"",
-			""
-        ],
-        "image": "",
-		"links": [
-			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
-            }
-		],
-        "description": ""
-    },
-	"Knapp_Residence_Hall": {
-        "label": "",
-		"code": "",
-		"tags": [
-			"",
-			""
-        ],
-        "image": "",
-		"links": [
-			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
-            }
-		],
-        "description": ""
-    },
-	"Lanier_Professional_Development_Center": {
-        "label": "",
-		"code": "",
-		"tags": [
-			"",
-			""
-        ],
-        "image": "",
-		"links": [
-			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
-            }
-		],
-        "description": ""
-    },
-	"Lubbock_City_Bank_Auditorium": {
-        "label": "",
-		"code": "",
-		"tags": [
-			"",
-			""
-        ],
-        "image": "",
-		"links": [
-			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
-            }
-		],
-        "description": ""
-    },
-	"Lubbock_City_Bank_Coliseum": {
-        "label": "",
+        "label": "Kent R. Hance Chapel",
 		"code": "",
 		"tags": [
 			"",
@@ -1529,51 +1304,48 @@
         "description": ""
     },
 	"Maddox_Engineering_Research_Center": {
-        "label": "",
+        "label": "Maddox Engineering Research Center",
 		"code": "",
 		"tags": [
-			"",
-			""
+			"materials",
+            "research",
+            "staff"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/merc.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "Engineering Research Center Homepage",
+				"link": "http://www.depts.ttu.edu/coe/departments/Newsletters/CHE/achievements.php"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "building",
+                "label": "Maddox Engineering Research Center",
+                "link": "https://www.texastech.edu/fpc/projects/project-status.php?project=12-08&entity=TTU&status="
             }
 		],
-        "description": ""
+        "description": "With research facilities for two National Academy of Engineering faculty, the Maddox Engineering Research Center enables the Whitacre College of Engineering to continue addressing global research challenges and collaborate with colleagues around the world."
     },
 	"Marsha_Sharp_Center_for_Student_Athletics": {
-        "label": "",
-		"code": "",
+        "label": "Marsha Sharp Center for Student Athletics",
+		"code": "MSC",
 		"tags": [
-			"",
-			""
+			"sports",
+            "staff",
+            "academic-help"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/msc.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
+				"icon": "building",
+				"label": "Marsha Sharp Center Building",
+				"link": "https://texastech.com/sports/2016/6/8/academics-text-academics-html.aspx"
             }
 		],
-        "description": ""
+        "description": "The facility houses offices and facilities dedicated to the academic success of student athletes."
     },
 	"Mathematics_&_Statistics": {
-        "label": "",
+        "label": "Mathematics & Statistics",
 		"code": "",
 		"tags": [
 			"",
@@ -1618,7 +1390,7 @@
         "description": "The building is the home of the Honors College administrative offices."
     },
 	"McKenzie-Merket_Alumni_Center": {
-        "label": "",
+        "label": "McKenzie-Merket Alumni Center",
 		"code": "",
 		"tags": [
 			"",
@@ -1657,30 +1429,8 @@
 		],
         "description": "The Meat Lab is home to research and teaching facilities. The Livestock arena is used for various animal classes and events."
     },
-	"Mechanical_Engineering_North": {
-        "label": "",
-		"code": "",
-		"tags": [
-			"",
-			""
-        ],
-        "image": "",
-		"links": [
-			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
-            }
-		],
-        "description": ""
-    },
-	"Mechanical_Engineering_South": {
-        "label": "",
+	"Mechanical_&_Industrial_Engineering": {
+        "label": "Mechanical & Industrial Engineering",
 		"code": "",
 		"tags": [
 			"",
@@ -1727,28 +1477,6 @@
 		],
         "description": "The Media & Communication building houses the College of    Media & Communication, the Department of Communication Studies, Army ROTC, Atmospheric Science, Texas Tech University Press and Student Media."
     },
-	"Medical_Office_Plaza": {
-        "label": "",
-		"code": "",
-		"tags": [
-			"",
-			""
-        ],
-        "image": "",
-		"links": [
-			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
-            }
-		],
-        "description": ""
-    },
 	"Murray_Residence_Hall": {
         "label": "Murray Residence Hall",
 		"code": "",
@@ -1780,73 +1508,36 @@
         "description": "Murray Hall is a coed, suite-style residence hall. The Business, Honors, and Terry Scholars learning communities are located in Murray Hall near several engineering buildings. Murray Hall is open year-round to provide residents a location where they may live continuously throughout their academic career. Students share a suite with students of the same gender only.\n\nEach suite has private bathrooms, a living area and four bedrooms (a limited number of suites have three bedrooms). Bedrooms are furnished with a twin bed, desk and dresser. The shared living area is furnished with a sofa, entertainment center, coffee table, full-sized refrigerator, and a microwave oven. Bedrooms have vinyl flooring while the living area has laminate wood flooring. Bathrooms have ceramic tile flooring and separate sink/vanity areas. Ceiling fans are included in each bedroom and the living area."
     },
 	"Music": {
-        "label": "",
-		"code": "",
+        "label": "Music",
+		"code": "MUSIC",
 		"tags": [
-			"",
-			""
+			"classes",
+            "performances",
+            "staff",
+            "hemmlerecital"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/music.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "School of Music Homepage",
+				"link": "https://www.depts.ttu.edu/music/"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
-            }
-		],
-        "description": ""
-    },
-	"National_Ranching_Heritage_Center": {
-        "label": "",
-		"code": "",
-		"tags": [
-			"",
-			""
-        ],
-        "image": "",
-		"links": [
-			{
-				"icon": "",
-				"label": "",
-				"link": ""
+                "icon": "calendar-alt",
+                "label": "Events Calendar",
+                "link": "https://www.depts.ttu.edu/music/news-events/calendar.php"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "ticket-alt",
+                "label": "Buy Tickets",
+                "link": "https://www.eventbrite.com/o/texas-tech-university-school-of-music-6218445533#live_events"
             }
 		],
-        "description": ""
-    },
-	"National_Ranching_Heritage_Center_-_Devitt_&_Mallet_Ranch_Building": {
-        "label": "",
-		"code": "",
-		"tags": [
-			"",
-			""
-        ],
-        "image": "",
-		"links": [
-			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
-            }
-		],
-        "description": ""
+        "description": "The facility houses School of Music classroom, performance and practice halls and offices."
     },
 	"National_Wind_Institute": {
-        "label": "",
+        "label": "National Wind Institute",
 		"code": "",
 		"tags": [
 			"",
@@ -1867,49 +1558,50 @@
 		],
         "description": ""
     },
-	"PBS_Station_KTTZ-TV": {
-        "label": "",
-		"code": "",
+	"PBS_Station_KTTZ": {
+        "label": "PBS Station KTTZ",
+		"code": "TVRDST",
 		"tags": [
-			"",
-			""
+			"broadcasting",
+            "operations",
+            "ktxt"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/tvrdst.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "KTTZ Homepage",
+				"link": "https://kttz.org/"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "tv",
+                "label": "KTTZ-TV",
+                "link": "https://tv.kttz.org/"
+            },
+            {
+                "icon": "broadcast-tower",
+                "label": "KTTZ-FM",
+                "link": "https://radio.kttz.org/#stream/0"
             }
 		],
-        "description": ""
+        "description": "The facility houses the studios and offices of KTXT-TV, the Texas Tech owned Public Broadcasting Station in Lubbock."
     },
 	"Parking_Garage": {
-        "label": "",
+        "label": "Parking Garage",
 		"code": "",
 		"tags": [
-			"",
-			""
+			"parking",
+            "flint"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/garage.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
+				"icon": "parking",
+				"label": "Parking Information",
+				"link": "https://www.depts.ttu.edu/parking/InformationFor/StudentParking/CommuterParking.php"
             }
 		],
-        "description": ""
+        "description": "A multi-level parking garage for Texas Tech faculty, staff and students. "
     },
 	"Physical_Plant": {
         "label": "Physical Plant",
@@ -1949,29 +1641,7 @@
 				"link": "https://www.depts.ttu.edu/pss/greenhouse/index.php"
             }
 		],
-        "description": "The Texas Tech University Gardens and Greenhouse Complex is located just north of the United Spirit Arena. This facility provides teaching, research and engagement opportunities for the Department of Plant and Soil Science faculty and students as well as the local community."
-    },
-	"Preston_Smith_Library": {
-        "label": "",
-		"code": "",
-		"tags": [
-			"",
-			""
-        ],
-        "image": "",
-		"links": [
-			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
-            }
-		],
-        "description": ""
+        "description": "The Texas Tech University Gardens and Greenhouse Complex is located just north of the United Supermarkets Arena. This facility provides teaching, research and engagement opportunities for the Department of Plant and Soil Science faculty and students as well as the local community."
     },
 	"Psychology": {
         "label": "Psychology",
@@ -1992,30 +1662,8 @@
         "description": "The facility is home to Department of Psychology classrooms, labs and offices."
     },
 	"Rawls_College_of_Business": {
-        "label": "",
-		"code": "",
-		"tags": [
-			"",
-			""
-        ],
-        "image": "",
-		"links": [
-			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
-            }
-		],
-        "description": ""
-    },
-	"Rawls_Golf_Course": {
-        "label": "",
-		"code": "",
+        "label": "Rawls College of Business",
+		"code": "RCOBA",
 		"tags": [
 			"",
 			""
@@ -2084,53 +1732,9 @@
 		],
         "description": "The Robert H. Ewalt Student Recreation Center features a raised jogging track, volleyball/basketball courts and weight room facilities. The climbing, outdoor pursuits and aquatic centers are also found here."
     },
-	"Rocky_Johnson_Field_(Softball)": {
-        "label": "",
-		"code": "",
-		"tags": [
-			"",
-			""
-        ],
-        "image": "",
-		"links": [
-			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
-            }
-		],
-        "description": ""
-    },
-	"Ronald_McDonald_House": {
-        "label": "",
-		"code": "",
-		"tags": [
-			"",
-			""
-        ],
-        "image": "",
-		"links": [
-			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
-            }
-		],
-        "description": ""
-    },
 	"School_of_Law": {
-        "label": "",
-		"code": "",
+        "label": "School of Law",
+		"code": "LAW",
 		"tags": [
 			"",
 			""
@@ -2151,8 +1755,8 @@
         "description": ""
     },
 	"Science_-_Physics_&_Geosciences": {
-        "label": "",
-		"code": "",
+        "label": "Science - Physics & Geosciences",
+		"code": "SCIENC",
 		"tags": [
 			"",
 			""
@@ -2173,52 +1777,39 @@
         "description": ""
     },
 	"Sneed_Residence_Hall": {
-        "label": "",
+        "label": "Sneed Residence Hall",
 		"code": "",
 		"tags": [
-			"",
-			""
+			"residence",
+            "mens",
+            "food",
+            "movable",
+            "engineering",
+            "stem"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/sneed.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "Sneed Homepage",
+				"link": "https://www.depts.ttu.edu/housing/halls/sneed.php"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
-            }
-		],
-        "description": ""
-    },
-	"Southwest_Cancer_Center": {
-        "label": "",
-		"code": "",
-		"tags": [
-			"",
-			""
-        ],
-        "image": "",
-		"links": [
-			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "utensils",
+				"label": "Sam's Place @ Sneed",
+				"link": "https://www.depts.ttu.edu/hospitality/samssneed.php"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "cube",
+                "label": "Sneed Floor Plan",
+                "link": "https://www.depts.ttu.edu/housing/documents/halls/sneedFloorPlan.pdf"
             }
 		],
-        "description": ""
+        "description": "Sneed Hall is an all-male, movable furniture residence hall. The Men of STEM (Science Technology, Engineering and Mathematics) Learning Community is located in Sneed Hall near the College of Engineering, West Hall and Holden Hall.\n\nFurnishings consist of extra-long twin beds, individual desks with chairs, chests of drawers, a sink, medicine cabinet with mirror, closets and a ceiling fan. All furniture is movable. Facilities available to residents include a large recently remodeled lobby which consists of an informal TV lounge. Limitless laundry lounges are available for all residents."
     },
-	"Southwest_Collection_&_Special_Collections_Library": {
-        "label": "",
-		"code": "",
+	"Southwest_Collection_Special_Collections_Library": {
+        "label": "Southwest Collection/Special Collections Library",
+		"code": "SWCOLL",
 		"tags": [
 			"",
 			""
@@ -2297,26 +1888,44 @@
         "description": "Stangel Hall is a coed, built-in furniture residence hall. The Health Sciences Learning Community is located in Stangel Hall on the central western edge of the main campus, near Agriculture row, Biology building, and Experimental Science buildings. Stangel Hall is coed by wing. A TV lounge, piano lounge, and several study lounges are located on the second and fourth floors. Limitless laundry lounges are available for all residents. The Stangel/Murdough Complex has two sand volleyball courts just south of the complex.\n\nMurdough Hall is a coed, built-in furniture residence hall. The Media and Communication, First Gen, PreLaw, and the College of Agricultural Sciences and Natural Resources learning communities are located in Murdough Hall on the central western edge of the main campus near Agriculture row, Biology, and Experimental Science buildings. Murdough is coed by wing. A TV lounge, piano lounge and several study lounges are located on the second and fourth floors. Limitless laundry lounges are available for all residents. The Stangel/Murdough Complex has two sand volleyball courts on the south side of the complex."
     },
 	"Student_Union_Building": {
-        "label": "",
-		"code": "",
+        "label": "Student Union Building",
+		"code": "SUB",
 		"tags": [
-			"",
-			""
+			"food",
+            "study",
+            "leisure",
+            "sports",
+            "starbucks"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/sub.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "SUB Homepage",
+				"link": "https://www.depts.ttu.edu/sub/"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "clock",
+                "label": "SUB Hours",
+                "link": "https://www.depts.ttu.edu/sub/hours.php"
+            },
+            {
+                "icon": "map-marked-alt",
+                "label": "SUB Map",
+                "link": "https://www.depts.ttu.edu/sub/SUBmap.php"
+            },
+            {
+                "icon": "video",
+                "label": "SUB Late Night Movies",
+                "link": "https://www.depts.ttu.edu/sub/Activities/tnm.php"
+            },
+            {
+                "icon": "utensils",
+                "label": "SUB Takeout Menu",
+                "link": "https://www.depts.ttu.edu/sub/Docs/UPTakeOutMenu2015_HQ.PDF"
             }
 		],
-        "description": ""
+        "description": "The Student Union Building houses a food court, Barnes & Noble Bookstore, Starbucks, the Allen Theatre, Student Government Association and work space for many of the more than 400 student organizations."
     },
 	"Student_Wellness_Center": {
         "label": "Student Wellness Center",
@@ -2342,53 +1951,9 @@
 		],
         "description": "The Student Wellness Center houses both Student Health Services and the Student Counseling Center. A pharmacy that offers student discounts is located in the building."
     },
-	"TTU_Health_Sciences_Center": {
-        "label": "",
-		"code": "",
-		"tags": [
-			"",
-			""
-        ],
-        "image": "",
-		"links": [
-			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
-            }
-		],
-        "description": ""
-    },
-	"Terry_&_Linda_Fuller_Track": {
-        "label": "",
-		"code": "",
-		"tags": [
-			"",
-			""
-        ],
-        "image": "",
-		"links": [
-			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
-            }
-		],
-        "description": ""
-    },
 	"Terry_Fuller_Petroleum_Engineering_Research_Building": {
         "label": "Terry Fuller Petroleum Engineering Research Building",
-		"code": "",
+		"code": "PETRE",
 		"tags": [
 			"classes",
             "research",
@@ -2407,8 +1972,8 @@
         "description": "The Terry Fuller Petroleum Engineering Research Building has approximately 42,000 square feet of modern classroom and research space and features a unique cluster of laboratories."
     },
 	"Texas_Tech_Federal_Credit_Union": {
-        "label": "",
-		"code": "",
+        "label": "Texas Tech Federal Credit Union",
+		"code": "TTFCU",
 		"tags": [
 			"",
 			""
@@ -2429,52 +1994,8 @@
         "description": ""
     },
 	"Texas_Tech_Museum": {
-        "label": "",
-		"code": "",
-		"tags": [
-			"",
-			""
-        ],
-        "image": "",
-		"links": [
-			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
-            }
-		],
-        "description": ""
-    },
-	"Texas_Tech_Physicians_Medical_Plaza": {
-        "label": "",
-		"code": "",
-		"tags": [
-			"",
-			""
-        ],
-        "image": "",
-		"links": [
-			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
-            }
-		],
-        "description": ""
-    },
-	"Texas_Tech_Plaza": {
-        "label": "",
-		"code": "",
+        "label": "Texas Tech Museum",
+		"code": "MUSEUM",
 		"tags": [
 			"",
 			""
@@ -2495,11 +2016,11 @@
         "description": ""
     },
 	"Texas_Tech_Police_Department": {
-        "label": "",
-		"code": "",
+        "label": "Texas Tech Police Department",
+		"code": "TTPD",
 		"tags": [
-			"",
-			""
+			"safety",
+			"help/assistance"
         ],
         "image": "",
 		"links": [
@@ -2516,71 +2037,51 @@
 		],
         "description": ""
     },
-	"Texas_Tech_University_System_Building": {
-        "label": "",
+	"TTU_System_Administration_Building": {
+        "label": "TTU System Administration Building",
 		"code": "",
 		"tags": [
-			"",
-			""
+			"staff",
+			"operations"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/system.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
+				"icon": "home",
+				"label": "System Administration Homepage",
+				"link": "https://www.texastech.edu/offices/"
             }
 		],
-        "description": ""
-    },
-	"USDA_Agricultural_Research_Service": {
-        "label": "",
-		"code": "",
-		"tags": [
-			"",
-			""
-        ],
-        "image": "",
-		"links": [
-			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
-            }
-		],
-        "description": ""
+        "description": "The Texas Tech University System Building is home to TTU System leadership, staff and personnel. The TTU System offices provide leadership and support service for its component institutions in the attainment of each university's individual mission."
     },
 	"United_Supermarkets_Arena": {
-        "label": "",
-		"code": "",
+        "label": "United Supermarkets Arena",
+		"code": "USA",
 		"tags": [
-			"",
-			""
+			"sports",
+            "leisure",
+            "spirit",
+            "landmark"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/usa.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "United Supermarkets Arena Homepage",
+				"link": "http://www.unitedsupermarketsarena.com/"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "basketball-ball",
+                "label": "Men's Basketball Schedule",
+                "link": "https://texastech.com/sports/mens-basketball/schedule/2019-20"
+            },
+            {
+                "icon": "volleyball-ball",
+                "label": "Women's Volleyball Schedule",
+                "link": "https://texastech.com/sports/womens-volleyball/schedule"
             }
 		],
-        "description": ""
+        "description": "The 15,000 seat multi-purpose facility is home to Texas Tech basketball and volleyball. The arena also hosts concerts by some of the biggest names in music."
     },
 	"University_Library": {
 		"label": "University Library",
@@ -2618,50 +2119,6 @@
 		],
 		"description": "The University Library is the state's third largest library with nearly two million books and a myriad of electronic publications and databases."
 	},
-    "University_Medical_Center": {
-        "label": "",
-		"code": "",
-		"tags": [
-			"",
-			""
-        ],
-        "image": "",
-		"links": [
-			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
-            }
-		],
-        "description": ""
-    },
-    "Urbanovsky_Park": {
-        "label": "",
-		"code": "",
-		"tags": [
-			"",
-			""
-        ],
-        "image": "",
-		"links": [
-			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
-            }
-		],
-        "description": ""
-    },
 	"Wall_Gates_Residence_Hall": {
         "label": "Wall/Gates Residence Hall",
 		"code": "",
@@ -2702,48 +2159,39 @@
         "description": "Wall/Gates Hall is a coed, built-in furniture residence hall. The Fine Arts Learning Community is located on the south side of campus in Wall Hall and the Tech Transfer Acceleration Program (TTAP) Learning Communities are located on the south side of campus in Gates Hall, near the Charles E. Maedgen Jr. Theatre, Music building, and the Library. Men and women live on alternating floors at Wall/Gates Hall. A large lobby connects Wall Hall and Gates Hall. A study lounge and vending rooms are features of the Wall/Gates Complex. Limitless laundry lounges are available for all residents."
     },
 	"Weeks_Hall": {
-        "label": "",
+        "label": "Weeks Hall",
 		"code": "",
 		"tags": [
-			"",
-			""
+			"asbestos",
+			"closed"
         ],
-        "image": "",
-		"links": [
-			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
-            }
-		],
-        "description": ""
+        "image": "http://www.ttu.edu/map/images/weeks.jpg",
+		"links": [],
+        "description": "A former residence hall, the building is currently empty."
     },
 	"West_Hall": {
-        "label": "",
+        "label": "West Hall",
 		"code": "",
 		"tags": [
-			"",
-			""
+			"staff",
+            "help/assistance",
+            "operations",
+            "admissions"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/west.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "Office of the Registrar Homepage",
+				"link": "https://www.depts.ttu.edu/registrar/"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "clipboard-list",
+                "label": "Register for Classes",
+                "link": "https://registration.texastech.edu/"
             }
 		],
-        "description": ""
+        "description": "The Visitor's Center, undergraduate admissions offices, the registrar's office, student business services and the scholarship and financial aid offices are here."
     },
 	"West_Village_A_Residence_Hall": {
         "label": "West Village A Residence Hall",
@@ -2804,49 +2252,35 @@
 		],
         "description": "The West Village is a coed, apartment-style residence hall offering one-bedroom, two-bedroom and four-bedroom units. Students over 21 years of age may live in West Village B (West Village Graduate), and students of sophomore or higher classification may live in West Village A (West Village Upperclass). Amenities include washers and dryers in the one-bedroom and two-bedroom apartments, and limitless laundry lounges with free WiFi for the four-bedroom apartments."
     },
-	"Weymouth_Residence_Hall": {
-        "label": "",
-		"code": "",
-		"tags": [
-			"",
-			""
-        ],
-        "image": "",
-		"links": [
-			{
-				"icon": "",
-				"label": "",
-				"link": ""
-            },
-            {
-                "icon": "",
-                "label": "",
-                "link": ""
-            }
-		],
-        "description": ""
-    },
     "Wiggins_Complex": {
-        "label": "",
+        "label": "Wiggins Complex",
 		"code": "",
 		"tags": [
-			"",
-			""
+			"food",
+            "staff",
+            "operations",
+            "help/assistance",
+            "housing"
         ],
-        "image": "",
+        "image": "http://www.ttu.edu/map/images/wiggins.jpg",
 		"links": [
 			{
-				"icon": "",
-				"label": "",
-				"link": ""
+				"icon": "home",
+				"label": "Career Center Homepage",
+				"link": "http://www.depts.ttu.edu/careercenter/"
             },
             {
-                "icon": "",
-                "label": "",
-                "link": ""
+                "icon": "utensils",
+                "label": "Sam's Place West @ Wiggins",
+                "link": "https://www.depts.ttu.edu/hospitality/samswest.php"
+            },
+            {
+                "icon": "key",
+                "label": "Housing Services",
+                "link": "http://www.depts.ttu.edu/housing/"
             }
 		],
-        "description": ""
+        "description": "The Wiggins Complex houses University Career Services, Student Housing, and Hospitality Services of Texas Tech University."
     },
     "template": {
         "label": "",
