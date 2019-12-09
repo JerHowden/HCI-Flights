@@ -1,5 +1,7 @@
 #Navigation {
 	background-color: transparent;
+	z-index: 2;
+	position: relative;
 }
 
 #Navigation > header {
@@ -12,6 +14,7 @@
 }
 
 .navButton {
+	color: white !important;
 	height: 100%;
 	font-family: 'Roboto', sans-serif;
 	text-align: center;

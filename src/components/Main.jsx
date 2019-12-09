@@ -23,7 +23,7 @@ export default class Main extends Component {
                         <img className="logo" width={80} height={92.5} src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Texas_Tech_Athletics_logo.svg" alt="Logo" style={{marginTop: '25px'}}/>
                     </div>
                 </Fade>
-                <video id="background-video" loop autoPlay>
+                <video id="background-video" loop autoPlay muted>
                     <source src={Video} type="video/mp4" />
                 </video>
             </Fragment>

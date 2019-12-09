@@ -34,7 +34,7 @@ class Navigation extends Component {
                         <Grid container justify="space-between">
                             <Grid item>
                                 <Link to="/">
-                                    <Button className="navButton" style={this.props.location.pathname === "/" ? {color: "#353535"} : {color: "#FFF"} }>
+                                    <Button className="navButton" >
                                         <img className="logo" width={32} height={37} src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Texas_Tech_Athletics_logo.svg" alt="Logo" />
                                             Resource Guide
                                     </Button>
@@ -42,17 +42,17 @@ class Navigation extends Component {
                             </Grid>
                             <Grid item id="NavigationRight">
                                 <NavLink to="/map" activeClassName="selected">
-                                    <Button className="navButton" style={this.props.location.pathname === "/" ? {color: "#353535"} : {color: "#FFF"}}>
+                                    <Button className="navButton" >
                                         Map
                                     </Button>
                                 </NavLink>
                                 <NavLink to="/calendar" activeClassName="selected">
-                                    <Button className="navButton" style={this.props.location.pathname === "/" ? {color: "#353535"} : {color: "#FFF"}}>
+                                    <Button className="navButton" >
                                         Calendar
                                     </Button>
                                 </NavLink>
                                 <NavLink to="/resources" activeClassName="selected">
-                                    <Button className="navButton" style={this.props.location.pathname === "/" ? {color: "#353535"} : {color: "#FFF"}}>
+                                    <Button className="navButton" >
                                         Resources
                                     </Button>
                                 </NavLink>

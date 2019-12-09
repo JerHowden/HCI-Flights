@@ -55,14 +55,14 @@ export default class CalendarPage extends Component {
 					ref={calendar => this.calendar = calendar}
 					localizer={localizer}
 					events={AcademicCalendar.vcalendar[0].vevent.map(event => {
-			return({
-				title: event.summary,
-				start: moment.utc(event.dtstart[0]).toDate(),
-				end: moment.utc(event.dtend[0]).toDate(),
-				allDay: !!event.dtstart[1].value,
-				category: "Academic",
-			})
-		})}
+						return({
+							title: event.summary,
+							start: moment.utc(event.dtstart[0]).toDate(),
+							end: moment.utc(event.dtend[0]).toDate(),
+							allDay: !!event.dtstart[1].value,
+							category: "Academic",
+						})
+					})}
 					startAccessor="start"
 					endAccessor="end"
 					style={{height: 500}}

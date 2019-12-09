@@ -24,8 +24,13 @@
     height: auto;
     width: 100%;
     float: left;
-    padding: none;
+    padding: 0;
     margin-right: 0;
     position: absolute;
     top: 0;
+    overflow: hidden;
+}
+
+#background-video * {
+    overflow: hidden;
 }
