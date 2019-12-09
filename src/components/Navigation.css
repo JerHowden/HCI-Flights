@@ -13,6 +13,10 @@
 	box-sizing: content-box;
 }
 
+#Navigation .MuiButton-label {
+	font-size: 14px !important;
+}
+
 .navButton {
 	color: white !important;
 	height: 100%;

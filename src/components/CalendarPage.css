@@ -1,3 +1,30 @@
 #CalendarPage {
-    padding: 20px 100px;
+    padding: 20px 13%;
+}
+
+.rbc-month-view .category-academic {
+    background-color: #353535
+}
+
+.rbc-agenda-view .category-academic > .rbc-agenda-event-cell:before {
+    content: "■ ";
+    color: #353535;
+}
+
+.rbc-month-view .category-athletic {
+    background-color: #900
+}
+
+.rbc-agenda-view .category-athletic > .rbc-agenda-event-cell:before {
+    content: "■ ";
+    color: #900;
+}
+
+.rbc-month-view .category-events {
+    background-color: inherit;
+}
+
+.rbc-agenda-view .category-events > .rbc-agenda-event-cell:before {
+    content: "■ ";
+    color: #3174ad;
 }
