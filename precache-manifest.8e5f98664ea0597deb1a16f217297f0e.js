@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e735a85e7b60585a4a20c727f2643dfa",
+    "revision": "bf0ab989f3e739865e256e09db3fe5e8",
     "url": "/TexasTechFreshmanGuide/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/TexasTechFreshmanGuide/static/css/2.4d4d5559.chunk.css"
   },
   {
-    "revision": "a1a51135ad9a1c7b6958",
-    "url": "/TexasTechFreshmanGuide/static/css/main.8ccbb114.chunk.css"
+    "revision": "40776b3203c6ca68d657",
+    "url": "/TexasTechFreshmanGuide/static/css/main.d6b6da3d.chunk.css"
   },
   {
     "revision": "be8e6141becb00fbe803",
     "url": "/TexasTechFreshmanGuide/static/js/2.5acc4004.chunk.js"
   },
   {
-    "revision": "a1a51135ad9a1c7b6958",
-    "url": "/TexasTechFreshmanGuide/static/js/main.414030fb.chunk.js"
+    "revision": "40776b3203c6ca68d657",
+    "url": "/TexasTechFreshmanGuide/static/js/main.bc58aa39.chunk.js"
   },
   {
     "revision": "9ba37162a2118e2ef332",
