@@ -21,7 +21,7 @@ class Navigation extends Component {
 
     render() {
         return(
-            <Fade in={this.props.fadeIn} timeout={3000}>
+            <Fade in={this.props.location.pathname === "/" ? this.props.fadeIn : true} timeout={this.props.location.pathname === "/" ? 3000 : 0}>
                 <div 
                     id="Navigation"
                     style={this.props.location.pathname === "/" ? 
