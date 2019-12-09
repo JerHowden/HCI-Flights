@@ -39,7 +39,6 @@ class Map extends Component {
 			activeFeature: locations[this.props.match.params.location],
 			sidebarOpen: !!locations[this.props.match.params.location],
 			selectInputValue: locations[this.props.match.params.location] ? "" : this.props.match.params.location,
-			mapStyle: "dark-v10",
 			filteredOptions: [],
 			locations: [],
 
@@ -325,45 +324,10 @@ class Map extends Component {
 						})}
 					</Grid>
 				</div>
-				<Avatar
-					onClick={prevState => {
-						if (prevState.mapStyle === 'dark-v10')
-							this.setState({ mapStyle: 'light-v9' })
-						else
-							this.setState({ mapStyle: 'dark-v10' })
-					}}
-					style={this.state.mapStyle === 'dark-v10' ?
-						{
-							display: "inline-block",
-							marginRight: "8px",
-							marginBottom: "6px",
-							position: 'absolute',
-							left: '10px',
-							bottom: '28px',
-							backgroundColor: "#9fa7b5",
-							width: '50px',
-							height: '50px'
-						} : {
-							display: "inline-block",
-							marginRight: "8px",
-							marginBottom: "6px",
-							position: 'absolute',
-							left: '10px',
-							bottom: '28px',
-							backgroundColor: "#0a090a",
-							width: '50px',
-							height: '50px'
-						}
-					}>
-					<FontAwesomeIcon icon={this.state.mapStyle === "dark-v10" ? 'sun' : 'moon'} style={{
-						width: '30px',
-						height: '30px'
-					}} />
-				</Avatar>
 				<ReactMapGL 
 					ref={(reactMap) => this.reactMap = reactMap}
 					style={{ width: '100%', height: '100%'}}
-					mapStyle={"mapbox://styles/mapbox/" + this.state.mapStyle}
+					mapStyle={"mapbox://styles/mapbox/dark-v10/"}
 					mapboxApiAccessToken={this.state.apiKey}
 					interactiveLayerIds={['building-fills']}
 					{...this.state.viewport}
