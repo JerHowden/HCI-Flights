@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/TexasTechFreshmanGuide/precache-manifest.e41384a3043946e63048271e3914bc18.js"
+  "/TexasTechFreshmanGuide/precache-manifest.019bd0ea8d4c057973d45c7d5f9b69ab.js"
 );
 
 self.addEventListener('message', (event) => {

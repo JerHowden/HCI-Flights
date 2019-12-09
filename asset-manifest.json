@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/TexasTechFreshmanGuide/static/css/main.922fa793.chunk.css",
-    "main.js": "/TexasTechFreshmanGuide/static/js/main.d6b38d3e.chunk.js",
-    "main.js.map": "/TexasTechFreshmanGuide/static/js/main.d6b38d3e.chunk.js.map",
+    "main.css": "/TexasTechFreshmanGuide/static/css/main.8ccbb114.chunk.css",
+    "main.js": "/TexasTechFreshmanGuide/static/js/main.414030fb.chunk.js",
+    "main.js.map": "/TexasTechFreshmanGuide/static/js/main.414030fb.chunk.js.map",
     "runtime-main.js": "/TexasTechFreshmanGuide/static/js/runtime-main.99b38b94.js",
     "runtime-main.js.map": "/TexasTechFreshmanGuide/static/js/runtime-main.99b38b94.js.map",
-    "static/css/2.d9a8a5a7.chunk.css": "/TexasTechFreshmanGuide/static/css/2.d9a8a5a7.chunk.css",
-    "static/js/2.389c2a82.chunk.js": "/TexasTechFreshmanGuide/static/js/2.389c2a82.chunk.js",
-    "static/js/2.389c2a82.chunk.js.map": "/TexasTechFreshmanGuide/static/js/2.389c2a82.chunk.js.map",
+    "static/css/2.4d4d5559.chunk.css": "/TexasTechFreshmanGuide/static/css/2.4d4d5559.chunk.css",
+    "static/js/2.5acc4004.chunk.js": "/TexasTechFreshmanGuide/static/js/2.5acc4004.chunk.js",
+    "static/js/2.5acc4004.chunk.js.map": "/TexasTechFreshmanGuide/static/js/2.5acc4004.chunk.js.map",
     "index.html": "/TexasTechFreshmanGuide/index.html",
-    "precache-manifest.e41384a3043946e63048271e3914bc18.js": "/TexasTechFreshmanGuide/precache-manifest.e41384a3043946e63048271e3914bc18.js",
+    "precache-manifest.019bd0ea8d4c057973d45c7d5f9b69ab.js": "/TexasTechFreshmanGuide/precache-manifest.019bd0ea8d4c057973d45c7d5f9b69ab.js",
     "service-worker.js": "/TexasTechFreshmanGuide/service-worker.js",
-    "static/css/2.d9a8a5a7.chunk.css.map": "/TexasTechFreshmanGuide/static/css/2.d9a8a5a7.chunk.css.map",
-    "static/css/main.922fa793.chunk.css.map": "/TexasTechFreshmanGuide/static/css/main.922fa793.chunk.css.map",
-    "static/media/Buildings.geojson": "/TexasTechFreshmanGuide/static/media/Buildings.ad9d51cf.geojson"
+    "static/css/2.4d4d5559.chunk.css.map": "/TexasTechFreshmanGuide/static/css/2.4d4d5559.chunk.css.map",
+    "static/css/main.8ccbb114.chunk.css.map": "/TexasTechFreshmanGuide/static/css/main.8ccbb114.chunk.css.map",
+    "static/media/HCI-vid.MP4": "/TexasTechFreshmanGuide/static/media/HCI-vid.0dc48939.MP4",
+    "static/media/semantic.min.css": "/TexasTechFreshmanGuide/static/media/outline-icons.ef60a4f6.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.99b38b94.js",
-    "static/css/2.d9a8a5a7.chunk.css",
-    "static/js/2.389c2a82.chunk.js",
-    "static/css/main.922fa793.chunk.css",
-    "static/js/main.d6b38d3e.chunk.js"
+    "static/css/2.4d4d5559.chunk.css",
+    "static/js/2.5acc4004.chunk.js",
+    "static/css/main.8ccbb114.chunk.css",
+    "static/js/main.414030fb.chunk.js"
   ]
 }
