@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { CssBaseline } from '@material-ui/core'
@@ -14,23 +14,41 @@ import Resources from './components/Resources'
 import Navigation from './components/Navigation'
 import './App.css';
 
-function App() {
+class App extends Component {
 
-	library.add(fab, fas, far)
+	constructor(props) {
+		super(props)
 
-	return (
-		<div className="App">
-			<Router basename={process.env.PUBLIC_URL}>
-				<Navigation/>
-				<Switch>
-					<Route exact path='/' render={props => <Main {...props}/>} />
-					<Route path='/map/:location?' render={props => <Map {...props}/>} />
-					<Route path='/calendar/:filter?' render={props => <CalendarPage {...props}/>} />
-					<Route path='/resources/:category?' render={props => <Resources {...props}/>} />
-				</Switch>
-			</Router>
-		</div>
-	);
+		this.fade = this.fade.bind(this)
+
+		this.state = {
+			fadeIn: false
+		}
+	}
+
+	fade() {
+		this.setState({ fadeIn: true })
+	}
+
+	componentDidMount() {
+		library.add(fab, fas, far)
+	}
+
+	render() {
+		return (
+			<div className="App">
+				<Router basename={process.env.PUBLIC_URL}>
+					<Navigation fadeIn={this.state.fadeIn} />
+					<Switch>
+						<Route exact path='/' render={props => <Main {...props} fadeIn={this.state.fadeIn} fade={this.fade}/>} />
+						<Route path='/map/:location?' render={props => <Map {...props}/>} />
+						<Route path='/calendar/:filter?' render={props => <CalendarPage {...props}/>} />
+						<Route path='/resources/:category?' render={props => <Resources {...props}/>} />
+					</Switch>
+				</Router>
+			</div>
+		)
+	}
 }
 
 export default App;

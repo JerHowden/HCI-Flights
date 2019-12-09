@@ -9,14 +9,14 @@ export default class Main extends Component {
         super(props)
 
         this.state = {
-
+            
         }
     }
 
     render() {
         return(
-            <Fragment>
-                <Fade in={true} timeout={3000} id="MainTitle">
+            <div onMouseMove={() => this.props.fade()}>
+                <Fade in={this.props.fadeIn} timeout={3000} id="MainTitle">
                     <div>
                         <div>TEXAS TECH</div>
                         <div>RESOURCE GUIDE</div>
@@ -26,7 +26,7 @@ export default class Main extends Component {
                 <video id="background-video" loop autoPlay muted>
                     <source src={Video} type="video/mp4" />
                 </video>
-            </Fragment>
+            </div>
         )
     }
 }
