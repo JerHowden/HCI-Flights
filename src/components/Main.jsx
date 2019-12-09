@@ -17,10 +17,10 @@ export default class Main extends Component {
         return(
             <div onMouseMove={() => this.props.fade()}>
                 <Fade in={this.props.fadeIn} timeout={3000} id="MainTitle">
-                    <div>
+                    <div className='title'>
                         <div>TEXAS TECH</div>
                         <div>RESOURCE GUIDE</div>
-                        <img className="logo" width={80} height={92.5} src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Texas_Tech_Athletics_logo.svg" alt="Logo" style={{marginTop: '25px'}}/>
+                        <img className="logo" width={80} height={92.5} src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Texas_Tech_Athletics_logo.svg" alt="Logo" style={{marginTop: '35px'}}/>
                     </div>
                 </Fade>
                 <video id="background-video" loop autoPlay muted>

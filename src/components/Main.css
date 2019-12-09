@@ -1,8 +1,8 @@
 #MainTitle {
     position: absolute;
     z-index: 1000;
-    right: 12%;
-    top: 45%;
+    right: 8.5%;
+    top: 40%;
     color: #ffffff;
     text-shadow: 0 3px 6px rgba(0,0,0,.333333);
     font-family: 'Roboto Slab', serif;
@@ -10,13 +10,14 @@
 }
 
 #MainTitle > div:nth-child(1) {
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 200;
+    margin-bottom: 35px;
 }
 
 #MainTitle > div:nth-child(2) {
     margin-top: 14px;
-    font-size: 48px;
+    font-size: 64px;
     font-weight: bold;
 }
 
