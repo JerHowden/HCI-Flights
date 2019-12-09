@@ -103,7 +103,7 @@ export default class CalendarPage extends Component {
 					}
 					startAccessor="start"
 					endAccessor="end"
-					style={{height: 500}}
+					style={{height: window.innerHeight - 180}}
 				/>
 			</div>
 		)
