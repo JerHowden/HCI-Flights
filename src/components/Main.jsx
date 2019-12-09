@@ -20,6 +20,7 @@ export default class Main extends Component {
                     <div>
                         <div>TEXAS TECH</div>
                         <div>RESOURCE GUIDE</div>
+                        <img className="logo" width={80} height={92.5} src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Texas_Tech_Athletics_logo.svg" alt="Logo" style={{marginTop: '25px'}}/>
                     </div>
                 </Fade>
                 <video id="background-video" loop autoPlay>
