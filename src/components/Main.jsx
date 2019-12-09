@@ -15,7 +15,7 @@ export default class Main extends Component {
 
     render() {
         return(
-            <div onMouseMove={() => this.props.fade()}>
+            <div onMouseMove={() => this.props.fade()} style={{ backgroundColor: "#353535", height: window.innerHeight, position: 'absolute', left: 0, top: 0, right: 0, bottom: 0 }}>
                 <Fade in={this.props.fadeIn} timeout={3000} id="MainTitle">
                     <div className='title'>
                         <div>TEXAS TECH</div>
