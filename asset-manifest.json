@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/TexasTechFreshmanGuide/static/css/main.d6b6da3d.chunk.css",
-    "main.js": "/TexasTechFreshmanGuide/static/js/main.bc58aa39.chunk.js",
-    "main.js.map": "/TexasTechFreshmanGuide/static/js/main.bc58aa39.chunk.js.map",
+    "main.css": "/TexasTechFreshmanGuide/static/css/main.7a474ef1.chunk.css",
+    "main.js": "/TexasTechFreshmanGuide/static/js/main.d250f348.chunk.js",
+    "main.js.map": "/TexasTechFreshmanGuide/static/js/main.d250f348.chunk.js.map",
     "runtime-main.js": "/TexasTechFreshmanGuide/static/js/runtime-main.99b38b94.js",
     "runtime-main.js.map": "/TexasTechFreshmanGuide/static/js/runtime-main.99b38b94.js.map",
     "static/css/2.4d4d5559.chunk.css": "/TexasTechFreshmanGuide/static/css/2.4d4d5559.chunk.css",
     "static/js/2.5acc4004.chunk.js": "/TexasTechFreshmanGuide/static/js/2.5acc4004.chunk.js",
     "static/js/2.5acc4004.chunk.js.map": "/TexasTechFreshmanGuide/static/js/2.5acc4004.chunk.js.map",
     "index.html": "/TexasTechFreshmanGuide/index.html",
-    "precache-manifest.8e5f98664ea0597deb1a16f217297f0e.js": "/TexasTechFreshmanGuide/precache-manifest.8e5f98664ea0597deb1a16f217297f0e.js",
+    "precache-manifest.065e002828ae871b3a12161fa7270e60.js": "/TexasTechFreshmanGuide/precache-manifest.065e002828ae871b3a12161fa7270e60.js",
     "service-worker.js": "/TexasTechFreshmanGuide/service-worker.js",
     "static/css/2.4d4d5559.chunk.css.map": "/TexasTechFreshmanGuide/static/css/2.4d4d5559.chunk.css.map",
-    "static/css/main.d6b6da3d.chunk.css.map": "/TexasTechFreshmanGuide/static/css/main.d6b6da3d.chunk.css.map",
+    "static/css/main.7a474ef1.chunk.css.map": "/TexasTechFreshmanGuide/static/css/main.7a474ef1.chunk.css.map",
     "static/media/HCI-vid.MP4": "/TexasTechFreshmanGuide/static/media/HCI-vid.0dc48939.MP4",
     "static/media/semantic.min.css": "/TexasTechFreshmanGuide/static/media/outline-icons.ef60a4f6.woff"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.99b38b94.js",
     "static/css/2.4d4d5559.chunk.css",
     "static/js/2.5acc4004.chunk.js",
-    "static/css/main.d6b6da3d.chunk.css",
-    "static/js/main.bc58aa39.chunk.js"
+    "static/css/main.7a474ef1.chunk.css",
+    "static/js/main.d250f348.chunk.js"
   ]
 }
