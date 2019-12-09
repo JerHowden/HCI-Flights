@@ -16,7 +16,7 @@ class Resources extends Component {
 
     }
     render() { 
-        // const classes = useStyles();
+        
         return ( 
             <Fragment>
                 <Grid container spacing={3} direction="row" justify="space-around" alignItems="center" style={{'margin-top': '30px'}}>
@@ -81,6 +81,39 @@ class Resources extends Component {
                             <Card
                                 image={'https://images.unsplash.com/photo-1535982330050-f1c2fb79ff78?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60'}
                                 title={'Helpful Links'}
+                                date={'ttu.edu'}
+                                icon={'bars'}
+                                iconDesc={'Learn more'}
+                            ></Card>
+                        </a>
+                    </Grid>
+                </Grid>
+                <Grid container spacing={3} direction="row" justify="space-around" alignItems="center" style={{ 'margin-top': '30px', 'margin-bottom': '30px' }}>
+                    <Grid item xs={4} style={{ flexBasis: 'auto' }}>
+                        <Link to={'/map/food'}>
+                            <Card
+                                image={'https://images.unsplash.com/photo-1561758033-d89a9ad46330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60'}
+                                title={'Where to eat on Campus'}
+                                date={'Resource Guide'}
+                                icon={'bars'}
+                                iconDesc={'Learn more'}
+                            ></Card>
+                        </Link>
+                    </Grid><Grid item xs={4} style={{ flexBasis: 'auto' }}>
+                        <Link to={'/map/leisure'}>
+                            <Card
+                                image={'https://images.unsplash.com/photo-1525610553991-2bede1a236e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60'}
+                                title={'Where to hangout on campus'}
+                                date={'Resource Guide'}
+                                icon={'bars'}
+                                iconDesc={'Learn more'}
+                            ></Card>
+                        </Link>
+                    </Grid><Grid item xs={4} style={{ flexBasis: 'auto' }}>
+                        <a href='https://www.depts.ttu.edu/soar/lc/' target="_blank" rel="noopener noreferrer">
+                            <Card
+                                image={'https://images.unsplash.com/photo-1522881193457-37ae97c905bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60'}
+                                title={'TTU Learning Center'}
                                 date={'ttu.edu'}
                                 icon={'bars'}
                                 iconDesc={'Learn more'}
