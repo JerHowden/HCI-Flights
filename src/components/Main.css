@@ -35,3 +35,9 @@
 #background-video * {
     overflow: hidden;
 }
+
+@media screen and (max-width: 1000px) {
+    #MainTitle {
+        display: none;
+    }
+}

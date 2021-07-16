@@ -42,3 +42,9 @@ a.selected > button {
 .logo {
 	box-sizing: content-box;
 }
+
+@media screen and (max-width: 500px) {
+    #Navigation {
+        display: none;
+    }
+}
