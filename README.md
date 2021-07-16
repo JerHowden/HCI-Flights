@@ -1,51 +1,28 @@
-# Texas Tech Resource Guide
+<br/>
 
-<dl>
-    <dt>Group 18</dt>
-    <dd>Jeremiah Howden</dd>
-    <dd>Elias Moreno</dd>
-    <dt>Links</dt>
-    <dd>https://jerhowden.github.io/TexasTechFreshmanGuide</dd>
-</dl>
+# Texas Tech Freshman Guide
 
-## User Feedback
+**https://jerhowden.github.io/TexasTechFreshmanGuide**
 
-<dl>
-    <dt>Task</dt>
-    <dd>The User will navigate the site and find the map location information quickly and easily.</dd>
-    <dt>Hypothesis</dt>
-    <dd> The User will be able to find any building on campus under 20 seconds.</dd>
-</dl>
+### Developed By
+[Jeremiah Howden](https://github.com/JerHowden)  
+[Elias Moreno](https://github.com/Eliascm17)  
 
-**Data**
+## Summary
 
-<table>
-    <tr>
-        <th>Person</th><th>Time (s)</th><th>Building</th>
-    </tr>
-    <tr>
-        <td>______</td><td>______</td><td>Administration</td>
-    </tr>
-    <tr>
-        <td>______</td><td>______</td><td>Agricultural Education</td>
-    </tr>
-    <tr>
-        <td>______</td><td>______</td><td>Animal & Food Sciences</td>
-    </tr>
-    <tr>
-        <td>______</td><td>______</td><td>Architecture</td>
-    </tr>
-    <tr>
-        <td>______</td><td>______</td><td>Art</td>
-    </tr>
-    <tr>
-        <td>______</td><td>______</td><td>Biology</td>
-    </tr>
-    <tr>
-        <td>______</td><td>______</td><td>Chemistry</td>
-    </tr>
-</table>
+This website provides a few different key tools to incoming freshman at Texas Tech University.
 
-## Sketch
+The first and most robust tool is the *map*.  
+The map and its relevant data was made by hand based on our experience as seniors on campus.  
+All buildings are clickable and include relevant links to tech's website as well as a photo of what they looks like.
+We've also included search functionality by name, code, and tag.  
+Here are some examples:  
+- Jones -> Jones AT&T Stadium (name)  
+- MCOM -> Media & Communication Building (code)  
+- Study -> Library, Holden, Student Union, etc. (tag)  
 
-![sketch](Sketch.png)
+Next up is the *calendar* which includes the 2019-2020 tech academic calendar as well as sports information for games and practice.  
+There's also information on clubs and vacations.
+
+The last page includes a list of *resources* we believed to be the most beneficial to incoming freshman.  
+This includes information on registering for classes, clubs on campus, and mental health resources.
